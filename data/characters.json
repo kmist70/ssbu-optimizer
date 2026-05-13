@@ -1,0 +1,232 @@
+{
+  "Mario": {
+    "difficulty": "Beginner",
+    "overview": "Well-rounded, great for learning fundamentals. No bad matchups, no dominant ones either.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Get comfortable with short hopping (tap jump or tap the stick lightly)",
+          "Use N-air as your main approach — it's fast and safe",
+          "Learn F-smash for punishing laggy moves on the ground",
+          "Practice Up-tilt as an anti-air against opponents jumping at you",
+          "Use Cape (side-B) to reflect projectiles"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "D-throw into Up-air at low percentages (0-40%)",
+          "D-throw into Up-smash at mid percentages (40-80%) when opponent doesn't DI",
+          "Short hop fast fall (SHFF) N-air for pressure and shield pokes",
+          "Use Fireball to force approaches and control space",
+          "Learn B-reversing Fireball to move backward while shooting forward"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Extended combo: D-throw → Up-tilt → Up-air → Up-air at 0-30%",
+          "Edge-cancel Fireballs off platforms for unpredictable angles",
+          "Use Cape off-stage to gimp recoveries — spike with Down-air below ledge",
+          "Shield-grab punishes after baiting attacks in neutral",
+          "Mix up throw follow-ups based on opponent's DI direction"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full neutral flowchart: Fireball → dash-in grab or F-tilt depending on reaction",
+          "Optimize punish game: always confirm the correct combo based on % and DI",
+          "Ledge trap setups with F-smash, dash attack, and grab reads",
+          "Two-framing opponents on the ledge with Down-tilt",
+          "Consistent off-stage play: when to spike, when to cape, when to retreat"
+        ]
+      }
+    ]
+  },
+  "Pikachu": {
+    "difficulty": "Intermediate",
+    "overview": "Small, fast, and combo-heavy. Strong edgeguarding. Requires precise inputs.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Get used to Pikachu's small hurtbox — use it to avoid moves",
+          "Thunder Jolt (neutral-B) for controlling ground space",
+          "Quick Attack (up-B) for recovery — aim both hits carefully",
+          "N-air is your best landing option and combo starter",
+          "B-air for edgeguarding and ending stocks"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "D-throw into Up-smash at low percent",
+          "D-throw into Up-air chains at 0-50%",
+          "Thunder (down-B) to cover opponents above you or landing",
+          "Dash attack into Up-smash as a burst option",
+          "Use F-air to pressure shields and cover landings"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Up-throw into Thunder for kills on floaties at high percent",
+          "Quick Attack cancel (QAC) for movement mixups and shield pressure",
+          "Extended juggle chains: Up-air → Up-air → Thunder to close stocks",
+          "Edgeguard with B-air spike or Thunder Jolt just off ledge",
+          "Wavebounce Thunder Jolts for pressure from both directions"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "QAC into grab or attack as a true mixup in neutral",
+          "Stock-ending flowchart: track DI on every throw to confirm the kill move",
+          "Gimp recoveries with Thunder Jolt timing off-stage",
+          "Perfect ledge trap setups using Thunder and dash attack coverage",
+          "Manage rage and weight interactions for optimized kill confirms"
+        ]
+      }
+    ]
+  },
+  "Joker": {
+    "difficulty": "Advanced",
+    "overview": "High skill ceiling with Arsene mechanic. Weak without it, dominant with it.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Learn Joker's movement — he has one of the best dash dances",
+          "N-air and B-air are your safest aerial tools",
+          "Gun (neutral-B) to poke and build Arsene meter",
+          "Grappling Hook (up-B) has two hitboxes — use it on-stage to attack",
+          "Understand the Arsene mechanic: it activates after taking ~100% damage"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "Up-throw into Up-air combo at low percent",
+          "F-air strings across the stage for carrying opponents",
+          "With Arsene: Eiha (down-B) plants a damage-over-time debuff — use it in neutral",
+          "With Arsene: Wings of Rebellion (up-B) kills early with the sweetspot",
+          "Practice managing and extending Arsene meter duration"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Without Arsene: play patient — poke with Gun, bait with dash dance",
+          "With Arsene: play aggressive — all kill moves get massive buffs",
+          "Rebel's Guard (down-B without Arsene) absorbs hits and builds meter fast",
+          "Confirm kills with Up-smash and Back-throw near ledge with Arsene",
+          "Use Tetrakarn / Makarakarn (counters with Arsene) to hard-punish unsafe moves"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full dual-mode gameplan: safe neutral without Arsene, oppressive with it",
+          "Deliberately take hits with Rebel's Guard to activate Arsene on your terms",
+          "Edgeguard with Eiha + B-air to cover all recovery options off-stage",
+          "Dash dance spacing to bait attacks into maximum punishes",
+          "Kill confirm flowchart: percent ranges for Up-throw → Up-air vs Back-throw"
+        ]
+      }
+    ]
+  },
+  "Steve": {
+    "difficulty": "Advanced",
+    "overview": "Unique resource mechanic with blocks. Dominant in the current meta but has a steep learning curve.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Understand the mining mechanic — stand on ore deposits to gather materials",
+          "Place blocks (down-B) to extend combos and block approaches",
+          "Minecart (side-B) for pressure and approach coverage",
+          "N-air and F-air are your best aerial tools",
+          "Axe (F-smash) is a powerful but slow kill move — use it to punish hard"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "Block extension combos: Up-tilt → block → Up-tilt for juggles",
+          "TNT (down-B at full resources) for stage control and zone lockdown",
+          "Use Minecart offstage to gimp recoveries",
+          "Manage iron vs diamond tools — conserve diamonds for critical moments",
+          "F-air spike off the ledge for edgeguards"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Block ladder combos: place block mid-air, jump off it, continue juggle",
+          "Elytra (up-B) stall tactics off-stage to bait and punish",
+          "Resource denial: mine aggressively to deny opponent stage positioning",
+          "Extended punish combos from grab using blocks for wall setups",
+          "TNT setup reads based on opponent's recovery trajectory"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Optimal mining routes during neutral without giving up stage control",
+          "Block ladder kill setups: precise height and timing for maximum damage",
+          "Full edgeguard flowchart with Minecart, TNT, and Elytra coverage",
+          "Tool management optimization: when to spend iron vs save for diamonds",
+          "Exploiting Steve's wall creation to force 50/50 mix-ups at ledge"
+        ]
+      }
+    ]
+  },
+  "Snake": {
+    "difficulty": "Advanced",
+    "overview": "Zoner with insane damage output. Grenades require careful management or they backfire.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Cook grenades (neutral-B hold) before throwing for timed explosions",
+          "Nikita missile (side-B) can be guided — useful for ledge trapping",
+          "Up-tilt is one of the best anti-air kill moves in the game — use it often",
+          "C4 (down-B) on the ground as a trap or detonate it mid-combo",
+          "Up-smash (mortar) hits both sides and covers landings"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "Grenade camping: cook a grenade while an opponent approaches to force reactions",
+          "D-throw into N-air or Back-air combo at low percent",
+          "Detonate C4 mid-combo to extend punishes",
+          "Up-tilt kill confirms at high percent near top blastzones",
+          "Crawl under projectiles and low attacks using Snake's crawl"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Grenade pull → jump → grenade toss to cover multiple angles at once",
+          "Back-air off stage for edgeguarding — it's fast and covers wide area",
+          "Cypher (up-B) stall to bait opponents off stage, then punish",
+          "Grenade cancel into grab or F-tilt for close-range mix-ups",
+          "Up-smash OOS (out of shield) for punishing laggy aerial approaches"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full grenade schedule: always have one cooked, one placed, and one ready",
+          "Ledge trap with Nikita + grenade + mortar for near-inescapable pressure",
+          "Optimal C4 placements for stage-specific kill setups",
+          "Adaptive gameplan: transition from zoning to punish game based on percent",
+          "Managing grenade self-damage and using it intentionally for rage activation"
+        ]
+      }
+    ]
+  }
+}

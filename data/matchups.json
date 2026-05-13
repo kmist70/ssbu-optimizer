@@ -1,0 +1,57 @@
+{
+  "Steve": {
+    "Mario": 0.6, "Pikachu": 0.55, "Joker": 0.55, "ROB": 0.6,
+    "Snake": 0.65, "MKleo Byleth": 0.5, "Diddy Kong": 0.6,
+    "Shulk": 0.55, "Palutena": 0.6, "Peach": 0.55
+  },
+  "Mario": {
+    "Steve": 0.4, "Pikachu": 0.5, "Joker": 0.55, "ROB": 0.45,
+    "Snake": 0.45, "MKleo Byleth": 0.5, "Diddy Kong": 0.55,
+    "Shulk": 0.6, "Palutena": 0.5, "Peach": 0.45
+  },
+  "Pikachu": {
+    "Steve": 0.45, "Mario": 0.5, "Joker": 0.6, "ROB": 0.55,
+    "Snake": 0.5, "MKleo Byleth": 0.55, "Diddy Kong": 0.5,
+    "Shulk": 0.6, "Palutena": 0.55, "Peach": 0.5
+  },
+  "Joker": {
+    "Steve": 0.45, "Mario": 0.45, "Pikachu": 0.4, "ROB": 0.5,
+    "Snake": 0.55, "MKleo Byleth": 0.5, "Diddy Kong": 0.55,
+    "Shulk": 0.55, "Palutena": 0.5, "Peach": 0.45
+  },
+  "ROB": {
+    "Steve": 0.4, "Mario": 0.55, "Pikachu": 0.45, "Joker": 0.5,
+    "Snake": 0.5, "MKleo Byleth": 0.55, "Diddy Kong": 0.5,
+    "Shulk": 0.5, "Palutena": 0.5, "Peach": 0.45
+  },
+  "Snake": {
+    "Steve": 0.35, "Mario": 0.55, "Pikachu": 0.5, "Joker": 0.45,
+    "ROB": 0.5, "MKleo Byleth": 0.5, "Diddy Kong": 0.5,
+    "Shulk": 0.55, "Palutena": 0.5, "Peach": 0.45
+  },
+  "MKleo Byleth": {
+    "Steve": 0.5, "Mario": 0.5, "Pikachu": 0.45, "Joker": 0.5,
+    "ROB": 0.45, "Snake": 0.5, "Diddy Kong": 0.5,
+    "Shulk": 0.5, "Palutena": 0.55, "Peach": 0.5
+  },
+  "Diddy Kong": {
+    "Steve": 0.4, "Mario": 0.45, "Pikachu": 0.5, "Joker": 0.45,
+    "ROB": 0.5, "Snake": 0.5, "MKleo Byleth": 0.5,
+    "Shulk": 0.55, "Palutena": 0.5, "Peach": 0.45
+  },
+  "Shulk": {
+    "Steve": 0.45, "Mario": 0.4, "Pikachu": 0.4, "Joker": 0.45,
+    "ROB": 0.5, "Snake": 0.45, "MKleo Byleth": 0.5,
+    "Diddy Kong": 0.45, "Palutena": 0.5, "Peach": 0.45
+  },
+  "Palutena": {
+    "Steve": 0.4, "Mario": 0.5, "Pikachu": 0.45, "Joker": 0.5,
+    "ROB": 0.5, "Snake": 0.5, "MKleo Byleth": 0.45,
+    "Diddy Kong": 0.5, "Shulk": 0.5, "Peach": 0.5
+  },
+  "Peach": {
+    "Steve": 0.45, "Mario": 0.55, "Pikachu": 0.5, "Joker": 0.55,
+    "ROB": 0.55, "Snake": 0.55, "MKleo Byleth": 0.5,
+    "Diddy Kong": 0.55, "Shulk": 0.55, "Palutena": 0.5
+  }
+}
