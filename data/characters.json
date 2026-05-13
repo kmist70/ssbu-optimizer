@@ -1,5 +1,5 @@
 {
-  "Mario": {
+    "Mario": {
     "difficulty": "Beginner",
     "overview": "Well-rounded, great for learning fundamentals. No bad matchups, no dominant ones either.",
     "path": [
@@ -45,188 +45,3786 @@
       }
     ]
   },
-  "Pikachu": {
+    "Luigi": {
+    "difficulty": "Beginner",
+    "overview": "Mario's brother with a floatier jump and a deadly grab game. Easier neutral than Mario but his recovery is exploitable.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Get used to Luigi's floaty jump — your aerial timing is slower than most",
+            "Use N-air as your main landing and approach tool — it has a strong meteor on frame 1",
+            "Forward-B (Green Missile) for horizontal recovery — misfire gives massive distance",
+            "Up-B (Super Jump Punch) is a kill move when sweetspotted — practice landing it",
+            "Use D-tilt to trip opponents and set up grabs"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-tilt chain at low percent (0-40%)",
+            "D-throw into Up-air at mid percent (40-80%)",
+            "N-air into grab on landing for pressure",
+            "Down-B (Luigi Cyclone) to recover low and mix up your landing",
+            "B-air for spacing and edgeguarding — fast and strong"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Up-throw into Up-air kill confirm at high percent near top blastzone",
+            "Extended combo: D-throw → Up-tilt → Up-tilt → Up-air at 0-20%",
+            "Sweetspot Up-B out of shield for massive punishes",
+            "Wavebounce Green Missile to cover both directions in neutral",
+            "Edgeguard with N-air meteor spike — timing is tight but stocks free kills"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full grab game flowchart: know D-throw vs Up-throw based on % and DI",
+            "N-air landing pressure into grab/Up-B mixup on shield",
+            "Ledge trap with D-tilt, grab, and Up-B coverage",
+            "Consistent sweetspot Up-B punishes out of shield in all situations",
+            "Manage recovery mixups: when to use Cyclone vs Green Missile vs Up-B"
+        ]
+        }
+    ]
+    },
+    "Kirby": {
+    "difficulty": "Beginner",
+    "overview": "Best character for absolute beginners. Six jumps make him hard to gimp, and his combos are intuitive. Weak at high level but great to learn on.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Use your six jumps conservatively — don't waste them all going offstage",
+            "Inhale (neutral-B) to copy opponent abilities — useful for learning what moves do",
+            "F-tilt is fast and safe — good poke in neutral",
+            "D-throw into Forward-air is your main combo starter",
+            "Stone (down-B) as a surprise landing mixup — not a crutch"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-tilt at low percent (0-30%)",
+            "D-throw into F-air string across the stage at mid percent",
+            "Up-air juggling — Kirby's Up-air is fast and great for chains",
+            "B-air for edgeguarding — strong and reliable",
+            "Use crouch to duck under many projectiles and high attacks"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-tilt → Up-tilt → Up-air combo at 0-20%",
+            "F-air string into Up-smash kill confirm at high percent",
+            "Edgeguard with B-air or D-air spike below the ledge",
+            "Hammer Flip (side-B) charged as a hard read punish tool",
+            "Use platforms to extend combos — Up-tilt under a platform into a juggle"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw at every percent range",
+            "Neutral game with F-tilt spacing and crouch canceling approaches",
+            "Ledge trap coverage with D-tilt, grab, and F-smash",
+            "Consistent edgeguards — know when B-air beats each recovery type",
+            "Copied ability usage: know which character's neutral-B is most useful mid-match"
+        ]
+        }
+    ]
+    },
+    "Jigglypuff": {
     "difficulty": "Intermediate",
-    "overview": "Small, fast, and combo-heavy. Strong edgeguarding. Requires precise inputs.",
+    "overview": "Unique floaty playstyle built around Rest and aerial pressure. Extremely light so one mistake can cost a stock, but devastating when played right.",
     "path": [
-      {
+        {
         "stage": "Basics",
         "skills": [
-          "Get used to Pikachu's small hurtbox — use it to avoid moves",
-          "Thunder Jolt (neutral-B) for controlling ground space",
-          "Quick Attack (up-B) for recovery — aim both hits carefully",
-          "N-air is your best landing option and combo starter",
-          "B-air for edgeguarding and ending stocks"
+            "Get comfortable with five jumps — your recovery is all aerial movement",
+            "B-air is your best move — fast, strong, and safe on shield",
+            "Pound (side-B) for horizontal distance in recovery and as a read",
+            "Rollout (neutral-B) is gimmicky — avoid relying on it",
+            "Rest (down-B) is a one-hit kill when it connects — land it only on punishes"
         ]
-      },
-      {
+        },
+        {
         "stage": "Intermediate",
         "skills": [
-          "D-throw into Up-smash at low percent",
-          "D-throw into Up-air chains at 0-50%",
-          "Thunder (down-B) to cover opponents above you or landing",
-          "Dash attack into Up-smash as a burst option",
-          "Use F-air to pressure shields and cover landings"
+            "B-air strings — chain multiple B-airs across the stage to carry opponents",
+            "F-air into B-air for direction switches mid-combo",
+            "D-throw into Rest at low percent as a setup",
+            "Shield break setup: Pound repeatedly into shield to pop it, then Rest",
+            "Use your floatiness to bait attacks and punish whiffs with Rest"
         ]
-      },
-      {
+        },
+        {
         "stage": "Advanced",
         "skills": [
-          "Up-throw into Thunder for kills on floaties at high percent",
-          "Quick Attack cancel (QAC) for movement mixups and shield pressure",
-          "Extended juggle chains: Up-air → Up-air → Thunder to close stocks",
-          "Edgeguard with B-air spike or Thunder Jolt just off ledge",
-          "Wavebounce Thunder Jolts for pressure from both directions"
+            "Pound into Rest as a read on airdodge or landing",
+            "B-air wall: space B-airs just outside opponent's range to bait approaches",
+            "Sing (up-B) as a ledge trap — rare but catches predictable ledge options",
+            "Aerial drift mixups to make your movement unpredictable",
+            "Rest out of shield on predictable moves like laggy aerials"
         ]
-      },
-      {
+        },
+        {
         "stage": "Pro",
         "skills": [
-          "QAC into grab or attack as a true mixup in neutral",
-          "Stock-ending flowchart: track DI on every throw to confirm the kill move",
-          "Gimp recoveries with Thunder Jolt timing off-stage",
-          "Perfect ledge trap setups using Thunder and dash attack coverage",
-          "Manage rage and weight interactions for optimized kill confirms"
+            "Full Rest confirm flowchart: know every setup that guarantees it at each %",
+            "B-air spacing at the exact range where it beats opponent's options",
+            "Shield break gameplan as a win condition vs defensive players",
+            "Manage stock deficit — Jigglypuff's light weight means always playing for the lead",
+            "Precise aerial drift to make Rest land on reaction to airdodges"
         ]
-      }
+        }
     ]
-  },
-  "Joker": {
+    },
+    "Yoshi": {
+    "difficulty": "Beginner",
+    "overview": "Surprisingly strong and self-sufficient. Double jump armor and no traditional up-B makes him unique. Great damage output and solid neutral.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Yoshi's double jump has super armor — use it to power through attacks",
+            "Egg Lay (neutral-B) to trap opponents briefly and set up punishes",
+            "N-air is fast and covers both sides — good for landing and approach",
+            "F-air for horizontal pressure and edgeguarding",
+            "Egg Roll (side-B) for recovery — aim it precisely to snap to ledge"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-air at low to mid percent",
+            "Up-tilt into Up-air juggle — Yoshi's Up-air is fast and hits hard",
+            "Short hop F-air as a safe approach tool",
+            "Use Egg Throw (up-B) to cover ledge options and harass off-stage",
+            "D-smash for ledge trapping — fast and two-frames reliably"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-tilt → Up-air → Up-air chain at 0-30%",
+            "Double jump armor through moves to extend combos or escape pressure",
+            "Egg Throw coverage at ledge: angle eggs to cover every getup option",
+            "B-air spike off the ledge for edgeguards",
+            "Dash attack into Up-smash as a burst punish on landing"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish game off every throw — know F-air vs Up-air based on DI",
+            "Double jump armor as an intentional neutral tool, not just a recovery option",
+            "Optimal Egg Throw schedules to lock opponents at ledge",
+            "Consistent B-air spike timing against common recovery angles",
+            "Stage control with dash dance and N-air to force approaches into your punishes"
+        ]
+        }
+    ]
+    },
+    "Ness": {
+    "difficulty": "Intermediate",
+    "overview": "Powerful throw game and strong projectiles. PK Thunder recovery is exploitable if predictable. High reward but requires mix-up knowledge.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "B-throw and F-throw are kill throws near the ledge — always know your distance",
+            "PK Fire (neutral-B) to poke and start combos at range",
+            "N-air is your fastest aerial and combo starter — use it liberally",
+            "PSI Magnet (down-B) absorbs projectiles and heals you — use it vs zoners",
+            "PK Thunder (up-B) for recovery — guide it into yourself to travel far"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent (0-50%)",
+            "PK Fire into dash-in grab as a combo starter at mid range",
+            "Up-throw into Up-air near the top blastzone for kills",
+            "B-air for edgeguarding — strong and fast",
+            "Short hop double N-air for shield pressure"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air chain to 60-70% before kill confirm",
+            "PK Thunder gimp: hit opponents with the ball off-stage before it hits you",
+            "Up-throw kill confirm at high percent — know exact % ranges per character weight",
+            "Absorb then immediately punish — bait a projectile then dash in on whiff",
+            "Dash attack into grab as a fast approach mixup"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full throw flowchart: D-throw to juggle early, Up-throw to kill late, B/F-throw at ledge",
+            "PK Thunder recovery mixups — vary angle and timing so it's not predictable",
+            "PK Fire spacing to always be at a range where dash-in grab is guaranteed",
+            "Ledge trap with B-throw setups — position so any ledge option loses to B-throw",
+            "Consistent edgeguards with B-air and PK Thunder ball offstage"
+        ]
+        }
+    ]
+    },
+    "Captain Falcon": {
+    "difficulty": "Beginner",
+    "overview": "Fast, hard-hitting, and combo-heavy. One of the best characters for learning fundamentals. Weak recovery and no projectile, but enormous punish potential.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Falcon Punch is a meme — use it only as a hard read, never in neutral",
+            "N-air is your fastest aerial and best combo starter",
+            "Raptor Boost (side-B) on the ground as a burst punish — spikes airborne opponents",
+            "Use Falcon Kick (down-B) as a landing mixup and approach",
+            "Up-tilt is a strong anti-air and juggle tool"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into knee (F-air sweetspot) at mid percent — the core Falcon combo",
+            "D-throw into Up-air at low percent (0-40%)",
+            "N-air landing into grab for continued pressure",
+            "Dash grab as a burst option to punish whiffs from full screen",
+            "Up-air juggle chains — follow opponents into the air relentlessly"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → N-air → knee confirm at 50-80% — practice until consistent",
+            "Raptor Boost spike off-stage as an edgeguard read",
+            "Stomp (D-air) into knee — land the stomp, then immediately F-air",
+            "Dash dance in neutral to bait whiffs then punish with grab or Up-smash",
+            "Up-throw into knee at high percent near top blastzone"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart: D-throw option at every percent and DI combination",
+            "Stomp → knee consistently — this is the highest damage off-stage punish",
+            "Neutral game: dash dance spacing to always be at grab or N-air range",
+            "Ledge trap with dash attack, grab, and Up-smash coverage",
+            "Recovery mix-ups: vary Falcon Dive angle so edgeguards can't react"
+        ]
+        }
+    ]
+    },
+    "Donkey Kong": {
+    "difficulty": "Beginner",
+    "overview": "Huge damage output and a terrifying cargo throw kill setup. Slow but hits like a truck. Great for learning punish game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Giant Punch (neutral-B) fully charged is a devastating punish — store it early",
+            "Up-tilt is one of the best anti-airs in the game — use it constantly",
+            "D-air spike offstage for edgeguards — powerful but slow, use as a read",
+            "Headbutt (down-B) buries opponents in the ground — follow with F-smash",
+            "N-air is fast for your size and good for landing safely"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Cargo Up-throw — grab, hold, then Up-throw near the ledge for a kill at almost any %",
+            "D-throw into Up-air juggle at low percent",
+            "Up-tilt into Up-tilt chain as an anti-air combo",
+            "Headbutt into Giant Punch as a guaranteed punish combo",
+            "B-air for spacing and safe aerial approach"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Cargo throw walk to the ledge — walk as far as possible before Up-throwing",
+            "D-throw → Up-air → Up-air chain to high percent before Cargo kill",
+            "Giant Punch as a ledge trap option — opponents jumping from ledge get punished",
+            "Hand Slap (down-B on ground) for edge trapping near the ledge",
+            "Edgeguard with D-air spike — read recovery angles carefully"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Optimal Cargo carry distance for each stage to maximize kill %",
+            "Full punish flowchart: when to Cargo vs juggle vs Giant Punch based on position",
+            "Neutral game with dash dance and Up-tilt coverage of landing options",
+            "Headbutt mix-ups at ledge — bury then choose F-smash or grab based on DI",
+            "Consistent D-air spike timing against every common recovery in the game"
+        ]
+        }
+    ]
+    },
+    "Link": {
+    "difficulty": "Beginner",
+    "overview": "Well-rounded zoner with strong projectiles and solid close-range options. Remote bombs add a layer of mix-up that rewards creative play.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Remote Bomb (down-B) — throw it, then detonate at will with down-B again",
+            "Boomerang (side-B) for mid-range pressure — can angle it up or down",
+            "Arrow (neutral-B) to zone and control space from full screen",
+            "Z-air (grab in air) is a fast tether hitbox — use it as a landing tool",
+            "F-smash has two hits — the tip of the second hit is the sweetspot"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Bomb → detonate into dash-in grab as a combo starter",
+            "D-throw into Up-air juggle at low percent",
+            "Z-air on landing into grab or F-tilt for pressure",
+            "Arrow into dash-in punish at mid range — force approach then punish",
+            "Up-B (Spin Attack) out of shield as a punish — hits multiple times"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Bomb catch — throw bomb, let it arc, catch it mid-air for a free item throw",
+            "Bomb detonation mid-combo to extend juggle or kill confirm",
+            "Boomerang to cover landing while threatening with bomb simultaneously",
+            "D-throw → Up-air → Up-air chain into kill confirm",
+            "Ledge trap with arrow, bomb, and grab coverage simultaneously"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full projectile schedule: always have bomb prepped, arrow ready, boomerang in flight",
+            "Bomb detonation timing to catch every airdodge and landing option",
+            "Optimal Z-air spacing to always be at grab range on landing",
+            "Edgeguard with bomb placed at ledge height — detonates on recovery",
+            "Full neutral flowchart using all three projectiles as a layered threat system"
+        ]
+        }
+    ]
+    },
+    "Samus": {
+    "difficulty": "Intermediate",
+    "overview": "Charge Shot zoner with a strong tether grab and solid tilts. Rewards patient, defensive play. Charge Shot management is the core skill.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Charge Shot (neutral-B) — always be charging when safe, it's your win condition",
+            "Missile (side-B) — Homing Missile by tilting, Super Missile by smashing the stick",
+            "Z-air (aerial grab) is your main approach tool — fast, long range, combos into grab",
+            "Up-B (Screw Attack) out of shield as a punish",
+            "D-tilt for poking and starting combos — fast and safe"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Z-air into grab at mid range — the bread and butter approach",
+            "D-throw into Up-air at low percent",
+            "Charge Shot to punish rolls, landings, and predictable approaches",
+            "Homing Missile to pressure shields and force approaches",
+            "Up-tilt as an anti-air and juggle starter"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Z-air → grab → D-throw → Up-air combo at 0-40%",
+            "Charge Shot as a ledge trap — fire when opponent commits to a ledge option",
+            "Super Missile to punish rolls at long range",
+            "Bomb (down-B in air) to stall recovery and mix up landing",
+            "Up-smash out of shield for punishing aerial approaches"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full charge management: always know your charge level and when to spend it",
+            "Layered zoning: Homing Missile + Charge Shot threat simultaneously",
+            "Z-air spacing to always be at grab range — never approach without it",
+            "Ledge trap with Charge Shot covering jump and Missile covering roll",
+            "Edgeguard with Charge Shot at ledge height to intercept recoveries"
+        ]
+        }
+    ]
+    },
+    "Fox": {
+    "difficulty": "Intermediate",
+    "overview": "One of the fastest characters in the game. Extremely rewarding punish game but requires precise inputs. Short hop laser is core to his neutral.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Short hop Blaster (neutral-B) — fires two lasers that don't flinch but rack damage",
+            "N-air is your fastest aerial — use it for landing and out of shield",
+            "Up-smash is a strong anti-air and kill move — use it to punish landings",
+            "Shine (down-B) reflects projectiles and combos into other moves",
+            "B-air for edgeguarding — fast and covers wide horizontal space"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "U-throw into Up-air juggle at low to mid percent",
+            "Shine out of shield into grab or Up-smash as a punish",
+            "Short hop laser to chip damage and bait approaches in neutral",
+            "D-air spike offstage — fast and kills early",
+            "Dash attack into Up-smash as a burst punish"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Shine → jump → Up-air combo — the core Fox punish extension",
+            "Waveshine: Shine → wavedash forward → grab/Up-smash for relentless pressure",
+            "D-air spike offstage on predicted recovery angles",
+            "Up-throw → Up-air → Up-air chain to kill percent",
+            "Laser → dash-in grab as a conditioning tool in neutral"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw at every percent and DI combination",
+            "Consistent waveshine pressure on shield to force responses",
+            "Neutral game: laser schedule to always have one firing while dashing in",
+            "Ledge trap with Up-smash, grab, and Shine coverage",
+            "Edgeguard flowchart: D-air spike vs B-air based on recovery angle"
+        ]
+        }
+    ]
+    },
+    "Falco": {
+    "difficulty": "Intermediate",
+    "overview": "Shine spike king. Stronger vertical combos than Fox with a better spike. Slower but more rewarding off-stage. Laser forces approaches at a different angle.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Short hop laser — Falco's laser makes opponents flinch unlike Fox's, use it aggressively",
+            "Shine (down-B) spikes when used offstage — this is your primary edgeguard tool",
+            "B-air is fast and strong — main aerial in neutral and edgeguard",
+            "Up-smash to punish landings — strong kill move",
+            "Phantasm (side-B) for recovery — use high to mix up angle"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Laser into dash-in grab — Falco's laser flinch gives you time to run in",
+            "D-throw into Up-air juggle at low percent",
+            "Shine spike offstage — read recovery and Shine at ledge height",
+            "Up-throw into Up-air chain near top blastzone",
+            "N-air out of shield as a fast punish option"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Shine → jump → Up-air combo extension",
+            "Laser → dash-in D-throw → Up-air chain as full punish sequence",
+            "Shine spike timing on every common recovery in the game",
+            "Phantasm through opponents on stage as a mix-up and punish",
+            "B-air string offstage to carry opponents deep before Shine spike"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw — Falco's combos are longer than Fox's",
+            "Laser schedule: always have a laser firing to control approach timing",
+            "Consistent Shine spike on every recovery angle — no free ledge snaps allowed",
+            "Neutral with laser + dash dance to force approaches on your terms",
+            "Phantasm mix-ups for both recovery and neutral pressure"
+        ]
+        }
+    ]
+    },
+    "Pikachu": {
+    "difficulty": "Intermediate",
+    "overview": "Small, fast, and combo-heavy with a strong edgeguard game. Quick Attack cancel is the advanced tech that separates good Pikachus from great ones.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Thunder Jolt (neutral-B) for controlling ground space and forcing approaches",
+            "Quick Attack (up-B) for recovery — aim both hits carefully to mix up angle",
+            "N-air is your best landing option and combo starter",
+            "B-air for edgeguarding and ending stocks",
+            "Use Pikachu's small hurtbox actively — crouch under many moves"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-smash at low percent",
+            "D-throw into Up-air chains at 0-50%",
+            "Thunder (down-B) to cover opponents above you or punish landings",
+            "Dash attack into Up-smash as a burst option",
+            "F-air to pressure shields and cover landings"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Up-throw into Thunder kill confirm at high percent on floaties",
+            "Quick Attack Cancel (QAC) — cancel Quick Attack into the ground for movement mixups",
+            "Extended juggle chains: Up-air → Up-air → Thunder to close stocks",
+            "Edgeguard with B-air spike or Thunder Jolt just off ledge",
+            "Wavebounce Thunder Jolts to shoot forward while moving backward"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "QAC into grab or attack as a true mix-up in neutral",
+            "Stock-ending flowchart: track DI on every throw to confirm the kill move",
+            "Gimp recoveries with Thunder Jolt timing off-stage",
+            "Perfect ledge trap: Thunder and dash attack covering all options simultaneously",
+            "Manage rage and weight interactions for optimized kill confirm percents"
+        ]
+        }
+    ]
+    },
+    "Pichu": {
+    "difficulty": "Intermediate",
+    "overview": "Smaller and faster than Pikachu with more combo potential but takes self-damage. Extremely high reward but dies very early due to light weight.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Pichu is lighter than Pikachu — play for the lead and never let up",
+            "Self-damage from electric moves is real — don't spam them carelessly",
+            "N-air is even faster than Pikachu's — use it constantly",
+            "Thunder Jolt for space control — fires at a lower angle than Pikachu's",
+            "Agility (up-B) has two teleport hops — vary both directions for recovery mix-ups"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air combo — Pichu's followups are faster than Pikachu's",
+            "D-throw into F-air at mid percent for carry combos",
+            "Short hop double N-air for shield pressure",
+            "Thunder (down-B) to punish landings and cover juggle escapes",
+            "B-air offstage for edgeguards — strong and fast"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Thunder kill confirm chain",
+            "Agility mix-ups: change second hop direction mid-recovery to beat edgeguards",
+            "F-air string across stage into ledge carry at mid percent",
+            "Self-damage management: know your own % and avoid moves when rage matters",
+            "Quick Attack Cancel for movement and approach mix-ups"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full combo flowchart — Pichu's combos are longer than Pikachu's at every %",
+            "Self-damage as a tool: intentionally take electric damage to hit rage thresholds",
+            "Optimal Agility recovery paths to make edgeguards impossible to cover",
+            "Neutral with Thunder Jolt angle to always threaten grounded and aerial opponents",
+            "Stock management: always know both stocks' percents and adjust aggression"
+        ]
+        }
+    ]
+    },
+    "Marth": {
+    "difficulty": "Intermediate",
+    "overview": "Spacing-based swordfighter who rewards tipper hits. Dancing Blade is a versatile combo tool. Requires discipline to play at the correct range.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Tipper: the tip of Marth's sword does more damage and knockback — always aim for it",
+            "F-tilt at tipper range is your safest neutral poke — fast and strong",
+            "Dancing Blade (side-B) is a four-hit combo — learn all input directions",
+            "Up-B (Dolphin Slash) is a fast out-of-shield option and kill move",
+            "Shield-breaker (neutral-B) fully charged destroys shields — use as a read"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-air tipper at mid percent — your main kill confirm",
+            "F-air tipper to space opponents out and build damage",
+            "Up-tilt into Up-air juggle at low percent",
+            "Dancing Blade down finish for a spike option offstage",
+            "B-air tipper for spacing behind you and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air tipper kill chain",
+            "Dolphin Slash OOS (out of shield) — one of the fastest OOS options in the game",
+            "Dash dance at tipper range to always threaten F-tilt or F-smash",
+            "Dancing Blade mix-ups: vary the third and fourth inputs to cover DI",
+            "Edgeguard with F-air tipper — space it at the exact angle to hit recovering opponents"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full tipper flowchart: every move, every percent, always at correct range",
+            "Dash dance spacing to permanently stay at tipper range in neutral",
+            "Dolphin Slash OOS on any move that touches your shield",
+            "Ledge trap with F-smash tipper, grab, and Dancing Blade coverage",
+            "Edgeguard flowchart: F-air tipper vs Dancing Blade spike vs B-air per recovery type"
+        ]
+        }
+    ]
+    },
+    "Lucina": {
+    "difficulty": "Beginner",
+    "overview": "Marth without the tipper mechanic — consistent damage everywhere on the blade. More forgiving and better for learning sword spacing fundamentals.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Unlike Marth, every part of Lucina's blade deals the same damage — no tipper needed",
+            "F-tilt is your main neutral poke — safe, fast, and reliable",
+            "Dancing Blade (side-B) for combos and pressure — learn all four inputs",
+            "Dolphin Slash (up-B) out of shield as a fast punish",
+            "B-air for spacing and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-air at mid percent — consistent kill confirm",
+            "Up-tilt into Up-air juggle at low percent",
+            "F-air string across the stage for damage and positioning",
+            "Dancing Blade downward finish for spike attempt offstage",
+            "Short hop F-air as a safe approach that beats many options"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Dolphin Slash OOS on any punishable move",
+            "Dash dance at mid range to always threaten F-tilt or dash grab",
+            "Dancing Blade mix-ups on shield — vary inputs to avoid being predictable",
+            "Edgeguard with F-air to intercept recoveries at ledge height"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Consistent kill confirms off every throw at correct percents",
+            "Neutral game: dash dance spacing so F-tilt always hits from safety",
+            "Dolphin Slash OOS every time an aerial hits your shield",
+            "Ledge trap with F-smash, grab, and Dancing Blade covering all options",
+            "Full edgeguard flowchart against every recovery type in the game"
+        ]
+        }
+    ]
+    },
+    "Roy": {
+    "difficulty": "Intermediate",
+    "overview": "Inverse tipper — Roy's sweetspot is at the base of his sword. Extremely powerful close-range game and one of the best burst options in the game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Roy's sweetspot is the base of his blade — get in close, opposite of Marth",
+            "F-smash at the hilt is a massive kill move — use it to punish landings",
+            "Blazer (up-B) is a fast OOS option and has a kill sweetspot",
+            "Double-Edge Dance (side-B) for combos — the down finish spikes",
+            "Dash attack is fast and leads into combos at low percent"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-air base hit at mid percent",
+            "Up-tilt into Up-air juggle at low percent",
+            "N-air into grab — fast landing aerial that leads to combos",
+            "Flare Blade (neutral-B) fully charged is a one-hit kill — use as a hard read",
+            "B-air for spacing and edgeguarding at close range"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash kill confirm chain",
+            "Blazer OOS — one of the fastest out of shield options available",
+            "Double-Edge Dance spike offstage on predicted recovery",
+            "Dash dance at base-of-blade range to always threaten F-smash or grab",
+            "Up-throw kill confirm at high percent near top blastzone"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart at every percent — Roy's damage at the hilt is enormous",
+            "Neutral game: always stay inside tipper range to maximize sweetspot hits",
+            "Blazer OOS on every punishable move — fastest punish in his kit",
+            "Ledge trap with F-smash hilt, grab, and Double-Edge Dance spike",
+            "Edgeguard flowchart: Double-Edge Dance spike vs B-air vs Blazer per recovery"
+        ]
+        }
+    ]
+    },
+    "Chrom": {
+    "difficulty": "Beginner",
+    "overview": "Roy without the spike but with a better recovery. Consistent damage everywhere on the blade and a simpler gameplan. Great for beginners who want a sword character.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Like Roy, sweetspot is at the blade base — stay close to opponents",
+            "Soaring Slash (up-B) has great distance for recovery and a strong kill hit",
+            "F-smash is your primary kill move — fast and strong at close range",
+            "N-air for landing and approach — fast with good coverage",
+            "Aether (side-B when used as up-B) — note Chrom uses Soaring Slash not Aether"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-air at mid percent",
+            "Up-tilt into Up-air juggle chain at low percent",
+            "N-air into grab for continued pressure",
+            "Up-smash to punish landings — strong and fast",
+            "B-air for spacing and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash kill chain",
+            "Soaring Slash OOS as a punish — excellent distance and kill power",
+            "Dash dance at close range to always threaten F-smash and grab",
+            "Up-throw kill confirm at high percent",
+            "Edgeguard with B-air or F-air to intercept recoveries"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw — maximize hilt damage every time",
+            "Soaring Slash OOS consistently on every punishable aerial",
+            "Neutral spacing: always inside base-of-blade range to threaten F-smash",
+            "Ledge trap with F-smash, grab, and Up-smash covering all options",
+            "Stock-ending flowchart: Up-throw vs F-smash based on position and percent"
+        ]
+        }
+    ]
+    },
+    "Ike": {
+    "difficulty": "Intermediate",
+    "overview": "Slow but hits incredibly hard. Every move kills early. Requires patient play and punishing hard — one read can end a stock at 60%.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Ike is slow — don't rush in, wait for openings and punish hard",
+            "F-tilt is deceptively fast for his size and kills mid-stage at high percent",
+            "Quick Draw (side-B) for approach and recovery — can be angled",
+            "Eruption (neutral-B) fully charged buries opponents — follow with F-smash",
+            "N-air is your fastest aerial and best out-of-shield option"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Up-tilt into Up-air chain — Ike's Up-tilt hits behind him too",
+            "Aether (up-B) on stage as a punish — hits multiple times and kills",
+            "B-air for spacing — very strong and long-reaching",
+            "Quick Draw cancel into grab as an approach mix-up"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash kill chain — stocks at 60-70%",
+            "Aether OOS — slow but enormous damage on predictable moves",
+            "Quick Draw through opponents as a punish and approach tool",
+            "Eruption at ledge height as a spike on recovering opponents",
+            "F-tilt spacing to always threaten a kill while staying safe"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Ike's punishes end stocks earlier than most characters",
+            "Neutral: bait approaches with dash dance then punish with Up-tilt or grab",
+            "Aether OOS consistently — know which moves are slow enough to punish",
+            "Ledge trap: F-smash, grab, and Eruption spike covering all ledge options",
+            "Edgeguard flowchart: Eruption spike vs Aether vs B-air per recovery angle"
+        ]
+        }
+    ]
+    },
+    "Shulk": {
     "difficulty": "Advanced",
-    "overview": "High skill ceiling with Arsene mechanic. Weak without it, dominant with it.",
+    "overview": "Monado Arts system changes Shulk's stats dramatically. Mastering when to activate each art is the entire skill of the character.",
     "path": [
-      {
+        {
         "stage": "Basics",
         "skills": [
-          "Learn Joker's movement — he has one of the best dash dances",
-          "N-air and B-air are your safest aerial tools",
-          "Gun (neutral-B) to poke and build Arsene meter",
-          "Grappling Hook (up-B) has two hitboxes — use it on-stage to attack",
-          "Understand the Arsene mechanic: it activates after taking ~100% damage"
+            "Monado Arts (neutral-B): Jump=jump height, Speed=movement, Shield=defense, Buster=damage, Smash=kill power",
+            "Cycle through arts with neutral-B — each lasts a few seconds then goes on cooldown",
+            "F-air is your main aerial — long range and fast for a big sword",
+            "Back Slash (side-B) does more damage from behind — position accordingly",
+            "Air Slash (up-B) for recovery — two hops, angle the second one"
         ]
-      },
-      {
+        },
+        {
         "stage": "Intermediate",
         "skills": [
-          "Up-throw into Up-air combo at low percent",
-          "F-air strings across the stage for carrying opponents",
-          "With Arsene: Eiha (down-B) plants a damage-over-time debuff — use it in neutral",
-          "With Arsene: Wings of Rebellion (up-B) kills early with the sweetspot",
-          "Practice managing and extending Arsene meter duration"
+            "Buster Art for combos — increases damage, use it during punish sequences",
+            "Smash Art for kill confirms — activate before your kill move lands",
+            "Jump Art for recovery — massively increases jump height to get back",
+            "D-throw into Up-air juggle at low percent",
+            "Vision (down-B) counter — use to punish predictable laggy moves"
         ]
-      },
-      {
+        },
+        {
         "stage": "Advanced",
         "skills": [
-          "Without Arsene: play patient — poke with Gun, bait with dash dance",
-          "With Arsene: play aggressive — all kill moves get massive buffs",
-          "Rebel's Guard (down-B without Arsene) absorbs hits and builds meter fast",
-          "Confirm kills with Up-smash and Back-throw near ledge with Arsene",
-          "Use Tetrakarn / Makarakarn (counters with Arsene) to hard-punish unsafe moves"
+            "Buster → combo → Smash transition to maximize damage then kill",
+            "Speed Art neutral game — fast enough to threaten any option",
+            "D-throw → Up-air → Up-air chain in Buster for enormous damage",
+            "Back Slash as a punish from behind shield — hard read but massive reward",
+            "Jump Art recovery mix-ups — variable height makes edgeguards hard"
         ]
-      },
-      {
+        },
+        {
         "stage": "Pro",
         "skills": [
-          "Full dual-mode gameplan: safe neutral without Arsene, oppressive with it",
-          "Deliberately take hits with Rebel's Guard to activate Arsene on your terms",
-          "Edgeguard with Eiha + B-air to cover all recovery options off-stage",
-          "Dash dance spacing to bait attacks into maximum punishes",
-          "Kill confirm flowchart: percent ranges for Up-throw → Up-air vs Back-throw"
+            "Full art rotation flowchart: know exactly when each art comes off cooldown",
+            "Buster combo into Smash kill confirm — transition the arts seamlessly",
+            "Speed Art dash dance to force whiffs then punish with F-smash",
+            "Shield Art to survive past high percents and frustrate opponents",
+            "Vision counter reads on every predictable move in the opponent's kit"
         ]
-      }
+        }
     ]
-  },
-  "Steve": {
+    },
+    "Steve": {
     "difficulty": "Advanced",
-    "overview": "Unique resource mechanic with blocks. Dominant in the current meta but has a steep learning curve.",
+    "overview": "Unique resource mechanic with blocks and crafting. Dominant in the current meta but has a steep learning curve. Mining management is the entire neutral game.",
     "path": [
-      {
+        {
         "stage": "Basics",
         "skills": [
-          "Understand the mining mechanic — stand on ore deposits to gather materials",
-          "Place blocks (down-B) to extend combos and block approaches",
-          "Minecart (side-B) for pressure and approach coverage",
-          "N-air and F-air are your best aerial tools",
-          "Axe (F-smash) is a powerful but slow kill move — use it to punish hard"
+            "Mine materials by standing on the ground — different terrain gives different resources",
+            "Place blocks (down-B) to extend combos, block approaches, and recover",
+            "Minecart (side-B) for approach coverage and pressure",
+            "N-air and F-air are your best aerial tools — fast and reliable",
+            "Axe (F-smash) is your primary kill move — slow but devastating on reads"
         ]
-      },
-      {
+        },
+        {
         "stage": "Intermediate",
         "skills": [
-          "Block extension combos: Up-tilt → block → Up-tilt for juggles",
-          "TNT (down-B at full resources) for stage control and zone lockdown",
-          "Use Minecart offstage to gimp recoveries",
-          "Manage iron vs diamond tools — conserve diamonds for critical moments",
-          "F-air spike off the ledge for edgeguards"
+            "Block extension combos: Up-tilt → place block → Up-tilt for juggles",
+            "TNT (down-B at full resources) for stage control and zone lockdown",
+            "Minecart offstage to intercept recoveries",
+            "Manage iron vs diamond tools — conserve diamonds for key moments",
+            "F-air spike off the ledge for edgeguards"
         ]
-      },
-      {
+        },
+        {
         "stage": "Advanced",
         "skills": [
-          "Block ladder combos: place block mid-air, jump off it, continue juggle",
-          "Elytra (up-B) stall tactics off-stage to bait and punish",
-          "Resource denial: mine aggressively to deny opponent stage positioning",
-          "Extended punish combos from grab using blocks for wall setups",
-          "TNT setup reads based on opponent's recovery trajectory"
+            "Block ladder combos: place block mid-air, jump off it, continue juggle",
+            "Elytra (up-B) stall off-stage to bait and punish recovery",
+            "Resource denial: mine aggressively to deny opponent stage positioning",
+            "Extended punish combos from grab using blocks for wall setups",
+            "TNT setup reads based on opponent's recovery trajectory"
         ]
-      },
-      {
+        },
+        {
         "stage": "Pro",
         "skills": [
-          "Optimal mining routes during neutral without giving up stage control",
-          "Block ladder kill setups: precise height and timing for maximum damage",
-          "Full edgeguard flowchart with Minecart, TNT, and Elytra coverage",
-          "Tool management optimization: when to spend iron vs save for diamonds",
-          "Exploiting Steve's wall creation to force 50/50 mix-ups at ledge"
+            "Optimal mining routes during neutral without giving up stage control",
+            "Block ladder kill setups: precise height and timing for maximum damage",
+            "Full edgeguard flowchart with Minecart, TNT, and Elytra coverage",
+            "Tool management: when to spend iron vs save for diamonds based on stock situation",
+            "Exploiting block walls to force 50/50 mix-ups at the ledge"
         ]
-      }
+        }
     ]
-  },
-  "Snake": {
+    },
+    "Snake": {
     "difficulty": "Advanced",
-    "overview": "Zoner with insane damage output. Grenades require careful management or they backfire.",
+    "overview": "Zoner with insane damage output and trap-based gameplay. Grenades require careful management or they backfire. Highest damage-per-interaction in the game.",
     "path": [
-      {
+        {
         "stage": "Basics",
         "skills": [
-          "Cook grenades (neutral-B hold) before throwing for timed explosions",
-          "Nikita missile (side-B) can be guided — useful for ledge trapping",
-          "Up-tilt is one of the best anti-air kill moves in the game — use it often",
-          "C4 (down-B) on the ground as a trap or detonate it mid-combo",
-          "Up-smash (mortar) hits both sides and covers landings"
+            "Cook grenades (neutral-B hold) before throwing for timed explosions",
+            "Nikita missile (side-B) can be guided — useful for ledge trapping",
+            "Up-tilt is one of the best anti-air kill moves in the game — use it constantly",
+            "C4 (down-B) placed on the ground as a trap — detonate with down-B again",
+            "Up-smash (mortar) hits both sides and covers landings above you"
         ]
-      },
-      {
+        },
+        {
         "stage": "Intermediate",
         "skills": [
-          "Grenade camping: cook a grenade while an opponent approaches to force reactions",
-          "D-throw into N-air or Back-air combo at low percent",
-          "Detonate C4 mid-combo to extend punishes",
-          "Up-tilt kill confirms at high percent near top blastzones",
-          "Crawl under projectiles and low attacks using Snake's crawl"
+            "Grenade camping: cook a grenade while opponent approaches to force reactions",
+            "D-throw into N-air or B-air combo at low percent",
+            "Detonate C4 mid-combo to extend punishes or kill early",
+            "Up-tilt kill confirms at high percent near top blastzone",
+            "Crawl under projectiles and low attacks using Snake's crawl"
         ]
-      },
-      {
+        },
+        {
         "stage": "Advanced",
         "skills": [
-          "Grenade pull → jump → grenade toss to cover multiple angles at once",
-          "Back-air off stage for edgeguarding — it's fast and covers wide area",
-          "Cypher (up-B) stall to bait opponents off stage, then punish",
-          "Grenade cancel into grab or F-tilt for close-range mix-ups",
-          "Up-smash OOS (out of shield) for punishing laggy aerial approaches"
+            "Grenade pull → jump → toss to cover multiple angles simultaneously",
+            "B-air offstage for edgeguarding — fast and covers wide area",
+            "Cypher (up-B) stall to bait opponents off-stage then punish",
+            "Grenade cancel into grab or F-tilt for close-range mix-ups",
+            "Up-smash OOS to punish laggy aerial approaches on your shield"
         ]
-      },
-      {
+        },
+        {
         "stage": "Pro",
         "skills": [
-          "Full grenade schedule: always have one cooked, one placed, and one ready",
-          "Ledge trap with Nikita + grenade + mortar for near-inescapable pressure",
-          "Optimal C4 placements for stage-specific kill setups",
-          "Adaptive gameplan: transition from zoning to punish game based on percent",
-          "Managing grenade self-damage and using it intentionally for rage activation"
+            "Full grenade schedule: always have one cooked, one placed, and one ready",
+            "Ledge trap with Nikita + grenade + mortar for near-inescapable pressure",
+            "Optimal C4 placements for stage-specific kill setups",
+            "Adaptive gameplan: transition from zoning to punish game based on percent",
+            "Managing grenade self-damage intentionally to hit rage activation thresholds"
         ]
-      }
+        }
     ]
-  }
+    },
+    "Joker": {
+    "difficulty": "Advanced",
+    "overview": "High skill ceiling with Arsene mechanic. Weak without it, dominant with it. Managing when Arsene activates is the core strategic layer.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Arsene activates after taking roughly 100% damage — understand the mechanic before anything else",
+            "Gun (neutral-B) for poking and building Arsene meter passively",
+            "Grappling Hook (up-B) has two hitboxes — use the on-stage swing to attack",
+            "N-air and B-air are your safest aerial tools in neutral",
+            "Joker has one of the best dash dances — use it constantly to bait whiffs"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Up-throw into Up-air combo at low percent",
+            "F-air strings across the stage to carry opponents to ledge",
+            "With Arsene: Eiha (down-B) plants damage-over-time — use it every neutral interaction",
+            "With Arsene: Wings of Rebellion (up-B) kills early with the sweetspot hit",
+            "Rebel's Guard (down-B without Arsene) absorbs hits and builds meter fast"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Without Arsene: play patient — poke with Gun, bait with dash dance, avoid risk",
+            "With Arsene: play aggressive — all kill moves get massive buffs",
+            "Deliberately use Rebel's Guard to absorb hits and activate Arsene on your terms",
+            "Kill confirms with Up-smash and B-throw near ledge with Arsene active",
+            "Tetrakarn/Makarakarn (counter with Arsene) to hard-punish telegraphed moves"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full dual-mode gameplan: safe neutral without Arsene, oppressive offense with it",
+            "Rebel's Guard timing to absorb specific moves and immediately counterattack",
+            "Edgeguard with Eiha + B-air to cover all recovery options simultaneously",
+            "Dash dance spacing at exact range to bait attacks into maximum punishes",
+            "Kill confirm flowchart: percent ranges for Up-throw → Up-air vs B-throw per weight class"
+        ]
+        }
+    ]
+    },
+    "Cloud": {
+    "difficulty": "Intermediate",
+    "overview": "Long sword range, strong kill power, and Limit Break as a win condition. One of the most consistent high-tier characters in the game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Limit Break (neutral-B hold) fills your meter — fully charged moves deal massive damage",
+            "Cross Slash (side-B) is your main combo finisher — fast and kills mid-percent",
+            "F-air and B-air are your primary aerial tools — long range and safe",
+            "Up-tilt is a fast anti-air and juggle starter",
+            "Climhazzard (up-B) has a kill hit on the way up — use it OOS"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Blade Beam (neutral-B tap) for projectile pressure and Limit building",
+            "Limit Cross Slash as a kill confirm — fastest kill move with Limit active",
+            "Limit Climhazzard for recovery — massive distance with Limit charged",
+            "F-air string across stage for carry combos and damage"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Cross Slash kill chain",
+            "Limit Break management: when to spend meter vs save for recovery",
+            "Climhazzard OOS on predictable moves — the rising hit kills early",
+            "Edgeguard with F-air or B-air at ledge height to intercept recoveries",
+            "Limit Finishing Touch (Up-smash with Limit) kills at absurdly low percents"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Limit management flowchart: when each Limit move is optimal",
+            "Punish game off every throw — Cloud's long sword means early kill confirms",
+            "Neutral game: F-air spacing to always threaten without being punishable",
+            "Ledge trap with Limit Cross Slash covering jump and grab covering roll",
+            "Edgeguard flowchart: F-air tipper vs Climhazzard spike per recovery angle"
+        ]
+        }
+    ]
+    },
+    "ROB": {
+    "difficulty": "Intermediate",
+    "overview": "Strong zoner with gyro and laser management. Excellent recovery and off-stage presence. Fuel management is the unique resource mechanic.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Gyro (neutral-B) is your main zoning tool — charge it, throw it, and pick it up again",
+            "Laser (side-B) for fast horizontal projectile pressure at range",
+            "Up-tilt is a strong anti-air and combo starter",
+            "Robo Burner (up-B) has limited fuel — use it sparingly and refuel by landing",
+            "B-air is your best aerial — fast, strong, and kills early"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Gyro → catch → throw as a fast item pressure sequence",
+            "D-throw into Up-air juggle at low percent",
+            "Laser to chip damage and force approaches from full screen",
+            "Up-smash to punish landings — strong kill move",
+            "Robo Burner stall off-stage to bait opponents and recover from below ledge"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Gyro placed on stage as a trap while you apply pressure from the other side",
+            "D-throw → Up-tilt → Up-air juggle chain at low percent",
+            "Laser → dash-in grab as a conditioning combo",
+            "Off-stage Robo Burner stall to bait edgeguarders then recover",
+            "Up-smash OOS as a punish for aerial approaches"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full gyro management: always have one charged and one on stage simultaneously",
+            "Fuel management: know your remaining fuel at all times and never SD",
+            "Ledge trap with gyro, laser, and grab covering all options",
+            "Neutral game: laser + gyro threat forces approach into Up-tilt or grab",
+            "Edgeguard with Robo Burner stall and B-air to cover every recovery angle"
+        ]
+        }
+    ]
+    },
+    "Wolf": {
+    "difficulty": "Intermediate",
+    "overview": "Aggressive spacie with strong kill power and a versatile Blaster. More offensive than Fox or Falco with better kill moves but slower.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Blaster (neutral-B) makes opponents flinch at range — use it to control neutral",
+            "Wolf Flash (side-B) spikes at the start of the move — powerful edgeguard tool",
+            "B-air is your best aerial — fast, strong, and long-reaching",
+            "Up-smash is a strong kill move — use it to punish landings",
+            "Shine (down-B) reflects projectiles and can combo"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Blaster into dash-in grab as a conditioning tool",
+            "Wolf Flash spike offstage on predicted recovery",
+            "Up-throw into Up-air chain near top blastzone",
+            "F-air for aerial approach and edgeguarding — strong with good range"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Wolf Flash spike timing on every common recovery in the game",
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "Blaster schedule: always be firing when not in a combo",
+            "B-air string offstage to carry opponents deep before Wolf Flash spike",
+            "Shine OOS as a fast punish on predictable moves"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw at every percent",
+            "Consistent Wolf Flash spike on all recovery angles",
+            "Neutral with Blaster to always threaten while approaching",
+            "Ledge trap with Up-smash, grab, and Wolf Flash coverage",
+            "Edgeguard flowchart: Wolf Flash spike vs B-air vs F-air per recovery type"
+        ]
+        }
+    ]
+    },
+    "Diddy Kong": {
+    "difficulty": "Intermediate",
+    "overview": "Banana-based mix-up game with an incredible grab combo flowchart. One of the best punish games in SSBU when played correctly.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Banana (down-B) is your primary tool — throw it, trip opponents, and pick it up again",
+            "Peanut Popgun (neutral-B) for charging and poking at range",
+            "N-air is fast and your best out-of-shield aerial",
+            "Monkey Flip (side-B) for approach and grab — mix up jump vs grab on landing",
+            "F-air for approach and edgeguarding — fast with solid range"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Banana trip into F-smash or grab for a free punish",
+            "D-throw into Up-air juggle at low percent",
+            "Up-throw into Up-air near top blastzone for kills",
+            "Short hop F-air as a safe approach over bananas",
+            "Monkey Flip kick on shield to bait then punish the response"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Banana → trip → grab → D-throw → Up-air chain as full punish sequence",
+            "Banana throw → catch → immediate rethrow for relentless pressure",
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Monkey Flip grab into pummel for damage then throw",
+            "Edgeguard with banana throw at ledge height to intercept recoveries"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full banana management: always have one on stage and one ready to throw",
+            "Punish flowchart off every throw — Diddy's Up-air chains are the best in the game",
+            "Neutral: banana control forces approach into your grab or F-air",
+            "Ledge trap with banana, grab, and Up-smash covering all options",
+            "Edgeguard flowchart: banana intercept vs F-air vs Monkey Flip per recovery type"
+        ]
+        }
+    ]
+    },
+    "Palutena": {
+    "difficulty": "Intermediate",
+    "overview": "Versatile all-rounder with strong projectiles and excellent out-of-shield options. Auto-reticle and Warp give her strong coverage in most situations.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Autoreticle (neutral-B) tracks opponents — use it to force approaches",
+            "Warp (up-B) teleports in any direction — great recovery with mix-up potential",
+            "N-air is your best OOS option — fast and huge hitbox",
+            "B-air for spacing and edgeguarding — strong and reliable",
+            "Up-smash is a strong kill move and anti-air"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Autoreticle to force approaches then punish with grab or Up-smash",
+            "N-air OOS on any move that hits your shield",
+            "Warp recovery mix-ups — teleport above, below, or past edgeguarders",
+            "Counter/Reflect (down-B) to punish obvious moves and projectiles"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "Autoreticle into dash-in grab as a conditioning sequence",
+            "Warp through opponents on stage as a mix-up and punish",
+            "N-air OOS consistently — one of the best shields in the game",
+            "Explosive Flame (side-B) for zoning and edge trapping"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart off every throw at every percent",
+            "N-air OOS on any move that is even slightly unsafe on shield",
+            "Warp mix-ups for both recovery and neutral repositioning",
+            "Autoreticle + Explosive Flame layered zoning to cover all approach angles",
+            "Ledge trap with Up-smash, grab, and Autoreticle covering all ledge options"
+        ]
+        }
+    ]
+    },
+    "Peach": {
+    "difficulty": "Advanced",
+    "overview": "Float mechanic enables unique aerial mixups unavailable to any other character. One of the highest skill ceilings in the game. Turnips add a consistent zoning layer.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Float (hold jump) lets Peach hover — this is the foundation of her entire game",
+            "F-air out of float is her fastest and most important move — practice relentlessly",
+            "Toad (neutral-B) counters attacks and throws spores — use as a mixup on approach",
+            "Turnip (down-B) pull and throw for zoning and setups",
+            "Parasol (up-B) for recovery — floats back slowly, mix up timing"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Float cancel F-air: float at low height then immediately land — very fast",
+            "D-throw into float F-air at low percent",
+            "Turnip throw into grab or F-smash as a setup",
+            "Up-smash out of float cancel for a kill confirm",
+            "B-air for spacing behind and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Float cancel F-air strings — chain multiple F-airs across the stage",
+            "D-throw → float → F-air → F-air carry combo at 0-40%",
+            "Turnip → catch → rethrow as fast item pressure",
+            "Float at ledge to bait edgeguarder then drift back to stage",
+            "F-smash (golf club) as a kill confirm after float cancel"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full float cancel F-air flowchart at every percent and DI combination",
+            "Turnip management: always have one in hand while floating to threaten two options",
+            "Neutral game: float height mixups to make F-air and grab equally threatening",
+            "Ledge trap with turnip throw, grab, and float F-air covering all options",
+            "Stock-ending sequence: float F-air string into F-smash golf club at kill percent"
+        ]
+        }
+    ]
+    },
+    "Daisy": {
+    "difficulty": "Advanced",
+    "overview": "Functionally identical to Peach with minor stat differences. Same float mechanic and same learning path — choose based on preference.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Identical to Peach in almost every way — float mechanic is the core of your game",
+            "Float (hold jump) to hover and approach with F-air from unexpected angles",
+            "F-air out of float cancel is your primary tool — practice this above everything else",
+            "Turnip (down-B) for zoning and setups",
+            "Toad counter (neutral-B) as a mix-up against predictable approaches"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Float cancel F-air into grab or Up-smash on landing",
+            "D-throw into float F-air combo at low percent",
+            "Turnip throw into dash-in grab as a setup",
+            "B-air for spacing and edgeguarding",
+            "Up-smash kill confirm out of float cancel"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Float cancel F-air string combos across the stage",
+            "D-throw → float → F-air → F-air carry at 0-40%",
+            "Float at ledge height to bait edgeguarder and drift back",
+            "Turnip catch and immediate rethrow for relentless pressure",
+            "F-smash as kill confirm after float cancel setup"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full float cancel F-air flowchart at every percent and DI",
+            "Turnip management: always have one in hand while threatening float",
+            "Float height mix-ups to make F-air and grab equally dangerous",
+            "Ledge trap with turnip, grab, and float F-air simultaneously",
+            "Stock-ending sequence: float F-air string into F-smash at kill percent"
+        ]
+        }
+    ]
+    },
+    "Zero Suit Samus": {
+    "difficulty": "Advanced",
+    "overview": "Extremely fast with one of the best combo games in SSBU. Paralyzer and boost mechanics give her unique movement. High execution requirement.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Paralyzer (neutral-B) stuns opponents briefly — always follow up immediately",
+            "Boost Kick (up-B) on stage as a combo ender and kill move",
+            "N-air for landing and approach — fast and covers both sides",
+            "D-smash is a fast and strong move on the ground — good punish tool",
+            "B-air for edgeguarding — strong horizontal kill move"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Paralyzer into dash-in grab or F-smash for a guaranteed punish",
+            "D-throw into Up-air juggle at low percent",
+            "Flip Jump (down-B) as a movement mix-up and approach",
+            "Boost Kick OOS as a punish on aerial approaches",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Boost Kick kill chain",
+            "Paralyzer → dash-in D-throw → full combo sequence",
+            "Flip Jump through opponents to reposition and bait responses",
+            "Consistent Boost Kick OOS — one of the strongest OOS options in the game",
+            "Edgeguard with B-air or Flip Jump kick to intercept recoveries"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full combo flowchart — ZSS has the longest combo strings at low percent",
+            "Paralyzer management: charge level determines follow-up timing",
+            "Flip Jump mix-ups for both recovery and neutral mind games",
+            "Ledge trap with Paralyzer, grab, and Boost Kick covering all options",
+            "Stock-ending flowchart: D-throw combo vs Up-throw vs B-throw near ledge by percent"
+        ]
+        }
+    ]
+    },
+    "Kazuya": {
+    "difficulty": "Advanced",
+    "overview": "Tekken character with a full fighting game moveset. Hellsweep and EWGF are the core techs. Highest execution barrier in the entire game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Kazuya has Tekken-style inputs — learn the numpad notation (e.g. f+2 = forward+attack)",
+            "Devil Fist (side-B) is your safest approach tool and combo starter",
+            "Gut Punch (neutral-B) for armor and burst damage at close range",
+            "Up-smash is a strong anti-air and kill move",
+            "B-air for spacing and edgeguarding — fast and strong"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Hellsweep (down-forward + A): low attack that combos into juggle — learn the input cold",
+            "D-throw into Up-air juggle at low percent",
+            "Devil Fist into grab as a conditioning sequence",
+            "Spinning Demon (side-B repeatedly) for approach and pressure strings",
+            "Electric Wind God Fist (EWGF): precise just-frame input for a fast powerful move — start practicing now"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "EWGF (forward, down, down-forward + A on the exact frame): this is Kazuya's defining move",
+            "Hellsweep → juggle combo — launches opponent for a full punish sequence",
+            "EWGF string: multiple consecutive EWGFs for wall-carry damage",
+            "D-throw → EWGF → Up-air kill chain at mid percent",
+            "Devil Transformation (Final Smash-adjacent): know when Devil mode activates"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Consistent EWGF on demand — this single input separates good Kazuyas from great ones",
+            "Full Tekken combo flowchart: Hellsweep → EWGF → juggle at every percent",
+            "Neutral game: EWGF as a fast punish on any whiffed move from mid range",
+            "Ledge trap with Hellsweep, grab, and EWGF covering all ledge options",
+            "Stock-ending sequence: optimal EWGF string into Up-smash kill confirm"
+        ]
+        }
+    ]
+    },
+    "Sephiroth": {
+    "difficulty": "Advanced",
+    "overview": "Massive sword range with One-Winged Angel as a comeback mechanic. Absurdly long sword makes his spacing unique. One stock behind activates his power mode.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Sephiroth's sword has the longest range in the game — use it to outspace everything",
+            "Shadow Flare (neutral-B) charges and fires homing orbs — use for zoning",
+            "Scintilla (down-B) is a powerful counter/absorb — punishes predictable moves",
+            "Octaslash (side-B) for approach and recovery coverage",
+            "N-air and F-air are your primary aerials — massive range"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Shadow Flare placed mid-stage to force opponent positioning",
+            "F-tilt for long-range poking — fastest safe move with absurd reach",
+            "One-Winged Angel: activates when one stock behind — all moves buffed significantly",
+            "Up-smash kill confirm at high percent — fast and kills early"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Shadow Flare orb management: place multiple to control the entire stage",
+            "One-Winged Angel mode: play far more aggressively when active",
+            "Scintilla counter on predictable laggy moves",
+            "Octaslash through opponents as a punish and recovery mix-up"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full sword spacing flowchart: every move played at its maximum safe range",
+            "Shadow Flare schedule: always have orbs active to restrict opponent movement",
+            "One-Winged Angel gameplan: know exactly how to play differently in power mode",
+            "Scintilla reads on opponent's most common approach option",
+            "Ledge trap with Shadow Flare orbs plus grab and F-tilt covering all options"
+        ]
+        }
+    ]
+    },
+    "Pyra/Mythra": {
+    "difficulty": "Advanced",
+    "overview": "Two characters in one — swap between them freely. Mythra is fast and combo-heavy, Pyra is slow but kills incredibly early. Master both to cover each other's weaknesses.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Swap between Pyra and Mythra with down-B — learn when each is appropriate",
+            "Mythra: fast, combo-oriented, better in neutral and when building damage",
+            "Pyra: slow but kills at very low percents — swap to her at kill percent",
+            "Mythra's F-air and N-air are your primary combo starters",
+            "Pyra's F-smash and Up-smash kill obscenely early — one hit can end a stock"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Mythra D-throw into Up-air juggle at low percent",
+            "Swap to Pyra when opponent is at kill percent — immediately go for F-smash or grab",
+            "Mythra's Foresight (down-B without swap): dodge mechanic that counters attacks",
+            "Pyra's Flame Nova (neutral-B) for close-range burst damage",
+            "Mythra's Ray of Punishment (side-B) for approach and combo extensions"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Mythra combo → swap to Pyra → kill confirm as a seamless sequence",
+            "Mythra D-throw → Up-air → Up-air → swap → Pyra Up-smash kill chain",
+            "Foresight dodge into punish — one of the best counter mechanics in the game",
+            "Pyra's Blazing End (side-B) for edgeguarding — strong spike",
+            "Mythra neutral: use her speed to bait approaches then punish"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Seamless swap flowchart: Mythra for neutral and combos, Pyra for kills every time",
+            "Foresight reads on opponent's most common approach and counterattack",
+            "Full combo flowchart with both characters at every percent",
+            "Ledge trap with Pyra F-smash — kills at extremely low percents near ledge",
+            "Recovery mix-ups: swap mid-recovery to change Up-B distance and angle"
+        ]
+        }
+    ]
+    },
+    "Byleth": {
+    "difficulty": "Intermediate",
+    "overview": "Four different weapons depending on direction — each has a different range and purpose. Slow but every move covers a unique angle. Edelgard assist for horizontal coverage.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Sword (neutral): standard fast moves for general use",
+            "Whip (forward smash/tilt): massive horizontal range — space it at the tip",
+            "Axe (up attacks): slow but powerful vertical coverage with high kill power",
+            "Bow (down smash/tilt): long-range low hit — pokes under shields",
+            "Edelgard (neutral-B): summons an axe throw for horizontal zoning"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "F-smash whip at max range — impossible to punish if spaced correctly",
+            "Edelgard axe throw to force approaches and control midscreen",
+            "Up-smash axe for anti-air and kill confirm",
+            "N-air for landing and quick punishes — faster than most of his moves"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-smash kill chain",
+            "F-smash tipper spacing at max range as a neutral poke",
+            "Edelgard + dash-in grab as a two-option pressure sequence",
+            "Dimitri (side-B) lance throw for horizontal edgeguarding",
+            "Claude (down-B) arrow barrage for ledge trapping"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full weapon flowchart: know which weapon covers each range and angle",
+            "F-smash whip spacing to always threaten from safety",
+            "Edelgard schedule: always have one axe active for midscreen control",
+            "Ledge trap with Claude arrows, grab, and Up-smash covering all options",
+            "Edgeguard flowchart: Dimitri lance vs D-air vs F-air per recovery type"
+        ]
+        }
+    ]
+    },
+    "Min Min": {
+    "difficulty": "Advanced",
+    "overview": "Arm-based zoner with the longest disjointed range in the game. ARMS mechanic lets you extend left and right arm independently. Near-unbeatable at max range.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Left arm (tilt) and right arm (smash) are separate hitboxes — learn to use both",
+            "Dragon arm (right smash) fires a laser when fully extended — your kill tool",
+            "ARMS Jump (up-B) for recovery — fires both arms upward on landing",
+            "Stay at max arm range — Min Min loses badly at close range",
+            "N-air for when opponents get inside your range — your only fast close-range option"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Dragon arm laser to punish any recovery that passes in front of you",
+            "Left arm ram + right arm laser simultaneously for dual threat",
+            "Up-smash to cover opponents above you",
+            "Use platforms to reset to max range whenever opponents get close"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Dragon laser kill confirm",
+            "Dual arm pressure: left arm poke while right arm charges laser",
+            "ARMS Jump to carry opponents offstage with both arms firing",
+            "Edgeguard with Dragon laser at ledge height — covers all recovery angles",
+            "Ram extension spacing: always be exactly one arm length away from opponent"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full dual-arm flowchart: simultaneous left and right arm threats at all times",
+            "Dragon laser management: always have it charged for kill confirms",
+            "Neutral game: permanent max-range pressure with no approach needed",
+            "Ledge trap with Dragon laser and left arm ram covering jump and roll",
+            "Recovery mix-ups with ARMS Jump to reach ledge from any angle"
+        ]
+        }
+    ]
+    },
+    "Inkling": {
+    "difficulty": "Intermediate",
+    "overview": "Ink mechanic adds damage multiplier on inked opponents. Roller and Splat Bomb force unique interactions. Constantly inking opponents is the core gameplan.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Ink deals more damage on inked opponents — always have ink applied before combos",
+            "Splat Roller (side-B) buries opponents — follow with F-smash or grab",
+            "Splat Bomb (down-B) for traps and zoning near the ledge",
+            "N-air is fast and your best landing option",
+            "Refill ink with down-B hold — do it when safe, never in the middle of a fight"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Ink → D-throw → Up-air combo — ink multiplier makes this deal enormous damage",
+            "Splat Roller into grab or F-smash on buried opponent",
+            "Splat Bomb at ledge to cover recovery options",
+            "Up-tilt as an anti-air and juggle starter",
+            "F-air for approach and edgeguarding — fast and covers good range"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Ink → D-throw → Up-air → Up-air chain for maximum damage at low percent",
+            "Roller bury into F-smash kill confirm",
+            "Splat Bomb placed at ledge before opponent recovers for near-guaranteed pressure",
+            "Ink refill timing: refill during opponent's recovery or ledge hang",
+            "Blaster (neutral-B) to ink at range and force approaches"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full ink management: always keep opponent inked throughout the entire stock",
+            "Punish flowchart with ink active — know exact damage numbers with multiplier",
+            "Roller bury → kill confirm at every percent range",
+            "Ledge trap with Splat Bomb, grab, and Up-smash covering all options",
+            "Neutral game: Blaster ink at range then dash in for grab or N-air"
+        ]
+        }
+    ]
+    },
+    "Ridley": {
+    "difficulty": "Intermediate",
+    "overview": "Big body with a terrifying edge carry and space pirate rush. Skewer and Plasma Breath give him unique tools. Punishes are devastating when they connect.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Space Pirate Rush (side-B) grabs opponents and slams them — powerful kill move",
+            "Skewer (down-B) impales opponents for massive damage — use as a hard read",
+            "Plasma Breath (neutral-B) charges and fires fireballs in an arc",
+            "F-air and B-air for aerial spacing — long range and strong",
+            "Tail spike (D-air) offstage for edgeguards — powerful spike"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Space Pirate Rush to carry opponents to the ledge for an early kill",
+            "Plasma Breath to zone and control approach angles",
+            "Up-smash anti-air for punishing aerial approaches",
+            "Wing Blitz (up-B) as both recovery and an on-stage kill move"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Space Pirate Rush ledge carry",
+            "Skewer as a punish on predictable rolls or landings",
+            "Plasma Breath at ledge to cover recovery options",
+            "Tail spike edgeguard timing against common recoveries",
+            "Wing Blitz OOS as a kill confirm on predictable moves"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Space Pirate Rush into ledge kill at almost any percent",
+            "Skewer reads on the opponent's most repeated habit",
+            "Plasma Breath schedule: always have breath active for approach denial",
+            "Ledge trap with Plasma Breath, grab, and Space Pirate Rush coverage",
+            "Edgeguard flowchart: D-air spike vs B-air vs Space Pirate Rush per recovery"
+        ]
+        }
+    ]
+    },
+    "King K. Rool": {
+    "difficulty": "Intermediate",
+    "overview": "Super armor mechanic on Belly makes him uniquely resilient. Crown throw and Blunderbuss give him strong zoning. Kills earlier than his weight class suggests.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Belly super armor (passive on belly hitbox) absorbs weak hits — use it to power through moves",
+            "Crown throw (neutral-B): throw your crown, it bounces back — catch it mid-air",
+            "Blunderbuss (side-B): fires and sucks opponents — mix up which direction you fire",
+            "Up-B (Propellerpack) for recovery — slow but travels far",
+            "F-smash has huge range and kill power — your primary kill move"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Crown throw to force approaches while threatening grab",
+            "D-throw into Up-air juggle at low percent",
+            "Blunderbuss suck into grab for a conditioning mix-up",
+            "Up-smash anti-air with super armor frames on belly",
+            "Kannonball (down-B) for stage control and ledge trapping"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Crown throw → catch → rethrow for relentless pressure",
+            "D-throw → Up-air → Up-smash kill chain",
+            "Blunderbuss suck → spit into F-smash as a combo",
+            "Belly armor to absorb a hit then immediately counterattack",
+            "Kannonball at ledge height to cover recovery"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Crown management: always have it in flight or in hand — never waste it",
+            "Full punish flowchart off every throw at every percent",
+            "Belly armor reads: know which moves trigger it and counterattack immediately",
+            "Ledge trap with Kannonball, grab, and F-smash covering all options",
+            "Blunderbuss mix-up schedule: alternate suck and fire to condition responses"
+        ]
+        }
+    ]
+    },
+    "Banjo & Kazooie": {
+    "difficulty": "Intermediate",
+    "overview": "Egg zoning combined with strong aerials and Wonderwing armor. Grenade Egg is the key tool for ledge trapping and forcing approaches.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Egg Fire (neutral-B): lobs eggs in an arc — use to zone and force approaches",
+            "Wonderwing (side-B): super armor move that deals massive damage — only 5 feathers per stock",
+            "Breegull Blaster (held neutral-B): fires rapid eggs for pressure",
+            "F-air is your best aerial — good range and fast",
+            "Egg Throw (up-B) for recovery — angles egg for coverage"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Egg Fire to force approaches then punish with grab or F-air",
+            "Wonderwing as a hard punish on obvious moves — conserve feathers",
+            "Rear Egg (down-B) placed behind you as a trap",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Grenade Egg (down-B) placed at ledge for near-guaranteed ledge trap",
+            "Wonderwing as a burst punish on predictable moves — time feather use carefully",
+            "Egg Fire arc control to cover every approach angle",
+            "Edgeguard with Grenade Egg at ledge height"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full feather management: never waste Wonderwing, always save for key moments",
+            "Grenade Egg ledge trap setup on every opponent ledge situation",
+            "Egg Fire schedule: always have an egg arcing to threaten approach",
+            "Ledge trap with Grenade Egg, grab, and Wonderwing covering all options",
+            "Full punish flowchart off every throw at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Terry": {
+    "difficulty": "Advanced",
+    "overview": "Fighting game character with special move inputs. Power Wave, Burning Knuckle, and Go! mechanics reward execution. JUST DEFEND is a frame-perfect counter mechanic.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Terry has special move inputs — learn Power Wave (down, forward+B) and Crack Shoot (down, back+B)",
+            "Burning Knuckle (forward, forward+B or B): fast horizontal move for approach",
+            "Power Dunk (forward, down, down-forward+A): combo ender that spikes",
+            "N-air is your fastest aerial and best landing option",
+            "Buster Wolf and Power Geyser unlock when at 100%+ — learn the inputs"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Power Wave for ground-level zoning and approach control",
+            "Burning Knuckle into grab as a conditioning sequence",
+            "Buster Wolf (forward, forward+B at 100%+): full-screen kill move",
+            "Power Geyser (down, back, down-forward+B at 100%+): massive burst damage"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Power Dunk kill chain at mid percent",
+            "Crack Shoot for covering aerial approaches and comboing",
+            "Buster Wolf as a punish on any whiffed move at 100%+",
+            "JUST DEFEND (frame-perfect shield): triggers on perfect timing, use to punish",
+            "Burning Knuckle mix-ups: standard vs feint version to bait responses"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full special input flowchart — all six special inputs on demand, no misfires",
+            "Consistent Buster Wolf and Power Geyser confirms at 100%+",
+            "JUST DEFEND on the opponent's most common move for free punishes",
+            "Ledge trap with Power Wave, grab, and Burning Knuckle coverage",
+            "Full punish flowchart off every throw at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Bowser": {
+    "difficulty": "Beginner",
+    "overview": "Heaviest character in the game with massive damage output. Bowser Bomb and Flying Slam are brutal punish tools. Survives to absurd percents but slow.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Flying Slam (side-B) grabs and slams — damages both players but kills earlier",
+            "Bowser Bomb (down-B) in air for a powerful spike and stage control",
+            "Fire Breath (neutral-B) for close-range damage and shield pressure",
+            "F-air and B-air for aerial spacing — slow but massive hitboxes",
+            "Up-smash is a strong anti-air kill move"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Flying Slam near the ledge for early kills",
+            "Bowser Bomb as a ledge trap — massive hitbox covers most options",
+            "B-air for edgeguarding — strong and far-reaching",
+            "Up-tilt anti-air into Up-smash kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-smash kill chain",
+            "Flying Slam walk to ledge then release for maximum damage",
+            "Bowser Bomb OOS on predictable aerial approaches",
+            "Fire Breath to lock opponents in shield then grab",
+            "Edgeguard with B-air or Bowser Bomb spike below ledge"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Bowser's damage output means one grab can take 40%",
+            "Flying Slam positioning: always walk toward ledge before releasing",
+            "Bowser Bomb ledge trap covering every ledge option simultaneously",
+            "Neutral game: Fire Breath → dash-in grab as a conditioning sequence",
+            "Edgeguard flowchart: Bowser Bomb spike vs B-air vs Flying Slam per recovery"
+        ]
+        }
+    ]
+    },
+    "Ice Climbers": {
+    "difficulty": "Advanced",
+    "overview": "Two characters moving together. Desync is the core technique — moving Nana and Popo independently doubles your threat. Chaingrabs are the win condition.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Keep Nana (the partner) alive — losing her cuts your power in half",
+            "Belay (up-B) for recovery — only works with both climbers",
+            "Blizzard (down-B) for close-range multi-hit pressure",
+            "Ice Shot (neutral-B) for projectile zoning",
+            "N-air and B-air for aerial approaches — both climbers hit simultaneously"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Wobble setup: grab → pummel → regrab cycle — highly effective at any percent",
+            "Ice Shot to force approaches while Nana threatens grab",
+            "Squall Hammer (side-B) for horizontal approach and combo tool",
+            "Protect Nana: always position so she isn't hit by stray moves"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Basic desync: input a move that sends Nana in a different direction than Popo",
+            "Desync Ice Shot: Popo shoots while Nana walks forward to threaten grab",
+            "Grab → D-throw → immediate regrab at low percent for extended combos",
+            "Blizzard desync: one climber Blizzards while other grabs",
+            "Edgeguard with double B-air — both climbers hitting simultaneously kills very early"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full desync flowchart: Popo and Nana operating independently in neutral",
+            "Chaingrab optimization: max percent conversion off a single grab",
+            "Desync Ice Shot → grab → chaingrab as a full punish sequence",
+            "Nana protection gameplan: never expose her to opposing kill moves",
+            "Ledge trap with desynced Ice Shot and Blizzard covering all options"
+        ]
+        }
+    ]
+    },
+    "Sheik": {
+    "difficulty": "Advanced",
+    "overview": "Fastest character in the game with an incredible combo game. Needle zoning and Bouncing Fish are her defining tools. Kills late but combos for huge damage.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Needle Storm (neutral-B): charge and throw needles — main neutral tool",
+            "Bouncing Fish (down-B): fast and powerful kill move at high percent",
+            "N-air is your fastest aerial — use it constantly for landing and approach",
+            "F-tilt for fast ground pokes and combo starters",
+            "Burst Grenade (side-B) for mix-up and approach coverage"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Needle → dash-in grab as a conditioning combo",
+            "D-throw into F-air or N-air string at low percent",
+            "Up-air juggle chains — Sheik's Up-air is fast and carries opponents far",
+            "Bouncing Fish kill confirm at high percent off the ledge",
+            "Vanish (up-B) recovery mix-ups — teleport angle changes every time"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → N-air → N-air → Up-air chain to 80%",
+            "Needle schedule: always have max needles charged before engaging",
+            "Bouncing Fish offstage as an edgeguard — fast and kills at lower percents",
+            "Vanish on-stage as a mix-up attack — hard to react to",
+            "F-tilt string into grab or Bouncing Fish at high percent"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full combo flowchart — Sheik has the longest damage chains at low percent",
+            "Needle management: always enter neutral with full charge",
+            "Bouncing Fish kill confirm off every setup at correct percent",
+            "Vanish mix-ups for both recovery and on-stage aggression",
+            "Ledge trap with Needles, grab, and Bouncing Fish covering all ledge options"
+        ]
+        }
+    ]
+    },
+    "Zelda": {
+    "difficulty": "Intermediate",
+    "overview": "Unique teleport game and powerful smash attacks. Phantom Slash and Din's Fire give her strong zoning. One of the best kill moves in the game with Lightning Kicks.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Lightning Kick (F-air and B-air sweetspot): kills very early — always aim for the sweetspot",
+            "Din's Fire (side-B): controllable projectile for zoning — aim it at landing spots",
+            "Phantom Slash (neutral-B): charges a knight that charges forward — use as a trap",
+            "Nayru's Love (neutral-B tap): reflector that also hits — use OOS",
+            "Farore's Wind (up-B): teleport recovery with mix-up potential"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Lightning Kick F-air as a kill confirm at high percent",
+            "Din's Fire to zone ledge and force specific recovery options",
+            "Phantom Slash charged while opponent is at ledge for near-guaranteed pressure",
+            "Up-smash as an anti-air and kill move"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Lightning Kick B-air kill chain",
+            "Phantom Slash released as opponent lands for guaranteed hit",
+            "Din's Fire trap at ledge height to cover recovery",
+            "Farore's Wind through opponents for mix-up and punish",
+            "Nayru's Love OOS on any move that touches your shield"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Lightning Kick flowchart — sweetspot every F-air and B-air consistently",
+            "Phantom Slash setup: charge at neutral, release at optimal moment",
+            "Din's Fire coverage map: know exact angles for every stage's ledge",
+            "Ledge trap with Phantom Slash, Din's Fire, and grab covering all options",
+            "Farore's Wind mix-ups: vary teleport destination to make recovery unpredictable"
+        ]
+        }
+    ]
+    },
+    "Dr. Mario": {
+    "difficulty": "Beginner",
+    "overview": "Slower Mario with stronger kill power. Trades combo game for earlier kills. Good for learning fundamentals with a more punishing playstyle.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Megavitamin (neutral-B) bounces at a different angle than Mario's Fireball — learn the arc",
+            "Super Sheet (side-B) reflects and gimps recoveries like Mario's Cape",
+            "Dr. Tornado (down-B) for recovery mix-ups and close-range pressure",
+            "N-air for landing and approach — same as Mario but slightly stronger",
+            "F-smash kills earlier than Mario's — use it to punish landings"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-smash at mid percent — kills earlier than Mario's version",
+            "D-throw into Up-air at low percent",
+            "Megavitamin to force approaches and control ground space",
+            "Short hop fast fall N-air for shield pressure",
+            "Up-tilt anti-air into Up-smash kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-tilt → Up-air → Up-smash kill chain",
+            "Super Sheet offstage to gimp recoveries — same as Mario Cape",
+            "Megavitamin edge-cancel off platforms for tricky angles",
+            "Dr. Tornado OOS as a combo starter on predictable aerials",
+            "Back-throw near ledge at kill percent — kills very early"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Dr. Mario's kills come 10-20% earlier than Mario's",
+            "Megavitamin schedule: always have one bouncing to restrict approach lanes",
+            "Ledge trap with F-smash, grab, and Back-throw coverage",
+            "Super Sheet gimp timing against every recovery in the game",
+            "Neutral: Megavitamin → dash-in grab as a core conditioning sequence"
+        ]
+        }
+    ]
+    },
+    "Mewtwo": {
+    "difficulty": "Intermediate",
+    "overview": "Powerful but extremely light. Shadow Ball and teleport give him strong zoning and mix-up potential. One of the best tail hitboxes in the game for combo extensions.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Shadow Ball (neutral-B): charge and fire — always have one charging in neutral",
+            "Teleport (up-B): recovery with mix-up potential — vary destination every time",
+            "Disable (down-B): stuns opponents in front of you — follow with F-smash",
+            "Confusion (side-B): reflects and reverses opponent — use on projectile users",
+            "D-air has a powerful tail spike — strong edgeguard tool"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Shadow Ball to force approaches then punish with grab",
+            "D-throw into Up-air juggle at low percent",
+            "Disable → F-smash as a guaranteed punish sequence",
+            "Teleport through opponents on stage as a mix-up",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Shadow Ball kill chain",
+            "Charged Shadow Ball as a ledge trap — fire when opponent commits",
+            "D-air tail spike offstage on predicted recovery",
+            "Teleport above opponent to bait airdodge then punish landing",
+            "Confusion to reverse opponent's position and set up combos"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Shadow Ball management: always have one charged entering neutral",
+            "Full punish flowchart — Mewtwo's tail extends combo range significantly",
+            "Teleport mix-ups for recovery and neutral positioning",
+            "D-air spike timing on every common recovery angle",
+            "Ledge trap with Shadow Ball, grab, and Disable covering all options"
+        ]
+        }
+    ]
+    },
+    "Falco": {
+    "difficulty": "Intermediate",
+    "overview": "Already covered in Batch 2.",
+    "path": []
+    },
+    "Mr. Game & Watch": {
+    "difficulty": "Intermediate",
+    "overview": "Unique moveset with judgment-based attacks. Bucket filling mechanic and Oil Panic make him dangerous against projectile users. Erratic movement is hard to read.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Judge (side-B): random number 1-9 — each has a different effect, learn all nine",
+            "Oil Panic (down-B): fills bucket with three projectile hits, then throws a massive blast",
+            "Fire (up-B): recovery with high vertical distance",
+            "N-air is huge — covers your entire body and starts combos",
+            "Chef (neutral-B): throws food items for zoning and poking"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "N-air into grab as a pressure sequence",
+            "Oil Panic against projectile-heavy characters — three absorbs then destroy",
+            "Up-smash anti-air kill confirm — fast and strong",
+            "B-air for edgeguarding — strong and disjointed"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "Judge 9 read: recognize when opponents are predictable and use Judge as a punish",
+            "Oil Panic full charge → throw as a kill confirm at any percent",
+            "N-air OOS as one of the fastest shield options in the game",
+            "Turtle (down-smash) as a two-frame ledge trap option"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Judge flowchart: know what each number does and capitalize on good rolls",
+            "Oil Panic gameplan vs projectile characters: absorb three shots, immediately punish",
+            "N-air string pressure on shield into grab or OOS punish bait",
+            "Ledge trap with Turtle, grab, and Up-smash covering all ledge options",
+            "Neutral with Chef to chip damage and force specific approach patterns"
+        ]
+        }
+    ]
+    },
+    "Meta Knight": {
+    "difficulty": "Intermediate",
+    "overview": "Five recoveries and fast multi-hit attacks. Extremely hard to gimp. Mach Tornado and Shuttle Loop are core tools. Strong edgeguarding despite small frame.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Mach Tornado (neutral-B): multi-hit spinning move — use for approach and combo",
+            "Shuttle Loop (up-B): one of five recovery options — fast gliding kill move",
+            "Drill Rush (side-B): multi-hit burst move for approach",
+            "N-air is fast and a great combo starter",
+            "F-air chains for carrying opponents across the stage"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Mach Tornado through opponents at ledge for kill confirms",
+            "Shuttle Loop OOS as a fast punish and kill move",
+            "F-air string across stage into ledge situation",
+            "Dimensional Cape (down-B) for mix-up and punish on predictable moves"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Shuttle Loop kill chain",
+            "Mach Tornado at ledge to cover all recovery options",
+            "Dimensional Cape teleport as a neutral mix-up",
+            "Edgeguard with Shuttle Loop glide to intercept recoveries below ledge",
+            "F-air string into Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Meta Knight's combos extend further than most characters",
+            "Mach Tornado timing at ledge to cover every recovery angle",
+            "Dimensional Cape reads on opponent's most predictable move",
+            "Recovery mix-ups: cycle through all five recovery options unpredictably",
+            "Ledge trap with Mach Tornado, grab, and Shuttle Loop covering all options"
+        ]
+        }
+    ]
+    },
+    "Pit": {
+    "difficulty": "Beginner",
+    "overview": "Well-rounded with strong recovery and multiple jumps. Palutena Arrow curves for tricky angles. Mirror Shield and Power of Flight give him great defensive options.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Palutena Arrow (neutral-B): curves up or down — aim at landing spots",
+            "Power of Flight (up-B): fast and covers huge distance for recovery",
+            "Guardian Orbitars (down-B): reflects projectiles and pushes opponents",
+            "F-air for aerial approach — fast with multi-hit coverage",
+            "B-air for spacing and edgeguarding — strong single hit"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Curved arrow to hit opponents behind platforms or at weird angles",
+            "Upperdash Arm (side-B) as a burst punish — invincible on startup",
+            "Up-smash kill confirm at high percent",
+            "Mirror Shield to reflect projectiles and punish zoners"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → B-air kill chain",
+            "Curved arrow to cover ledge options from full screen",
+            "Upperdash Arm as a hard read punish on telegraphed approaches",
+            "F-air string into Up-smash kill confirm",
+            "Edgeguard with curved arrow and B-air simultaneously"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full arrow curve control: know exact angles for every stage layout",
+            "Upperdash Arm reads on opponent's most common approach",
+            "Ledge trap with curved arrow, grab, and Up-smash covering all options",
+            "Power of Flight mix-ups: vary speed and angle to beat edgeguards",
+            "Full punish flowchart off every throw at every percent and DI"
+        ]
+        }
+    ]
+    },
+    "Dark Pit": {
+    "difficulty": "Beginner",
+    "overview": "Nearly identical to Pit with minor differences. Silver Bow fires straighter than Palutena Arrow. Electroshock Arm kills more reliably horizontally.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Silver Bow (neutral-B): fires straighter than Pit's arrow — easier to aim",
+            "Electroshock Arm (side-B): horizontal kill move unlike Pit's Upperdash — use near ledge",
+            "Power of Flight (up-B): same as Pit — great recovery distance",
+            "F-air for aerial approach and combo starter",
+            "B-air for spacing and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Silver Bow to zone and force approaches from full screen",
+            "Electroshock Arm near the ledge for horizontal kills",
+            "Up-smash kill confirm at high percent",
+            "Guardian Orbitars to reflect projectiles and punish zoners"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Electroshock Arm kill chain near ledge",
+            "Silver Bow to cover ledge options from full screen",
+            "Electroshock Arm as a burst punish on whiffed moves at mid range",
+            "F-air string into Up-smash or Electroshock kill confirm",
+            "Edgeguard with Silver Bow and B-air coverage"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Electroshock Arm positioning: always be at ledge-kill range when opponent is at percent",
+            "Silver Bow schedule: always firing to restrict approach options",
+            "Full punish flowchart off every throw — same as Pit but with horizontal kill confirm",
+            "Ledge trap with Silver Bow, grab, and Electroshock Arm covering all options",
+            "Power of Flight recovery mix-ups to beat every edgeguard setup"
+        ]
+        }
+    ]
+    },
+    "Wario": {
+    "difficulty": "Intermediate",
+    "overview": "Waft mechanic is the win condition — a fully charged Waft kills at 0%. Bike and aerial mobility make him unpredictable. Managing Waft charge time is the meta-game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Waft (down-B): charges over time — fully charged after ~1 min 40 sec, kills at 0%",
+            "Wario Bike (side-B): ride and throw for approach and mix-up",
+            "Corkscrew (up-B): multi-hit recovery with a kill sweetspot",
+            "N-air and B-air for aerial spacing — fast and strong",
+            "Chomp (neutral-B) for close-range damage and edge guarding"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Bike throw into grab or F-air as a conditioning sequence",
+            "Partial Waft (uncharged) as a burst punish — still strong even uncharged",
+            "Corkscrew OOS as a fast punish and kill move",
+            "F-air for approach and carrying opponents to ledge"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Waft kill chain when fully charged",
+            "Bike cancel into grab — drive toward opponent then cancel into grab",
+            "Waft management: know your charge time and avoid dying before using it",
+            "Corkscrew kill confirm at high percent OOS",
+            "Edgeguard with Chomp to eat opponents off the stage"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Waft management: always know your charge level, never die with full Waft",
+            "Waft confirm off every combo at kill percent when charged",
+            "Bike mix-ups: full ride vs cancel vs throw as three different threats",
+            "Ledge trap with Waft, grab, and Bike coverage",
+            "Stalling gameplan: play patient to charge Waft fully before engaging"
+        ]
+        }
+    ]
+    },
+    "Pokemon Trainer": {
+    "difficulty": "Advanced",
+    "overview": "Three characters in one — Squirtle, Ivysaur, and Charizard. Fatigue mechanic weakens each Pokemon over time, forcing swaps. Mastering all three is required.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Fatigue: each Pokemon weakens after extended use — swap with down-B regularly",
+            "Squirtle: fastest and best for combos — use at low percent",
+            "Ivysaur: mid-range tether grab and Razor Leaf zoning — use for neutral",
+            "Charizard: heavy hitter with Flare Blitz — use at kill percent",
+            "Pokemon Change (down-B): switch freely — learn when each is optimal"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Squirtle D-throw into Up-air juggle at low percent",
+            "Ivysaur Razor Leaf (neutral-B) for zoning and approach control",
+            "Charizard F-smash and Up-smash as kill confirms at high percent",
+            "Swap before fatigue kicks in — never let a Pokemon get fully fatigued",
+            "Ivysaur tether grab (side-B) for extended grab range"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Squirtle combo into swap → Charizard kill confirm as a sequence",
+            "Ivysaur Vine Whip (up-B) for recovery and stage spiking",
+            "Charizard Flare Blitz (side-B) as a burst punish — huge damage",
+            "Squirtle Withdraw (down-B) as a surprise approach and shield cancel",
+            "Fatigue management: strict rotation schedule to keep all three fresh"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full three-character flowchart: optimal swap timing at every percent",
+            "Squirtle combo → Ivysaur neutral → Charizard kill as a full stock sequence",
+            "Fatigue management: always swap before 66% fatigue threshold",
+            "Ledge trap with each Pokemon's best ledge coverage move",
+            "Edgeguard flowchart: Squirtle Water Gun push vs Ivysaur tether vs Charizard Flare Blitz"
+        ]
+        }
+    ]
+    },
+    "Lucas": {
+    "difficulty": "Intermediate",
+    "overview": "Similar to Ness but with a tether grab and stronger smash attacks. PK Freeze and Rope Snake add unique tools. B-reversal PK Fire is an advanced technique.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Rope Snake (grab in air): tether grab with long range — use for edge recovery and neutral",
+            "PK Freeze (neutral-B): freezes opponents — follow with F-smash",
+            "PK Fire (side-B): horizontal fire pillar — hits multiple times unlike Ness's",
+            "N-air is fast and combo-starting",
+            "PSI Magnet (down-B): absorbs projectiles and heals — use vs zoners"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "PK Freeze into F-smash as a guaranteed punish",
+            "Rope Snake tether to recover from far below the ledge",
+            "Up-smash kill confirm — one of the strongest Up-smashes in the game",
+            "B-air for edgeguarding — strong and kills early"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "B-reversal PK Fire: fire forward while drifting backward for tricky angles",
+            "PK Thunder (up-B) gimp: hit opponent with the orb off-stage",
+            "Rope Snake tether cancel on stage as a grab mix-up",
+            "F-smash kill confirm after PK Freeze at almost any percent"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Lucas's Up-smash kills earlier than Ness's",
+            "B-reversal PK Fire on demand for unpredictable neutral coverage",
+            "PK Thunder gimp timing on every common recovery",
+            "Ledge trap with PK Freeze, grab, and Up-smash covering all options",
+            "Rope Snake tether management: always know when you can snap to ledge"
+        ]
+        }
+    ]
+    },
+    "King Dedede": {
+    "difficulty": "Beginner",
+    "overview": "Heavy hitter with a Gordo throw gimmick and strong edgeguarding. Jet Hammer kills very early. Slow but survives extremely long and punishes hard.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Gordo Throw (side-B): bounces a spiked ball — aim at ledge and landing spots",
+            "Jet Hammer (up-B smash): fully charged kills at very low percent",
+            "Inhale (neutral-B): swallows opponents and spits them out — spits stars for damage",
+            "F-air and B-air for aerial spacing — large hitboxes",
+            "Up-tilt as anti-air and juggle starter"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Gordo at ledge to cover recovery and force specific options",
+            "B-air edgeguard — strong and kills early",
+            "Jet Hammer as a hard read punish on predictable moves",
+            "Gordo bounce off wall as a trick shot setup"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → B-air kill chain",
+            "Gordo + dash-in grab as a two-option pressure sequence",
+            "Jet Hammer kill confirm at high percent near ledge",
+            "Inhale offstage to swallow and spit opponents downward",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Gordo management: always have one active at ledge level",
+            "Gordo + grab two-option at every neutral interaction",
+            "Ledge trap with Gordo, grab, and Jet Hammer covering all options",
+            "Edgeguard flowchart: Gordo intercept vs B-air vs Inhale spit per recovery",
+            "Full punish flowchart — Dedede's throws lead to huge damage at all percents"
+        ]
+        }
+    ]
+    },
+    "Olimar": {
+    "difficulty": "Advanced",
+    "overview": "Pikmin-based zoner where every move uses a Pikmin with different properties. Managing Pikmin order is the entire meta-game. Extremely strong when mastered.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Pikmin types: Red (damage), Yellow (range), Blue (water/shield), Purple (weight), White (speed/poison)",
+            "Pluck (neutral-B): pull a new Pikmin — order matters, plan your queue",
+            "Pikmin Throw (side-B): throw a Pikmin that latches and deals damage",
+            "Pikmin Order (down-B): rearranges your Pikmin queue",
+            "Winged Pikmin (up-B): grab recovery that varies by Pikmin color"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Purple Pikmin throw for maximum latch damage",
+            "Pikmin queue management: always have Purple or Red at the front",
+            "F-smash with Purple Pikmin for massive kill power",
+            "Pikmin latch → grab as a conditioning sequence"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash Purple kill chain",
+            "Pikmin order optimization: plan 3-4 Pikmin ahead during neutral",
+            "White Pikmin throw for poison damage and approach pressure",
+            "Winged Pikmin recovery mix-ups based on Pikmin at back of queue",
+            "Yellow Pikmin throw for longest latch range on recovering opponents"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Pikmin queue flowchart: optimal order for every game situation",
+            "Purple Pikmin management: always have one ready for kill confirms",
+            "Neutral game: throw Pikmin while approaching to force two-option responses",
+            "Ledge trap with Pikmin throw, grab, and F-smash Purple covering all options",
+            "Edgeguard flowchart: Yellow latch vs Purple throw vs Winged per recovery type"
+        ]
+        }
+    ]
+    },
+    "Lucario": {
+    "difficulty": "Intermediate",
+    "overview": "Aura mechanic increases all damage and knockback as Lucario takes more damage. Intentionally playing at high percent makes him one of the strongest characters in the game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Aura: at 150%+ Lucario deals nearly double damage — play to survive to high percent",
+            "Aura Sphere (neutral-B): fully charged at high Aura is a one-hit kill",
+            "Force Palm (side-B): grabs at close range — use as a mix-up approach",
+            "Extreme Speed (up-B): fast recovery in any direction",
+            "Double Team (down-B): counter that sends opponents flying"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Aura Sphere charge at neutral — at high Aura it kills from anywhere",
+            "Force Palm as a close-range grab mix-up approach",
+            "Extreme Speed recovery: vary direction to avoid edgeguards",
+            "Up-smash kill confirm — stronger at high Aura"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Aura Sphere kill chain at high percent",
+            "Double Team counter as a read on predictable approaches",
+            "Aura Sphere management: always have one charging when safe",
+            "Extreme Speed through opponents on-stage as a mix-up",
+            "Force Palm grab into D-throw combo extension"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Aura management gameplan: intentionally absorb some hits to reach peak Aura",
+            "Full Aura Sphere flowchart: charge level determines when to fire vs continue charging",
+            "Double Team reads on opponent's most repeated move",
+            "Ledge trap with Aura Sphere, grab, and Extreme Speed coverage",
+            "Stock-ending sequence at 150%+: every move is a kill confirm"
+        ]
+        }
+    ]
+    },
+    "Toon Link": {
+    "difficulty": "Beginner",
+    "overview": "Faster and more combo-oriented than Link. Bombs and boomerang give strong zoning. Better aerial game than Link but shorter range. Great for learning projectile zoning.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Bomb (down-B): throw and detonate like Link — core combo tool",
+            "Boomerang (side-B): lower arc than Link's — aims differently, practice the angle",
+            "Arrow (neutral-B): fast and far-reaching for zoning",
+            "Z-air tether for approach and grab setups",
+            "F-air is faster than Link's — use it for approach and combos"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Bomb → detonate into dash-in grab",
+            "D-throw into Up-air juggle at low percent",
+            "Z-air into grab at mid range",
+            "Arrow → dash-in punish as a conditioning sequence",
+            "Up-B (Spin Attack) OOS for punishing aerial approaches"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Bomb catch into immediate throw for relentless pressure",
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Boomerang to cover landing while threatening bomb simultaneously",
+            "Edgeguard with bomb at ledge height detonated on recovery",
+            "Z-air spacing for consistent grab range in neutral"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full projectile schedule: bomb, arrow, and boomerang all active simultaneously",
+            "Bomb detonation timing to catch every airdodge and landing",
+            "Ledge trap with bomb detonation, arrow, and grab covering all options",
+            "Edgeguard flowchart: bomb detonation vs F-air vs Spin Attack per recovery",
+            "Z-air approach timing so it always lands at grab range"
+        ]
+        }
+    ]
+    },
+    "Villager": {
+    "difficulty": "Intermediate",
+    "overview": "Pocket mechanic absorbs and returns projectiles. Balloon Trip recovery is unique. Timber and Lloid Rocket create strong stage control. Patient zoner playstyle.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Pocket (neutral-B): absorb any projectile and throw it back for double damage",
+            "Lloid Rocket (side-B): launch a rocket that can be ridden or detonated",
+            "Balloon Trip (up-B): float back with balloons — slow but versatile",
+            "Timber (down-B): plant, water, and chop a tree — tree blocks and kills",
+            "F-smash (net swing) is fast and kill power is strong"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Pocket a strong projectile then save it for a kill confirm",
+            "Lloid Rocket to cover ledge options from full screen",
+            "Timber tree as a stage obstacle that forces approaches around it",
+            "B-air for edgeguarding — bowling ball drop kills very early"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash kill chain",
+            "Pocket a kill projectile then throw it back at kill percent",
+            "Lloid Rocket ride then jump off for a surprise mix-up",
+            "Timber chop as a ledge trap — tree falls on recovering opponents",
+            "Balloon Trip stall off-stage to bait edgeguarder then recover"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Pocket management: always have a strong projectile saved for kill confirm",
+            "Timber tree setup timing: plant early so it's ready at opponent's kill percent",
+            "Lloid Rocket + grab two-option at every neutral interaction",
+            "Ledge trap with Lloid, Timber chop, and grab covering all options",
+            "Balloon Trip mix-ups: vary angle and timing to make recovery unpredictable"
+        ]
+        }
+    ]
+    },
+    "Mega Man": {
+    "difficulty": "Intermediate",
+    "overview": "Pure zoner with the most diverse projectile toolkit in the game. Metal Blade is the best projectile in SSBU. Every special is a different weapon with unique properties.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Metal Blade (neutral-B): throw in 8 directions, pick it up again — your best tool",
+            "Crash Bomber (side-B): sticky bomb that transfers to opponent on contact",
+            "Rush Coil (up-B): recovery spring — can be used by opponent too, careful",
+            "Leaf Shield (down-B): spinning leaf shield that absorbs and throws projectiles",
+            "F-tilt (Mega Buster) for fast mid-range pokes"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "Metal Blade item throw into dash-in grab",
+            "D-throw into Up-air juggle at low percent",
+            "Crash Bomber onto opponent then hit them to transfer and detonate",
+            "Metal Blade at ledge height to cover recovery",
+            "Hard Knuckle (down-air) for a spike offstage"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Metal Blade → catch → immediate rethrow for constant pressure",
+            "D-throw → Up-air → Metal Blade throw kill chain",
+            "Crash Bomber → transfer → stand near opponent for double detonation",
+            "Leaf Shield throw after absorbing to reflect and add Leaf Shield hitbox",
+            "Edgeguard with Metal Blade angle to intercept recovery from below"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Metal Blade management: always have it in hand or flying toward a target",
+            "Eight-directional Metal Blade coverage: know every angle for every situation",
+            "Crash Bomber transfer setup on every approach the opponent makes",
+            "Ledge trap with Metal Blade, Crash Bomber, and grab covering all options",
+            "Full projectile schedule: Metal Blade + Crash Bomber + Leaf Shield simultaneously"
+        ]
+        }
+    ]
+    },
+    "Wii Fit Trainer": {
+    "difficulty": "Intermediate",
+    "overview": "Unique Sun Salutation charge mechanic and Header give her unusual zoning tools. Deep Breathing power-up is her comeback mechanic. Underrated at competitive level.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Sun Salutation (neutral-B): charge a health ball — fully charged heals and kills",
+            "Header (side-B): throw a soccer ball that bounces — aim at landing spots",
+            "Deep Breathing (down-B): power-up that boosts all stats temporarily",
+            "Super Hoop (up-B): recovery with hula hoops — multiple hits",
+            "N-air for landing and approach — fast and covers well"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Sun Salutation fully charged as a kill confirm from anywhere",
+            "Header bounce into dash-in grab as a conditioning sequence",
+            "Deep Breathing activation when safe — always have it active during punishes",
+            "Up-smash kill confirm — hits behind and in front"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Sun Salutation kill chain",
+            "Header at ledge height to cover recovery options",
+            "Deep Breathing → confirm a kill move as immediate follow-up",
+            "Super Hoop OOS as a multi-hit punish on predictable moves",
+            "F-smash kill confirm at high percent — strong with Deep Breathing active"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Sun Salutation management: always have one charging in neutral",
+            "Deep Breathing timing: activate between neutral interactions never mid-combo",
+            "Header bounce map: know every bounce angle on every stage",
+            "Ledge trap with Header, Sun Salutation, and grab covering all options",
+            "Full punish flowchart with Deep Breathing active — all moves kill earlier"
+        ]
+        }
+    ]
+    },
+    "Rosalina & Luma": {
+    "difficulty": "Advanced",
+    "overview": "Two-entity character where Luma acts independently. Gravitational Pull absorbs items. Luma is both a tool and a second fighter — protecting it is critical.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Luma acts independently — you control Rosalina while Luma mirrors or diverges",
+            "Star Bits (neutral-B): Luma shoots projectiles in front — use for zoning",
+            "Luma Shot (side-B): launch Luma forward for a burst attack then recall",
+            "Launch Star (up-B): recovery that sends you flying — mix up landing angle",
+            "Gravitational Pull (down-B): absorbs projectiles and items"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Luma Shot into Rosalina dash-in grab as a two-option sequence",
+            "Star Bits to chip damage and force specific approaches",
+            "Protect Luma: keep Luma alive, it doubles your hitbox coverage",
+            "Up-smash with both Rosalina and Luma hitting simultaneously for huge damage"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Luma Up-air → kill chain with dual hits",
+            "Luma desync: input moves that send Luma and Rosalina in different directions",
+            "Gravitational Pull to absorb a projectile then immediately counterattack",
+            "Launch Star recovery mix-ups: vary angle and speed each time",
+            "Edgeguard with Luma Shot to cover recovery while Rosalina stays safe"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Luma desync flowchart: Luma and Rosalina attacking independently in neutral",
+            "Luma protection gameplan: never expose Luma to opposing kill moves",
+            "Luma respawn timing: know when Luma returns and plan neutral around it",
+            "Ledge trap with Luma Shot, Star Bits, and grab covering all options",
+            "Full dual-hit punish flowchart — simultaneous hits from both deal enormous damage"
+        ]
+        }
+    ]
+    },
+    "Little Mac": {
+    "difficulty": "Beginner",
+    "overview": "Strongest ground game in the game — terrible in the air and off-stage. KO Punch is a one-hit kill. Never leave the ground if you can help it.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "KO Punch (neutral-B when meter full): one-hit kill — always build this meter",
+            "Stay grounded: Little Mac's aerials are weak, his smash attacks are devastating",
+            "Jolt Haymaker (side-B): fast horizontal burst move — use for approach",
+            "D-smash and F-smash are your primary kill moves — fast and powerful",
+            "Super Armor: many of Little Mac's smash attacks have super armor frames"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into F-smash at mid percent",
+            "Build KO Punch meter by landing hits — use it the moment it's ready",
+            "Jolt Haymaker through opponents as an approach and punish",
+            "U-smash anti-air — super armor lets it beat aerial approaches",
+            "Dash grab as a burst option to punish whiffed moves"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "KO Punch confirm off any opening — this ends stocks at any percent",
+            "D-tilt string into F-smash kill confirm at high percent",
+            "Super Armor smash attacks to power through approaches",
+            "Jolt Haymaker to cross up opponents and avoid being read",
+            "Stay near center stage — never go off the edge"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "KO Punch management: know exactly when meter fills and save it for kill confirm",
+            "Full ground game flowchart: D-tilt, dash grab, and F-smash covering every approach",
+            "Super Armor reads: identify which moves trigger armor and use them on cue",
+            "Stage control: never let opponents push you to ledge where recovery kills you",
+            "Jolt Haymaker mix-ups to keep opponents guessing your approach angle"
+        ]
+        }
+    ]
+    },
+    "Greninja": {
+    "difficulty": "Advanced",
+    "overview": "One of the fastest characters with a powerful substitute counter and water shuriken zoning. Requires precise spacing and mix-up knowledge to unlock full potential.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Water Shuriken (neutral-B): charge for larger size — larger hits further",
+            "Shadow Sneak (side-B): teleport attack — delay the activation to bait reactions",
+            "Hydro Pump (up-B): two-directional water jets for recovery — aim both carefully",
+            "Substitute (down-B): counter-teleport — evades and punishes simultaneously",
+            "F-air and N-air for aerial approaches — fast with good range"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Water Shuriken fully charged into dash-in grab",
+            "Shadow Sneak as a surprise punish on predictable moves",
+            "Substitute as a counter on the opponent's most common approach",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Shadow Sneak timing: delay activation to catch airdodges",
+            "Water Shuriken size management: small for fast poke, large for zoning",
+            "Substitute mix-up: sometimes evade, sometimes counter same input",
+            "Hydro Pump angle optimization for recovering from any position"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full combo flowchart off every throw at every percent",
+            "Shadow Sneak reads on the opponent's most predictable landing spot",
+            "Water Shuriken schedule: always have one charged for neutral interactions",
+            "Substitute vs Hydro Pump mix-up for recovery to beat all edgeguards",
+            "Ledge trap with Water Shuriken, Shadow Sneak, and grab covering all options"
+        ]
+        }
+    ]
+    },
+    "Mii Brawler": {
+    "difficulty": "Intermediate",
+    "overview": "Customizable moveset with four special options per slot. Shot Put and Suplex are the most commonly used. Fastest Mii with a strong combo game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Shot Put (neutral-B option 1): throw a heavy ball that bounces — great for zoning",
+            "Onslaught (side-B option 1): fast burst approach move",
+            "Soaring Axe Kick (up-B option 1): rising kick for recovery and anti-air",
+            "Helicopter Kick (down-B option 1): multi-hit kick that covers both sides",
+            "N-air is fast and starts combos — use constantly"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Shot Put into dash-in grab as a conditioning sequence",
+            "Onslaught through opponents as a punish and approach mix-up",
+            "Up-smash anti-air kill confirm",
+            "F-air for aerial approach and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "Shot Put bounce coverage for ledge trapping",
+            "Suplex (down-B option 3) as a close-range grab and throw mix-up",
+            "Onslaught confirm into juggle or kill move",
+            "Edgeguard with F-air or Helicopter Kick to cover recovery angles"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Choose your four specials before match based on opponent and optimize them",
+            "Full punish flowchart with your chosen moveset at every percent",
+            "Shot Put bounce map: know every angle on every stage",
+            "Ledge trap with Shot Put, grab, and Up-smash covering all options",
+            "Moveset optimization: know which special combination beats your specific opponent"
+        ]
+        }
+    ]
+    },
+    "Mii Swordfighter": {
+    "difficulty": "Intermediate",
+    "overview": "Customizable sword character with projectile options. Gale Strike and Chakram give strong zoning. Sword slash combos are reliable and consistent.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Shuriken of Light (neutral-B option 1): fast sword projectile for zoning",
+            "Gale Strike (side-B option 2): sword slash that sends a wind hitbox",
+            "Skyward Slash Dash (up-B option 1): fast recovery slash",
+            "Blade Counter (down-B option 3): counter that deals high damage",
+            "F-air and B-air for aerial spacing — solid range and damage"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Shuriken into dash-in grab as conditioning",
+            "Gale Strike to push opponents offstage",
+            "Blade Counter on predictable laggy moves",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Shuriken + dash-in as a two-option pressure sequence",
+            "Chakram (neutral-B option 3) for horizontal coverage at multiple heights",
+            "Gale Strike into edgeguard position",
+            "Blade Counter reads on opponent's most predictable move"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Moveset optimization based on opponent character",
+            "Full punish flowchart with chosen specials at every percent",
+            "Chakram management: always have one active for neutral coverage",
+            "Ledge trap with Shuriken, Gale Strike, and grab covering all options",
+            "Blade Counter timing on every punishable move in opponent's kit"
+        ]
+        }
+    ]
+    },
+    "Mii Gunner": {
+    "difficulty": "Intermediate",
+    "overview": "Projectile-based Mii with the strongest zoning of the three. Charge Blast and Gunner Missile give layered threat coverage. Best at keeping opponents out.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Charge Blast (neutral-B option 1): charge a powerful shot — kill move when full",
+            "Gunner Missile (side-B option 1): fire a homing or straight missile",
+            "Lunar Launch (up-B option 1): fast recovery with some attack coverage",
+            "Bomb Drop (down-B option 1): place a bomb that explodes — trap tool",
+            "N-air for landing and quick punishes"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Charge Blast fully charged as a ledge trap kill confirm",
+            "Homing Missile + Straight Missile mix-up to cover different approach options",
+            "Bomb Drop at ledge to cover recovery",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Charge Blast kill chain",
+            "Layered zoning: Homing Missile + Charge Blast simultaneously",
+            "Bomb Drop at ledge height to intercept recoveries",
+            "Grenade Launch (side-B option 3) for close-range burst damage",
+            "Charge management: always have Charge Blast ready for kill confirms"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Moveset optimization: choose specials that best cover your opponent",
+            "Full zoning schedule: always have two projectiles active simultaneously",
+            "Charge Blast management: know when to spend vs continue charging",
+            "Ledge trap with Bomb Drop, Homing Missile, and Charge Blast coverage",
+            "Full punish flowchart with your chosen moveset at every percent"
+        ]
+        }
+    ]
+    },
+    "Pac-Man": {
+    "difficulty": "Intermediate",
+    "overview": "Bonus Fruit cycling gives him diverse projectile options. Hydrant and Cherry are the best fruits. Fire Hydrant stage control is his unique tool.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Bonus Fruit (neutral-B): cycle through fruits with different properties by holding B",
+            "Best fruits: Cherry (fast), Bell (stuns), Key (strongest kill) — know all eight",
+            "Fire Hydrant (down-B): place a hydrant that blocks and shoots water",
+            "Power Pellet (side-B): horizontal recovery with Pac-Man eating dots",
+            "N-air for landing and aerial approach"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Bell fruit into dash-in grab (Bell stuns) as a guaranteed punish",
+            "Hydrant placed at center stage as a stage obstacle",
+            "Key fruit throw at kill percent for a strong kill confirm",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Key throw kill chain",
+            "Hydrant hit with an attack to launch it as a projectile",
+            "Bell stun → F-smash as a guaranteed punish sequence",
+            "Fruit cycling mastery: always have the right fruit for the situation",
+            "Power Pellet recovery mix-ups: vary the dot path angle"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full fruit cycling flowchart: know which fruit is optimal for every situation",
+            "Hydrant management: place, hit, and reposition it as a dynamic stage tool",
+            "Bell stun confirms at every percent range",
+            "Ledge trap with fruit throw, Hydrant, and grab covering all options",
+            "Key fruit kill confirm timing at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Robin": {
+    "difficulty": "Intermediate",
+    "overview": "Tome and Levin Sword have limited uses before breaking. Thunder charge levels give different properties. Resource management is the unique skill of the character.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Levin Sword: strong electric sword — breaks after several uses, auto-repairs over time",
+            "Thunder (neutral-B): charge up four levels — Thoron at max is a kill move",
+            "Arcfire (side-B): places a fire pillar — hold for trap placement",
+            "Elwind (up-B): two gusts of wind for recovery — aim second gust for ledge",
+            "N-air for landing and approach"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Thoron (max Thunder charge) as a ledge trap and long-range kill confirm",
+            "Arcfire trap placement to force approaches around the pillar",
+            "Levin Sword management: use it for kill confirms, save it from breaking early",
+            "Up-smash Levin Sword anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Thoron kill chain",
+            "Arcfire → dash-in grab as a conditioning two-option",
+            "Levin Sword timing: know when it's repaired and immediately use it",
+            "Thoron through opponents as a stage control and punish tool",
+            "Elwind angle optimization for recovering from any position"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full resource management: Levin Sword and Tome charge always optimized",
+            "Thunder charge schedule: always have a charge ready for neutral interactions",
+            "Arcfire trap map: optimal placement on every stage layout",
+            "Ledge trap with Thoron, Arcfire, and grab covering all options",
+            "Levin Sword kill confirm off every opening at every percent"
+        ]
+        }
+    ]
+    },
+    "Duck Hunt": {
+    "difficulty": "Intermediate",
+    "overview": "Can target opponents with the can, clay pigeon, and gunman. Zoning game requires micromanaging three simultaneous projectiles. Strong at keeping opponents out.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Trick Shot (neutral-B): shoot the can up to three times for different trajectories",
+            "Clay Shooting (side-B): throw a clay pigeon that explodes when shot",
+            "Wild Gunman (down-B): summons a gunman who fires — protect him",
+            "Duck Jump (up-B): fast recovery with the duck launching you upward",
+            "B-air for spacing and edgeguarding — strong and reliable"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Can shot + dash-in grab as a two-option conditioning sequence",
+            "Clay pigeon detonation at ledge height to cover recovery",
+            "Wild Gunman placed at center stage as a neutral threat",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Can detonation kill chain",
+            "Can + Clay pigeon + Wild Gunman all active simultaneously",
+            "Clay pigeon detonation timing to catch airdodges",
+            "Gunman protection: keep him alive to deal passive damage",
+            "Edgeguard with Can shot at ledge to intercept recoveries"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full three-projectile management: Can, Clay, and Gunman always active",
+            "Can trajectory mastery: know all three bounce angles for every stage",
+            "Clay pigeon detonation reads on the opponent's most common landing spot",
+            "Ledge trap with Can, Clay, and Wild Gunman covering all ledge options",
+            "Full punish flowchart off every throw at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Ryu": {
+    "difficulty": "Advanced",
+    "overview": "Street Fighter character with input-based specials. Hadouken, Shoryuken, and Tatsumaki all have stronger versions with proper inputs. FOCUS Attack is the unique mechanic.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Hadouken (down, forward+B): input version is stronger than tapping B",
+            "Shoryuken (forward, down, down-forward+A): invincible kill move — learn the input",
+            "Tatsumaki (down, back+B): spinning kick — input version travels further",
+            "Focus Attack (down-B): armored move that crumples opponents",
+            "N-air for approach and combo starter"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Hadouken to force approaches and zone from full screen",
+            "Focus Attack crumple into F-smash as a guaranteed punish",
+            "Shoryuken OOS as one of the best out-of-shield options in the game",
+            "True Shoryuken (input version at close range): kills at very low percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → True Shoryuken kill chain",
+            "Focus Attack dash cancel (FADC): cancel Focus Attack into a dash for mix-ups",
+            "Tatsumaki offstage as an edgeguard — hits multiple times",
+            "Hadouken + dash-in as a two-option conditioning sequence",
+            "True Shoryuken confirm off any opening at kill percent"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "All special inputs on demand — no button-press versions, always full input",
+            "FADC mix-ups in neutral for approach and punish",
+            "True Shoryuken OOS consistently on every punishable move",
+            "Ledge trap with Hadouken, Focus Attack, and grab covering all options",
+            "Full punish flowchart — input Shoryuken off every opening at every percent"
+        ]
+        }
+    ]
+    },
+    "Ken": {
+    "difficulty": "Advanced",
+    "overview": "Similar to Ryu with a stronger emphasis on close-range pressure. Flurry Attack and different Shoryuken properties make him more offensive. Same input-based mechanic.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Same core input system as Ryu — learn Hadouken and Shoryuken inputs first",
+            "Ken's Shoryuken does multiple hits — different kill properties than Ryu's",
+            "Tatsumaki covers more distance than Ryu's — use for approach and cross-ups",
+            "Flurry Attack: Ken has a faster jab string for close-range pressure",
+            "N-air and F-air for aerial approach"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Shoryuken OOS as primary shield punish",
+            "Tatsumaki cross-up for mix-up and approach",
+            "Hadouken to zone then dash in on reaction",
+            "Focus Attack crumple into F-smash confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Shoryuken kill chain",
+            "Tatsumaki cross-up mix-up in neutral",
+            "Ken's multi-hit Shoryuken wall carry for damage",
+            "FADC cancel for approach mix-ups",
+            "Flurry jab pressure on shield into grab or Shoryuken"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "All special inputs on demand — same standard as Ryu",
+            "Cross-up Tatsumaki mix-up on demand in neutral",
+            "Shoryuken OOS consistently on every punishable aerial",
+            "Ledge trap with Hadouken, FADC mix-up, and grab coverage",
+            "Full punish flowchart — Ken's close-range damage is higher than Ryu's"
+        ]
+        }
+    ]
+    },
+    "Corrin": {
+    "difficulty": "Intermediate",
+    "overview": "Dragon Fang Shot is a unique semi-projectile. Long sword range with a pin mechanic on grabs and F-smash. Strong counter and good off-stage presence.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Dragon Fang Shot (neutral-B): fires a ball then a follow-up bite — two-hit sequence",
+            "Dragon Lunge (side-B): pin opponents to the wall — follow up with jump kick",
+            "Draconic Ascent (up-B): recovery with a spinning hitbox",
+            "Counter Surge (down-B): counters attacks with a water explosion",
+            "F-smash pins opponents briefly — follow up immediately"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Dragon Fang Shot ball into dash-in grab as conditioning",
+            "Dragon Lunge pin → jump → kick as a wall setup combo",
+            "Counter Surge on predictable laggy moves",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-air kill chain",
+            "Dragon Fang Shot + dash-in as a two-option at neutral",
+            "Dragon Lunge offstage for edgeguarding — pin to wall then drop",
+            "Counter Surge reads on opponent's most common approach",
+            "F-smash pin into Up-smash follow-up on grounded opponents"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Dragon Fang Shot timing to always hit at grab range",
+            "Dragon Lunge wall pin confirms at every percent",
+            "Counter Surge reads on the opponent's entire moveset",
+            "Ledge trap with Dragon Fang Shot, grab, and Up-smash coverage",
+            "Full punish flowchart off every throw at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Bayonetta": {
+    "difficulty": "Advanced",
+    "overview": "Witch Time counter and Bullet Climax zoning are her core tools. Aerial combos with Heel Slide and After Burner Kick are unique. High skill ceiling with huge combo damage.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Witch Time (down-B): counter that slows opponents — follow up immediately",
+            "Bullet Climax (neutral-B): machine gun fire for zoning and chip damage",
+            "Heel Slide (side-B): sliding kick that starts combos",
+            "Witch Twist (up-B): upward spinning recovery",
+            "N-air for landing and combo starter"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Witch Time confirm into F-smash or Up-smash for massive damage",
+            "Heel Slide into Up-B combo extension",
+            "Bullet Climax to zone and force specific approach patterns",
+            "After Burner Kick (down-B in air): a mid-air kick that changes direction"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "Witch Time → Heel Slide → Witch Twist → Up-air combo sequence",
+            "D-throw → Up-air → Witch Twist kill chain",
+            "Bullet Climax + dash-in grab as a two-option pressure sequence",
+            "After Burner Kick mix-ups for aerial approach and landing",
+            "Edgeguard with After Burner Kick to intercept recoveries"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Witch Time flowchart: slowed confirm at every percent for maximum damage",
+            "Aerial combo extension: Heel Slide → Witch Twist → After Burner → Up-air",
+            "Bullet Climax zoning schedule to always restrict approach angles",
+            "Ledge trap with Bullet Climax, grab, and Witch Time bait coverage",
+            "Witch Time reads on every move in opponent's punish kit"
+        ]
+        }
+    ]
+    },
+    "Incineroar": {
+    "difficulty": "Beginner",
+    "overview": "Wrestler with Alolan Whip and Cross Chop as power moves. Revenge mechanic boosts damage after absorbing hits. Slow but every grab leads to huge damage.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Alolan Whip (side-B): bounces opponents off ropes — timing determines strength",
+            "Cross Chop (up-B): armored recovery and powerful kill move",
+            "Darkest Lariat (neutral-B): spinning arms — invincible on startup",
+            "Revenge (down-B): absorb a hit to boost your next attack significantly",
+            "D-throw into a power move is your primary combo starter"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Alolan Whip at correct timing for maximum rope bounce damage",
+            "Revenge → F-smash as a guaranteed boosted kill confirm",
+            "Cross Chop as an on-stage burst punish with super armor",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Alolan Whip kill chain",
+            "Revenge timing on opponent's most predictable move then immediately punish",
+            "Cross Chop OOS on laggy aerials — armor absorbs the hit",
+            "Alolan Whip near ledge for stage-spike setups",
+            "Darkest Lariat OOS to punish approaches that aren't perfectly spaced"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Alolan Whip timing flowchart: know perfect, good, and miss timing for every percent",
+            "Revenge reads on opponent's most repeated move for consistent boost",
+            "Cross Chop armor timing to absorb and punish simultaneously",
+            "Ledge trap with Alolan Whip, grab, and Cross Chop covering all options",
+            "Full punish flowchart — Incineroar's grab game leads to the highest per-interaction damage"
+        ]
+        }
+    ]
+    },
+    "Piranha Plant": {
+    "difficulty": "Beginner",
+    "overview": "Unusual but effective zoner with Ptooie and Long-Stem Strike. Poison Breath traps opponents at close range. Deceptively strong at mid-level play.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Ptooie (neutral-B): bounces a spiked ball — hold to keep it in the air",
+            "Long-Stem Strike (side-B): extends neck for a long-range punch",
+            "Piranhacopter (up-B): helicopter recovery that hits multiple times",
+            "Poison Breath (down-B): sprays a poison cloud at close range",
+            "F-air and B-air for aerial spacing"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Ptooie bounce into dash-in grab as conditioning",
+            "Long-Stem Strike to hit opponents behind platforms or at distance",
+            "Poison Breath at ledge to cover recovery options",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → Up-smash kill chain",
+            "Ptooie held at head height to control an entire horizontal lane",
+            "Long-Stem Strike cross-up for mix-up approach",
+            "Poison Breath + dash-in grab as a two-option sequence",
+            "Piranhacopter OOS for multi-hit punish on predictable aerials"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Ptooie management: know all bounce trajectories for every stage",
+            "Long-Stem Strike spacing to always be at max range",
+            "Poison Breath timing to catch every ledge option simultaneously",
+            "Ledge trap with Ptooie, Poison Breath, and grab covering all options",
+            "Full punish flowchart off every throw at every percent and DI combination"
+        ]
+        }
+    ]
+    },
+    "Simon": {
+    "difficulty": "Intermediate",
+    "overview": "Whip zoner with Holy Water and Axe for layered projectile coverage. Cross boomerang returns for double coverage. Strong edgeguarding with whip range.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Whip (F-smash, F-tilt, grab): long-range tether attacks — space at max tip",
+            "Cross (neutral-B): boomerang that returns — covers both directions",
+            "Holy Water (side-B): places a fire pillar on the ground as a trap",
+            "Axe (up-B): thrown overhead arc — anti-air and recovery coverage",
+            "B-air for spacing and edgeguarding — strong and long-reaching"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Cross boomerang into dash-in grab as conditioning",
+            "Holy Water at ledge to trap recovery options",
+            "Axe throw for anti-air and covering opponents above you",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Cross boomerang kill chain",
+            "Cross + Holy Water simultaneously for layered zoning",
+            "Holy Water at ledge height to force specific recovery paths",
+            "Whip tether grab ledge recovery from extreme distances",
+            "Axe thrown offstage to intercept recoveries from above"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full three-projectile schedule: Cross, Holy Water, and Axe all active simultaneously",
+            "Cross boomerang return coverage: threat on the way out AND on the way back",
+            "Holy Water placement map: optimal spot on every stage layout",
+            "Ledge trap with Holy Water, Cross, and Axe covering all options",
+            "Whip tip spacing in neutral so every F-tilt and F-smash is safe on shield"
+        ]
+        }
+    ]
+    },
+    "Richter": {
+    "difficulty": "Intermediate",
+    "overview": "Functionally identical to Simon with minor aesthetic differences. Same whip zoning gameplan — choose based on preference.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Identical to Simon in all meaningful ways — whip tether is the foundation",
+            "Cross (neutral-B): boomerang return covers both directions",
+            "Holy Water (side-B): fire pillar trap at ledge",
+            "Axe (up-B): overhead arc for anti-air and recovery",
+            "B-air for spacing and edgeguarding"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Cross into dash-in grab as conditioning",
+            "Holy Water at ledge for recovery traps",
+            "Axe anti-air and offstage coverage",
+            "Up-smash kill confirm at high percent"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Cross kill chain",
+            "Cross + Holy Water simultaneously for layered zoning",
+            "Holy Water at ledge height to force specific recovery paths",
+            "Whip tether grab ledge recovery from extreme distances",
+            "Axe offstage to intercept recoveries coming from above"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full three-projectile schedule: Cross, Holy Water, and Axe all active simultaneously",
+            "Cross return coverage: threat both directions on every throw",
+            "Holy Water placement on every stage for maximum ledge coverage",
+            "Ledge trap with Holy Water, Cross, and Axe covering all options",
+            "Whip tip spacing so every F-tilt and F-smash is unpunishable on shield"
+        ]
+        }
+    ]
+    },
+    "Bowser Jr.": {
+    "difficulty": "Intermediate",
+    "overview": "Clown Car gives him a large hurtbox but also a powerful toolkit. Mechakoopa and Cannon are strong zoning tools. Unique mechanic where the car absorbs some hits.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Clown Cannon (neutral-B): charge and fire a cannonball — hold longer for more damage",
+            "Clown Kart Dash (side-B): ramming dash with a drill — hold for extended travel",
+            "Abandon Ship (up-B): eject from car and throw it — strong kill move",
+            "Mechakoopa (down-B): place a walking bomb that walks and explodes",
+            "N-air and F-air for aerial approach"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Mechakoopa into dash-in grab as a conditioning two-option",
+            "Clown Cannon at ledge height to cover recovery options",
+            "Abandon Ship as a kill confirm at high percent near ledge",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Abandon Ship kill chain",
+            "Mechakoopa + Clown Cannon simultaneously for layered zoning",
+            "Clown Kart Dash cancel into grab as an approach mix-up",
+            "Abandon Ship offstage as a powerful edgeguard",
+            "Mechakoopa at ledge to cover all recovery options"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Mechakoopa management: always have one walking at ledge level",
+            "Mechakoopa + grab two-option at every neutral interaction",
+            "Abandon Ship kill confirm off every setup at the correct percent",
+            "Ledge trap with Mechakoopa, Clown Cannon, and grab covering all options",
+            "Clown Kart Dash mix-up schedule: full drive vs cancel vs drill on three different timings"
+        ]
+        }
+    ]
+    },
+    "Isabelle": {
+    "difficulty": "Intermediate",
+    "overview": "Similar to Villager but with a tether grab and Fishing Rod as a unique tool. Balloon Trip recovery and Gyroid are her defining tools. Patient zoner playstyle.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Fishing Rod (side-B): long-range tether that grabs opponents and pulls them in",
+            "Pocket (neutral-B): absorb projectiles and throw them back for double damage",
+            "Balloon Trip (up-B): float back slowly — mix up timing and angle",
+            "Gyroid (down-B): rolling bomb that travels across the stage",
+            "F-smash for poking and kill confirms — faster than it looks"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Fishing Rod tether to grab opponents from across the stage",
+            "Gyroid + dash-in grab as a two-option conditioning sequence",
+            "Pocket a kill projectile then throw it back at kill percent",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-air → F-smash kill chain",
+            "Fishing Rod offstage to grab recovering opponents and drag them down",
+            "Gyroid at ledge height to intercept recovery",
+            "Pocket save for kill confirm at critical moment",
+            "Balloon Trip stall to bait edgeguarder then recover safely"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full Pocket management: always have a kill projectile saved",
+            "Fishing Rod offstage reads on every recovery type in the game",
+            "Gyroid + Fishing Rod two-option at every ledge situation",
+            "Ledge trap with Gyroid, Fishing Rod, and grab covering all options",
+            "Balloon Trip mix-ups: vary angle and timing to make recovery completely unpredictable"
+        ]
+        }
+    ]
+    },
+    "Hero": {
+    "difficulty": "Advanced",
+    "overview": "MP-based spell system with a random Command Selection menu. Fully charged Zap is a kill move. RNG management and MP conservation are the meta-game.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "MP is your resource — every spell costs MP, manage it carefully",
+            "Frizz (neutral-B): fireball charge — fully charged Kafrizz kills early",
+            "Command Selection (down-B): random menu of four spells — learn all options",
+            "Woosh (up-B): recovery — charged Swoosh goes further",
+            "Zap (side-B): charge for Zapple or Kazap for kill power"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Kafrizz fully charged as a kill confirm from anywhere",
+            "Command Selection: Whack/Thwack for instant kills, Oomph for damage boost, Hocus Pocus for chaos",
+            "MP management: never drop below 30 MP, always conserve for Kafrizz",
+            "Up-smash anti-air kill confirm"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Kafrizz kill chain",
+            "Oomph activation before punish sequences for boosted damage",
+            "Whack/Thwack read on predictable opponents — instant KO at any percent",
+            "Psyche Up → immediately punish for guaranteed critical hit damage",
+            "Bounce to reflect projectiles and punish zoners"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full MP flowchart: know cost of every spell and manage throughout the stock",
+            "Command Selection reads: know which four spells appeared and prioritize instantly",
+            "Kafrizz charge timing: know when to fully charge vs spend partial charge",
+            "Whack/Thwack reads on opponent's most predictable behavior",
+            "Oomph + Psyche Up sequencing for maximum burst damage windows"
+        ]
+        }
+    ]
+    },
+    "Banjo & Kazooie": {
+    "difficulty": "Intermediate",
+    "overview": "Already covered in Batch 4.",
+    "path": []
+    },
+    "Sora": {
+    "difficulty": "Intermediate",
+    "overview": "Three-hit aerial combo is unique in the game. Magic cycle gives him fire, thunder, and blizzard in sequence. Strong offstage presence and versatile recovery.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Aerial combo: N-air hits three times if you press A repeatedly in the air",
+            "Magic (neutral-B): cycles through Fire, Blizzard, and Thunder — each has unique properties",
+            "Sonic Blade (side-B): three-dash teleport for approach and recovery",
+            "Aerial Sweep (up-B): upward swing for recovery and anti-air",
+            "Counter/Reflect (down-B): counters melee and reflects projectiles"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Fire magic into dash-in grab as a conditioning sequence",
+            "Thunder magic anti-air to punish opponents above you",
+            "Blizzard magic to freeze and follow up immediately",
+            "Sonic Blade recovery mix-ups: vary the three dash directions"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → three-hit aerial combo into kill move",
+            "Magic cycle management: know which spell is next and plan neutral around it",
+            "Counter/Reflect reads on predictable moves and projectile spam",
+            "Sonic Blade through opponents as a mix-up and punish",
+            "Edgeguard with Fire or Thunder magic to cover recovery angles"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full magic cycle flowchart: always know your current spell and next two",
+            "Three-hit aerial combo confirms at every percent and DI combination",
+            "Sonic Blade mix-ups for both recovery and neutral pressure",
+            "Counter/Reflect reads on the opponent's entire moveset",
+            "Ledge trap with Magic, grab, and Aerial Sweep covering all ledge options"
+        ]
+        }
+    ]
+    },
+    "Ganondorf": {
+    "difficulty": "Beginner",
+    "overview": "Slowest character in the game but hits harder than almost anyone. Warlock Punch and Flame Choke are brutal. Every punish can end a stock. Pure read-based gameplay.",
+    "path": [
+        {
+        "stage": "Basics",
+        "skills": [
+            "Warlock Punch (neutral-B): fully charged kill move — only use as a hard read",
+            "Flame Choke (side-B): grabs and slams opponent — aerial version spikes offstage",
+            "Dark Dive (up-B): grab recovery that kills if it connects",
+            "Wizard's Foot (down-B): fast kick on ground, spike in air — edgeguard tool",
+            "F-air and B-air for aerial spacing — massive hitboxes"
+        ]
+        },
+        {
+        "stage": "Intermediate",
+        "skills": [
+            "D-throw into Up-air juggle at low percent",
+            "Flame Choke near ledge for early kills — aerial version spikes offstage",
+            "Wizard's Foot spike offstage on predicted recovery",
+            "Up-tilt anti-air into Up-smash kill confirm",
+            "B-air for edgeguarding — one of the strongest B-airs in the game"
+        ]
+        },
+        {
+        "stage": "Advanced",
+        "skills": [
+            "D-throw → Up-air → Up-smash kill chain at mid percent",
+            "Aerial Flame Choke offstage spike as an edgeguard read",
+            "Wizard's Foot spike timing on every common recovery",
+            "Dark Dive grab on-stage as a burst punish on predictable moves",
+            "Warlock Punch as a hard punish on obvious telegraphed moves"
+        ]
+        },
+        {
+        "stage": "Pro",
+        "skills": [
+            "Full punish flowchart — Ganondorf's every hit kills 20-30% earlier than most characters",
+            "Flame Choke positioning: always walk toward ledge before releasing",
+            "Wizard's Foot spike on every recovery angle — no free ledge snaps",
+            "Aerial Flame Choke reads on every off-stage recovery path",
+            "Neutral game: bait with dash dance then punish with Up-tilt or grab — patience is everything"
+        ]
+        }
+    ]
+    }
 }
