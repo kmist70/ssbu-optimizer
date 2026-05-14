@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import pandas as pd
+from PIL import Image
 
 # ── Load data ──────────────────────────────────────────────────────────────────
 with open("data/matchups.json") as f:
@@ -16,7 +17,7 @@ st.title("🎮 Super Smash Bros. Ultimate Optimizer")
 st.caption("Matchup data sourced from pro player matchup charts. Learning paths based on competitive guides.")
 
 # ── Tab layout ─────────────────────────────────────────────────────────────────
-tab1, tab2 = st.tabs(["⚔️ Matchup Analyzer", "📚 Learning Path"])
+tab1, tab2, tab3 = st.tabs(["⚔️ Matchup Analyzer", "📚 Learning Path", "🎖️ Tier List"])
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -154,3 +155,8 @@ with tab2:
 
     else:
         st.warning("No learning path data found for this character. Add them to characters.json.")
+        
+with tab3:
+    st.header("Official SSBU Tier List (4th Edition)")
+    img = Image.open("ssbu-tier-list.png")
+    st.image(img, caption="", width=1100)
