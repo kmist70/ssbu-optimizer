@@ -70,15 +70,18 @@ with tab1:
 
     # ── Character portrait ─────────────────────────────────────────────────────
     import os
-    portrait_path = f"assets/portraits/{selected}.png"
-    fallback_path = f"assets/portraits/{selected}.jpg"
+    portrait_path = f"media/character-portraits/{selected}.png"
+    fallback_path = f"media/character-portraits/{selected}.jpg"
+    pyra_path = f"media/character-portraits/Pyra.png"
 
     port_col, info_col = st.columns([1, 4])
     with port_col:
-        if os.path.exists(portrait_path):
-            st.image(portrait_path, width=120)
+        if os.path.exists(pyra_path) and selected is "Pyra/Mythra":
+            st.image(pyra_path, width=250)
+        elif os.path.exists(portrait_path):
+            st.image(portrait_path, width=250)
         elif os.path.exists(fallback_path):
-            st.image(fallback_path, width=120)
+            st.image(fallback_path, width=250)
         else:
             st.markdown("🎮")  # fallback if no image
 
