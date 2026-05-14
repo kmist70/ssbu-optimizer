@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import json
 import pandas as pd
@@ -58,114 +59,108 @@ with tab1:
 
     if not filtered_characters:
         st.warning("No characters match the selected filters. Try removing a filter.")
-        st.stop()
-
-    # ── Character select ───────────────────────────────────────────────────────
-    char_options = ["-"] + filtered_characters
-    selected = st.selectbox("Select your character:", char_options, key="matchup_char")
+        selected = "-"
+    else:
+        char_options = ["-"] + filtered_characters
+        selected = st.selectbox("Select your character:", char_options, key="matchup_char")
 
     if selected == "-":
         st.info("Select a character above to view their matchup data.")
-        st.stop()
-
-    # ── Character portrait ─────────────────────────────────────────────────────
-    import os
-    portrait_path = f"media/character-portraits/{selected}.png"
-    fallback_path = f"media/character-portraits/{selected}.jpg"
-    pyra_path = f"media/character-portraits/Pyra.png"
-
-    port_col, info_col = st.columns([1, 4])
-    with port_col:
-        if os.path.exists(pyra_path) and selected is "Pyra/Mythra":
-            st.image(pyra_path, width=250)
-        elif os.path.exists(portrait_path):
-            st.image(portrait_path, width=250)
-        elif os.path.exists(fallback_path):
-            st.image(fallback_path, width=250)
-        else:
-            st.markdown("🎮")  # fallback if no image
-
-    with info_col:
-        info = char_data.get(selected, {})
-        st.markdown(f"### {selected}")
-        if info.get("difficulty"):
-            st.markdown(f"**Difficulty:** `{info['difficulty']}`")
-        if info.get("tier"):
-            st.markdown(f"**Tier:** `{info['tier']}`")
-        if info.get("playstyle"):
-            st.markdown(f"**Playstyle:** `{info['playstyle']}`")
-        if info.get("overview"):
-            st.caption(info["overview"])
-
-    st.divider()
-
-    # ── Matchup data ───────────────────────────────────────────────────────────
-    data = matchups[selected]
-    df = pd.DataFrame(list(data.items()), columns=["Opponent", "Score"])
-
-    def label(score):
-        if score >= 0.6:
-            return "✅ Advantage"
-        elif score <= 0.4:
-            return "❌ Disadvantage"
-        else:
-            return "➖ Even"
-
-    df["Result"] = df["Score"].apply(label)
-    df = df.sort_values("Score", ascending=False)
-
-    adv  = len(df[df["Score"] >= 0.6])
-    even = len(df[(df["Score"] > 0.4) & (df["Score"] < 0.6)])
-    dis  = len(df[df["Score"] <= 0.4])
-
-    m1, m2, m3 = st.columns(3)
-    m1.metric("✅ Advantages", adv)
-    m2.metric("➖ Even", even)
-    m3.metric("❌ Disadvantages", dis)
-
-    st.divider()
-
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.subheader("✅ Advantages")
-        adv_df = df[df["Score"] >= 0.6][["Opponent", "Score"]].reset_index(drop=True)
-        if adv_df.empty:
-            st.info("No advantages in this dataset.")
-        else:
-            st.dataframe(adv_df, use_container_width=True, hide_index=True)
-
-    with col2:
-        st.subheader("➖ Even")
-        even_df = df[(df["Score"] > 0.4) & (df["Score"] < 0.6)][["Opponent", "Score"]].reset_index(drop=True)
-        if even_df.empty:
-            st.info("No even matchups in this dataset.")
-        else:
-            st.dataframe(even_df, use_container_width=True, hide_index=True)
-
-    with col3:
-        st.subheader("❌ Disadvantages")
-        dis_df = df[df["Score"] <= 0.4][["Opponent", "Score"]].reset_index(drop=True)
-        if dis_df.empty:
-            st.info("No disadvantages in this dataset.")
-        else:
-            st.dataframe(dis_df, use_container_width=True, hide_index=True)
-
-    st.divider()
-
-    st.subheader(f"{selected}'s Full Matchup Chart")
-    chart_df = df.set_index("Opponent")[["Score"]]
-    st.bar_chart(chart_df)
-
-    st.divider()
-    st.subheader("🔍 Head-to-Head")
-    opponent = st.selectbox("Pick an opponent to check:", [c for c in characters if c != selected], key="h2h")
-    if opponent and opponent in data:
-        score = data[opponent]
-        result = label(score)
-        st.markdown(f"**{selected}** vs **{opponent}**: Score `{score}` → {result}")
     else:
-        st.info("Matchup data for this pairing not available yet.")
+        # ── Character portrait ─────────────────────────────────────────────────
+        portrait_path = f"media/character-portraits/{selected}.png"
+        fallback_path = f"media/character-portraits/{selected}.jpg"
+
+        port_col, info_col = st.columns([1, 4])
+        with port_col:
+            if os.path.exists(portrait_path):
+                st.image(portrait_path, width=250)
+            elif os.path.exists(fallback_path):
+                st.image(fallback_path, width=250)
+            else:
+                st.markdown("🎮")
+
+        with info_col:
+            info = char_data.get(selected, {})
+            st.markdown(f"### {selected}")
+            if info.get("difficulty"):
+                st.markdown(f"**Difficulty:** `{info['difficulty']}`")
+            if info.get("tier"):
+                st.markdown(f"**Tier:** `{info['tier']}`")
+            if info.get("playstyle"):
+                st.markdown(f"**Playstyle:** `{info['playstyle']}`")
+            if info.get("overview"):
+                st.caption(info["overview"])
+
+        st.divider()
+
+        # ── Matchup data ───────────────────────────────────────────────────────
+        data = matchups[selected]
+        df = pd.DataFrame(list(data.items()), columns=["Opponent", "Score"])
+
+        def label(score):
+            if score >= 0.6:
+                return "✅ Advantage"
+            elif score <= 0.4:
+                return "❌ Disadvantage"
+            else:
+                return "➖ Even"
+
+        df["Result"] = df["Score"].apply(label)
+        df = df.sort_values("Score", ascending=False)
+
+        adv  = len(df[df["Score"] >= 0.6])
+        even = len(df[(df["Score"] > 0.4) & (df["Score"] < 0.6)])
+        dis  = len(df[df["Score"] <= 0.4])
+
+        m1, m2, m3 = st.columns(3)
+        m1.metric("✅ Advantages", adv)
+        m2.metric("➖ Even", even)
+        m3.metric("❌ Disadvantages", dis)
+
+        st.divider()
+
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.subheader("✅ Advantages")
+            adv_df = df[df["Score"] >= 0.6][["Opponent", "Score"]].reset_index(drop=True)
+            if adv_df.empty:
+                st.info("No advantages in this dataset.")
+            else:
+                st.dataframe(adv_df, use_container_width=True, hide_index=True)
+
+        with col2:
+            st.subheader("➖ Even")
+            even_df = df[(df["Score"] > 0.4) & (df["Score"] < 0.6)][["Opponent", "Score"]].reset_index(drop=True)
+            if even_df.empty:
+                st.info("No even matchups in this dataset.")
+            else:
+                st.dataframe(even_df, use_container_width=True, hide_index=True)
+
+        with col3:
+            st.subheader("❌ Disadvantages")
+            dis_df = df[df["Score"] <= 0.4][["Opponent", "Score"]].reset_index(drop=True)
+            if dis_df.empty:
+                st.info("No disadvantages in this dataset.")
+            else:
+                st.dataframe(dis_df, use_container_width=True, hide_index=True)
+
+        st.divider()
+
+        st.subheader(f"{selected}'s Full Matchup Chart")
+        chart_df = df.set_index("Opponent")[["Score"]]
+        st.bar_chart(chart_df)
+
+        st.divider()
+        st.subheader("🔍 Head-to-Head")
+        opponent = st.selectbox("Pick an opponent to check:", [c for c in characters if c != selected], key="h2h")
+        if opponent and opponent in data:
+            score = data[opponent]
+            result = label(score)
+            st.markdown(f"**{selected}** vs **{opponent}**: Score `{score}` → {result}")
+        else:
+            st.info("Matchup data for this pairing not available yet.")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -185,12 +180,10 @@ with tab2:
         st.markdown(f"**Overview:** {info['overview']}")
         st.divider()
 
-        # Track all skills for progress bar
         all_skills = [skill for stage in info["path"] for skill in stage["skills"]]
         total = len(all_skills)
         completed = []
 
-        # Render each stage
         for i, stage in enumerate(info["path"]):
             stage_label = f"Stage {i + 1}: {stage['stage']}"
             with st.expander(stage_label, expanded=(i == 0)):
@@ -200,7 +193,6 @@ with tab2:
                     if checked:
                         completed.append(skill)
 
-        # Progress bar
         st.divider()
         st.subheader("Your Progress")
         pct = len(completed) / total if total > 0 else 0
@@ -220,11 +212,11 @@ with tab2:
 
     else:
         st.warning("No learning path data found for this character. Add them to characters.json.")
-      
-    
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 3 — TIER LIST
-# ══════════════════════════════════════════════════════════════════════════════  
+# ══════════════════════════════════════════════════════════════════════════════
 with tab3:
     st.header("Official SSBU Tier List (4th Edition)")
     img = Image.open("media/ssbu-tier-list.png")
