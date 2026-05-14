@@ -2161,11 +2161,6 @@
         }
     ]
     },
-    "Falco": {
-    "difficulty": "Intermediate",
-    "overview": "Already covered in Batch 2.",
-    "path": []
-    },
     "Mr. Game & Watch": {
     "difficulty": "Intermediate",
     "overview": "Unique moveset with judgment-based attacks. Bucket filling mechanic and Oil Panic make him dangerous against projectile users. Erratic movement is hard to read.",
@@ -3729,11 +3724,6 @@
         ]
         }
     ]
-    },
-    "Banjo & Kazooie": {
-    "difficulty": "Intermediate",
-    "overview": "Already covered in Batch 4.",
-    "path": []
     },
     "Sora": {
     "difficulty": "Intermediate",

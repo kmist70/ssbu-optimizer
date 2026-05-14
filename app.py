@@ -155,7 +155,11 @@ with tab2:
 
     else:
         st.warning("No learning path data found for this character. Add them to characters.json.")
-        
+      
+    
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 3 — TIER LIST
+# ══════════════════════════════════════════════════════════════════════════════  
 with tab3:
     st.header("Official SSBU Tier List (4th Edition)")
     img = Image.open("ssbu-tier-list.png")
