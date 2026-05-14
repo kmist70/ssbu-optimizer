@@ -70,6 +70,7 @@ with tab1:
         # ── Character portrait ─────────────────────────────────────────────────
         portrait_path = f"media/character-portraits/{selected}.png"
         fallback_path = f"media/character-portraits/{selected}.jpg"
+        pyra_path = f"media/character-portraits/Pyra.png"
 
         port_col, info_col = st.columns([1, 4])
         with port_col:
@@ -77,6 +78,8 @@ with tab1:
                 st.image(portrait_path, width=250)
             elif os.path.exists(fallback_path):
                 st.image(fallback_path, width=250)
+            elif selected == "Pyra/Mythra" and os.path.exists(pyra_path):
+                st.image(pyra_path, width=250)
             else:
                 st.markdown("🎮")
 
