@@ -223,4 +223,4 @@ with tab2:
 with tab3:
     st.header("Official SSBU Tier List (4th Edition)")
     img = Image.open("media/ssbu-tier-list.png")
-    st.image(img, caption="", width=1100)
+    st.image(img, caption="Source: Ultrank (https://medium.com/@ultrankssb/the-fourth-ultrank-tier-list-2026-9c5f6964f7e3)", width=1100)
