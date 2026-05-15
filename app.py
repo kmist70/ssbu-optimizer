@@ -127,7 +127,7 @@ st.caption("Matchup data sourced from pro player matchup charts. Learning paths 
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster"])
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"])
 
 st.sidebar.divider()
 st.sidebar.markdown(
@@ -585,3 +585,80 @@ elif page == "👤 My Roster":
                     """, unsafe_allow_html=True)
             else:
                 st.info("No learning paths found for characters in your roster.")
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE 6 — MY PROGRESS
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "📈 My Progress":
+    st.header("My Progress")
+    st.markdown("Track your learning path progress across all characters.")
+
+    with st.container(border=True):
+        st.subheader("All Characters Progress")
+        
+        total_skills = 0
+        completed_skills = 0
+        
+        progress_data = []
+
+        for char, info in char_data.items():
+            if "path" in info:
+                char_skills = [skill for stage in info["path"] for skill in stage["skills"]]
+                char_total = len(char_skills)
+                char_completed = 0
+                
+                for stage in info["path"]:
+                    for skill in stage["skills"]:
+                        key = f"{char}_{stage['stage']}_{skill}"
+                        if key in st.session_state.progress:
+                            char_completed += 1
+                
+                total_skills += char_total
+                completed_skills += char_completed
+                
+                pct = char_completed / char_total if char_total > 0 else 0
+                status = st.session_state.roster.get(char, "-")
+                progress_data.append({
+                    "Character": char,
+                    "Status": status,
+                    "Skills Completed": f"{char_completed} / {char_total}",
+                    "Progress": int(pct * 100)
+                })
+        
+        if total_skills > 0:
+            overall_pct = completed_skills / total_skills
+            
+            if overall_pct == 1.0:
+                st.markdown(
+                    """<style>
+                        .stProgress > div > div > div > div {
+                            background-color: #28a745 !important;
+                        }
+                    </style>""",
+                    unsafe_allow_html=True,
+                )
+                
+            st.progress(overall_pct)
+            st.caption(f"Overall Progress: **{completed_skills} / {total_skills}** skills completed (**{int(overall_pct * 100)}%**)")
+            
+            df_prog = pd.DataFrame(progress_data)
+            df_prog["Status"] = pd.Categorical(df_prog["Status"], categories=["Maining", "Learning", "Want to Try", "-"], ordered=True)
+            df_prog = df_prog.sort_values(by=["Progress", "Character"], ascending=[False, True])
+            
+            st.divider()
+            for _, row in df_prog.iterrows():
+                color = "#28a745" if row["Progress"] == 100 else "var(--primary-color, #ff4b4b)"
+                st.markdown(f"""
+                    <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                        <div style="width: 160px; font-weight: 600;">{row['Character']}</div>
+                        <div style="width: 100px; color: gray; font-size: 0.85em;">{row['Status']}</div>
+                        <div style="width: 60px; text-align: right; margin-right: 15px; font-size: 0.85em; color: gray;">{row['Skills Completed']}</div>
+                        <div style="flex-grow: 1; background-color: rgba(128, 128, 128, 0.2); border-radius: 4px; height: 14px; overflow: hidden;">
+                            <div style="background-color: {color}; width: {row['Progress']}%; height: 100%;"></div>
+                        </div>
+                        <div style="width: 45px; text-align: right; font-size: 0.85em; margin-left: 10px; font-weight: 600;">{row['Progress']}%</div>
+                    </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.info("No learning paths found.")
