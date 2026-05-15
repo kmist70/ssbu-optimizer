@@ -17,6 +17,32 @@ st.markdown(
     <style>
         [data-testid="collapsedControl"] {display: none;}
         [data-testid="stSidebarCollapseButton"] {display: none;}
+            
+            /* Move sidebar content closer to the top and centered */
+            [data-testid="stSidebarUserContent"] {
+                padding-top: 1rem !important;
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+                overflow-y: hidden !important;
+            }
+            
+            /* Remove scrolling capability from the sidebar container */
+            [data-testid="stSidebar"] > div:first-child {
+                overflow-y: hidden !important;
+            }
+            
+            /* Make sidebar navigation tabs larger and full-width */
+            [data-testid="stSidebar"] [data-testid="stRadio"] label[data-baseweb="radio"] {
+                width: 100% !important;
+                padding: 12px 16px;
+                background-color: rgba(228, 128, 128, 0.2);
+                border-radius: 8px;
+                margin-bottom: 6px;
+                cursor: pointer;
+            }
+            [data-testid="stSidebar"] [data-testid="stRadio"] label[data-baseweb="radio"]:hover {
+                background-color: rgba(128, 128, 128, 0.2);
+            }
     </style>
     """,
     unsafe_allow_html=True,
@@ -127,8 +153,10 @@ st.caption("Matchup data sourced from pro player matchup charts. Learning paths 
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"])
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"], label_visibility="collapsed")
 
+# Add a spacer to push the "About this app" section to the bottom
+st.sidebar.markdown("<div style='min-height: 22vh;'></div>", unsafe_allow_html=True)
 st.sidebar.divider()
 st.sidebar.markdown(
     "**About this app:**\n\n"
@@ -293,8 +321,10 @@ if page == "⚔️ Matchup Analyzer":
 
         with st.container(border=True):
             st.subheader("🔍 Head-to-Head")
-            opponent = st.selectbox("Pick an opponent to check:", [c for c in characters if c != selected], key="h2h")
-            if opponent and opponent in data:
+            opponent = st.selectbox("Pick an opponent to check:", ["-"] + [c for c in characters if c != selected], key="h2h")
+            if opponent == "-":
+                st.info("Select an opponent to view the head-to-head matchup.")
+            elif opponent and opponent in data:
                 score = data[opponent]
                 badge = get_result_badge(score)
                 st.markdown(f"**{selected}** vs **{opponent}**: Score `{score}` → {badge}", unsafe_allow_html=True)
