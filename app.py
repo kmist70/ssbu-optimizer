@@ -23,6 +23,7 @@ st.markdown(
 
 # ── Progress Tracking ──────────────────────────────────────────────────────────
 PROGRESS_FILE = "data/progress.json"
+ROSTER_FILE = "data/roster.json"
 
 def load_progress():
     if os.path.exists(PROGRESS_FILE):
@@ -37,8 +38,24 @@ def save_progress():
     with open(PROGRESS_FILE, "w") as f:
         json.dump(st.session_state.progress, f)
 
+def load_roster():
+    if os.path.exists(ROSTER_FILE):
+        try:
+            with open(ROSTER_FILE, "r") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+def save_roster():
+    with open(ROSTER_FILE, "w") as f:
+        json.dump(st.session_state.roster, f)
+
 if "progress" not in st.session_state:
     st.session_state.progress = load_progress()
+
+if "roster" not in st.session_state:
+    st.session_state.roster = load_roster()
 
 def toggle_skill(key):
     if st.session_state[key]:
@@ -109,7 +126,7 @@ st.caption("Matchup data sourced from pro player matchup charts. Learning paths 
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List"])
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster"])
 
 st.sidebar.divider()
 st.sidebar.markdown(
@@ -394,3 +411,118 @@ elif page == "🎖️ Tier List":
     with st.container(border=True):
         img = Image.open("media/ssbu-tier-list.png")
         st.image(img, caption="Source: Ultrank (https://medium.com/@ultrankssb/the-fourth-ultrank-tier-list-2026-9c5f6964f7e3)", width=1210)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE 5 — MY ROSTER
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "👤 My Roster":
+    st.header("My Roster")
+    st.markdown("Manage the characters you play and track your aggregate progress.")
+
+    with st.container(border=True):
+        st.subheader("Manage Roster")
+        char_list = ["-"] + sorted(char_data.keys())
+        
+        col1, col2, col3, col4 = st.columns([3, 3, 2, 2])
+        with col1:
+            selected_char = st.selectbox("Select Character", char_list, key="roster_char")
+        with col2:
+            status_options = ["Maining", "Learning", "Want to Try"]
+            selected_status = st.selectbox("Status", status_options, key="roster_status")
+        with col3:
+            st.markdown("<br>", unsafe_allow_html=True) # padding
+            if st.button("Add / Update", use_container_width=True):
+                if selected_char != "-":
+                    st.session_state.roster[selected_char] = selected_status
+                    save_roster()
+                    st.success(f"Updated {selected_char}!", icon="✅")
+                else:
+                    st.error("Please select a character.")
+        with col4:
+            st.markdown("<br>", unsafe_allow_html=True) # padding
+            if st.button("Remove", use_container_width=True):
+                if selected_char != "-" and selected_char in st.session_state.roster:
+                    del st.session_state.roster[selected_char]
+                    save_roster()
+                    st.success(f"Removed {selected_char}!", icon="✅")
+                elif selected_char == "-":
+                    st.error("Please select a character.")
+                else:
+                    st.warning(f"{selected_char} is not in your roster.")
+
+    with st.container(border=True):
+        st.subheader("Current Roster")
+        if not st.session_state.roster:
+            st.info("Your roster is empty. Add characters above.")
+        else:
+            mains = [c for c, s in st.session_state.roster.items() if s == "Maining"]
+            learning = [c for c, s in st.session_state.roster.items() if s == "Learning"]
+            wtt = [c for c, s in st.session_state.roster.items() if s == "Want to Try"]
+            
+            rm1, rm2, rm3 = st.columns(3)
+            with rm1:
+                st.markdown("### 👑 Mains")
+                if mains:
+                    for c in mains:
+                        st.markdown(f"- {c}")
+                else:
+                    st.caption("None")
+            with rm2:
+                st.markdown("### 📈 Learning")
+                if learning:
+                    for c in learning:
+                        st.markdown(f"- {c}")
+                else:
+                    st.caption("None")
+            with rm3:
+                st.markdown("### 🤔 Want to Try")
+                if wtt:
+                    for c in wtt:
+                        st.markdown(f"- {c}")
+                else:
+                    st.caption("None")
+
+    with st.container(border=True):
+        st.subheader("Aggregate Roster Progress")
+        if not st.session_state.roster:
+             st.info("Add characters to your roster to see aggregate progress.")
+        else:
+            total_skills = 0
+            completed_skills = 0
+            
+            progress_data = []
+
+            for char, status in st.session_state.roster.items():
+                if char in char_data:
+                    char_skills = [skill for stage in char_data[char]["path"] for skill in stage["skills"]]
+                    char_total = len(char_skills)
+                    char_completed = 0
+                    
+                    for stage in char_data[char]["path"]:
+                        for skill in stage["skills"]:
+                            key = f"{char}_{stage['stage']}_{skill}"
+                            if key in st.session_state.progress:
+                                char_completed += 1
+                    
+                    total_skills += char_total
+                    completed_skills += char_completed
+                    
+                    pct = char_completed / char_total if char_total > 0 else 0
+                    progress_data.append({
+                        "Character": char,
+                        "Status": status,
+                        "Progress": f"{int(pct * 100)}% ({char_completed}/{char_total})"
+                    })
+            
+            if total_skills > 0:
+                overall_pct = completed_skills / total_skills
+                st.progress(overall_pct)
+                st.caption(f"Overall Progress: **{completed_skills} / {total_skills}** skills completed (**{int(overall_pct * 100)}%**)")
+                
+                df_prog = pd.DataFrame(progress_data)
+                df_prog["Status"] = pd.Categorical(df_prog["Status"], categories=["Maining", "Learning", "Want to Try"], ordered=True)
+                df_prog = df_prog.sort_values(by=["Status", "Character"])
+                st.table(df_prog.set_index("Character"))
+            else:
+                st.info("No learning paths found for characters in your roster.")
