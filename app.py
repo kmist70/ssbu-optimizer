@@ -4,6 +4,34 @@ import json
 import pandas as pd
 from PIL import Image
 
+# ── Progress Tracking ──────────────────────────────────────────────────────────
+PROGRESS_FILE = "data/progress.json"
+
+def load_progress():
+    if os.path.exists(PROGRESS_FILE):
+        try:
+            with open(PROGRESS_FILE, "r") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            return []
+    return []
+
+def save_progress():
+    with open(PROGRESS_FILE, "w") as f:
+        json.dump(st.session_state.progress, f)
+
+if "progress" not in st.session_state:
+    st.session_state.progress = load_progress()
+
+def toggle_skill(key):
+    if st.session_state[key]:
+        if key not in st.session_state.progress:
+            st.session_state.progress.append(key)
+    else:
+        if key in st.session_state.progress:
+            st.session_state.progress.remove(key)
+    save_progress()
+
 # ── Load data ──────────────────────────────────────────────────────────────────
 with open("data/matchups.json") as f:
     matchups = json.load(f)
@@ -192,7 +220,9 @@ with tab2:
             with st.expander(stage_label, expanded=(i == 0)):
                 for skill in stage["skills"]:
                     key = f"{char_pick}_{stage['stage']}_{skill}"
-                    checked = st.checkbox(skill, key=key)
+                    if key not in st.session_state:
+                        st.session_state[key] = key in st.session_state.progress
+                    checked = st.checkbox(skill, key=key, on_change=toggle_skill, args=(key,))
                     if checked:
                         completed.append(skill)
 
