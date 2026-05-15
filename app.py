@@ -4,6 +4,11 @@ import json
 import pandas as pd
 from PIL import Image
 
+# ── Page config ────────────────────────────────────────────────────────────────
+icon_path = os.path.join(os.path.dirname(__file__), "media", "ssbu-icon.png")
+favicon = Image.open(icon_path) if os.path.exists(icon_path) else "🎮"
+st.set_page_config(page_title="SSBU Optimizer", page_icon=favicon, layout="wide")
+
 # ── Progress Tracking ──────────────────────────────────────────────────────────
 PROGRESS_FILE = "data/progress.json"
 
@@ -39,10 +44,14 @@ with open("data/matchups.json") as f:
 with open("data/characters.json") as f:
     char_data = json.load(f)
 
-# ── Page config ────────────────────────────────────────────────────────────────
-st.set_page_config(page_title="SSBU Optimizer", page_icon="🎮", layout="wide")
-
-st.title("🎮 Super Smash Bros. Ultimate Optimizer")
+t_col1, t_col2 = st.columns([1, 14])
+with t_col1:
+    if isinstance(favicon, str):
+        st.title(favicon)
+    else:
+        st.image(favicon, width=160)
+with t_col2:
+    st.title("Super Smash Bros. Ultimate Optimizer")
 st.caption("Matchup data sourced from pro player matchup charts. Learning paths based on competitive guides.")
 
 # ── Tab layout ─────────────────────────────────────────────────────────────────
