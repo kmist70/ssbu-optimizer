@@ -109,7 +109,7 @@ st.caption("Matchup data sourced from pro player matchup charts. Learning paths 
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "🎖️ Tier List"])
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List"])
 
 st.sidebar.divider()
 st.sidebar.markdown(
@@ -343,7 +343,51 @@ elif page == "📚 Learning Path":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 3 — TIER LIST
+# PAGE 3 — OVERALL STATS
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "📊 Overall Stats":
+    st.header("Overall Character Stats")
+    st.markdown("A full roster overview showing every character's tier, difficulty, playstyle, and average matchup score.")
+
+    stats_data = []
+    for char, info in char_data.items():
+        avg_score = 0.0
+        if char in matchups and matchups[char]:
+            avg_score = sum(matchups[char].values()) / len(matchups[char])
+            
+        stats_data.append({
+            "Character": char,
+            "Tier": info.get("tier", "-"),
+            "Difficulty": info.get("difficulty", "-"),
+            "Playstyle": info.get("playstyle", "-"),
+            "Avg Matchup Score": round(avg_score, 3)
+        })
+        
+    df_stats = pd.DataFrame(stats_data)
+    
+    # Convert Tier and Difficulty to categorical types for correct logical sorting
+    tier_order = ["S", "A", "B", "C", "D", "E", "-"]
+    diff_order = ["Beginner", "Intermediate", "Advanced", "-"]
+    df_stats["Tier"] = pd.Categorical(df_stats["Tier"], categories=tier_order, ordered=True)
+    df_stats["Difficulty"] = pd.Categorical(df_stats["Difficulty"], categories=diff_order, ordered=True)
+    
+    # Add sorting controls
+    sort_col, order_col, _ = st.columns([1, 1, 2])
+    with sort_col:
+        sort_by = st.selectbox("Sort by:", ["Character", "Tier", "Difficulty", "Playstyle", "Avg Matchup Score"])
+    with order_col:
+        default_order = 1 if sort_by == "Avg Matchup Score" else 0
+        sort_order = st.radio("Order:", ["Ascending", "Descending"], index=default_order, horizontal=True)
+
+        
+    df_stats = df_stats.sort_values(by=sort_by, ascending=(sort_order == "Ascending"))
+
+    with st.container(border=True):
+        st.table(df_stats.set_index("Character"))
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE 4 — TIER LIST
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "🎖️ Tier List":
     st.header("Official SSBU Tier List (4th Edition)")
