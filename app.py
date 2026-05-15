@@ -96,14 +96,21 @@ with t_col2:
     st.title("Super Smash Bros. Ultimate Optimizer")
 st.caption("Matchup data sourced from pro player matchup charts. Learning paths based on competitive guides.")
 
-# ── Tab layout ─────────────────────────────────────────────────────────────────
-tab1, tab2, tab3 = st.tabs(["⚔️ Matchup Analyzer", "📚 Learning Path", "🎖️ Tier List"])
+# ── Sidebar Navigation ─────────────────────────────────────────────────────────
+st.sidebar.title("Navigation")
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "🎖️ Tier List"])
+
+st.sidebar.divider()
+st.sidebar.markdown(
+    "**About this app:**\n\n"
+    "A comprehensive tool for Super Smash Bros. Ultimate players to analyze character matchups and follow structured learning paths from beginner to pro."
+)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# TAB 1 — MATCHUP ANALYZER
+# PAGE 1 — MATCHUP ANALYZER
 # ══════════════════════════════════════════════════════════════════════════════
-with tab1:
+if page == "⚔️ Matchup Analyzer":
     st.header("Character Matchup Analyzer")
     st.markdown("Scores range from **0.0** (hard loss) to **1.0** (dominant win). **0.5 = even**.")
 
@@ -267,16 +274,18 @@ with tab1:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# TAB 2 — LEARNING PATH
+# PAGE 2 — LEARNING PATH
 # ══════════════════════════════════════════════════════════════════════════════
-with tab2:
+elif page == "📚 Learning Path":
     st.header("Character Learning Path")
     st.markdown("Structured skill progression from zero to competitive. Complete stages in order.")
 
-    char_list = sorted(char_data.keys())
+    char_list = ["-"] + sorted(char_data.keys())
     char_pick = st.selectbox("Choose a character:", char_list, key="learn_char")
 
-    if char_pick and char_pick in char_data:
+    if char_pick == "-":
+        st.info("Select a character above to view their learning path.")
+    elif char_pick in char_data:
         info = char_data[char_pick]
 
         badge = get_difficulty_badge(info['difficulty'])
@@ -306,24 +315,24 @@ with tab2:
         st.caption(f"{len(completed)} / {total} skills completed ({int(pct * 100)}%)")
 
         if pct == 1.0:
-            st.success("🏆 You've completed all stages. You're playing at a pro level with this character.")
+            st.success("You've completed all stages. You're playing at a pro level with this character.")
         elif pct >= 0.75:
-            st.info("💪 Almost there — you're in advanced territory.")
+            st.info("Almost there — you're in advanced territory.")
         elif pct >= 0.5:
-            st.info("📈 Good progress — pushing into advanced skills.")
+            st.info("Good progress — pushing into advanced skills.")
         elif pct >= 0.25:
-            st.info("🔧 Intermediate stage — keep building.")
+            st.info("Intermediate stage — keep building.")
         else:
-            st.info("🟢 Just getting started. Work through Stage 1 first.")
+            st.info("Just getting started. Work through Stage 1 first.")
 
     else:
         st.warning("No learning path data found for this character. Add them to characters.json.")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# TAB 3 — TIER LIST
+# PAGE 3 — TIER LIST
 # ══════════════════════════════════════════════════════════════════════════════
-with tab3:
+elif page == "🎖️ Tier List":
     st.header("Official SSBU Tier List (4th Edition)")
     img = Image.open("media/ssbu-tier-list.png")
     st.image(img, caption="Source: Ultrank (https://medium.com/@ultrankssb/the-fourth-ultrank-tier-list-2026-9c5f6964f7e3)", width=1100)
