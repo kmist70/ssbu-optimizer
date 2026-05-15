@@ -137,6 +137,14 @@ with tab1:
             else:
                 return "➖ Even"
 
+        def color_score(val):
+            if val >= 0.6:
+                return 'background-color: rgba(40, 167, 69, 0.2)'  # Green
+            elif val <= 0.4:
+                return 'background-color: rgba(220, 53, 69, 0.2)'  # Red
+            else:
+                return 'background-color: rgba(255, 193, 7, 0.2)'  # Yellow
+
         df["Result"] = df["Score"].apply(label)
         df = df.sort_values("Score", ascending=False)
 
@@ -145,9 +153,9 @@ with tab1:
         dis  = len(df[df["Score"] <= 0.4])
 
         m1, m2, m3 = st.columns(3)
-        m1.metric("✅ Advantages", adv)
-        m2.metric("➖ Even", even)
-        m3.metric("❌ Disadvantages", dis)
+        m1.metric("Advantages", adv)
+        m2.metric("Even", even)
+        m3.metric("Disadvantages", dis)
 
         st.divider()
 
@@ -159,7 +167,7 @@ with tab1:
             if adv_df.empty:
                 st.info("No advantages in this dataset.")
             else:
-                st.dataframe(adv_df, use_container_width=True, hide_index=True)
+                st.dataframe(adv_df.style.map(color_score, subset=["Score"]), use_container_width=True, hide_index=True)
 
         with col2:
             st.subheader("➖ Even")
@@ -167,7 +175,7 @@ with tab1:
             if even_df.empty:
                 st.info("No even matchups in this dataset.")
             else:
-                st.dataframe(even_df, use_container_width=True, hide_index=True)
+                st.dataframe(even_df.style.map(color_score, subset=["Score"]), use_container_width=True, hide_index=True)
 
         with col3:
             st.subheader("❌ Disadvantages")
@@ -175,13 +183,14 @@ with tab1:
             if dis_df.empty:
                 st.info("No disadvantages in this dataset.")
             else:
-                st.dataframe(dis_df, use_container_width=True, hide_index=True)
+                st.dataframe(dis_df.style.map(color_score, subset=["Score"]), use_container_width=True, hide_index=True)
 
         st.divider()
 
         st.subheader(f"{selected}'s Full Matchup Chart")
-        chart_df = df.set_index("Opponent")[["Score"]]
-        st.bar_chart(chart_df)
+        # Map scores to hex colors (Green for >=0.6, Red for <=0.4, Yellow for even)
+        df["Color"] = df["Score"].apply(lambda x: "#28a745" if x >= 0.6 else ("#dc3545" if x <= 0.4 else "#ffc107"))
+        st.bar_chart(df, x="Opponent", y="Score", color="Color")
 
         st.divider()
         st.subheader("🔍 Head-to-Head")
