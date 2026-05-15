@@ -2,6 +2,7 @@ import os
 import streamlit as st
 import json
 import pandas as pd
+import altair as alt
 from PIL import Image
 
 # ── Page config ────────────────────────────────────────────────────────────────
@@ -43,6 +44,47 @@ with open("data/matchups.json") as f:
 
 with open("data/characters.json") as f:
     char_data = json.load(f)
+
+def get_difficulty_badge(difficulty):
+    colors = {
+        "Beginner": "#28a745",      # Green
+        "Intermediate": "#dc3545",  # Red
+        "Advanced": "#6f42c1",      # Purple
+    }
+    bg_color = colors.get(difficulty, "#6c757d")
+    return f'<span style="background-color: {bg_color}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">{difficulty}</span>'
+
+def get_tier_badge(tier):
+    colors = {
+        "S": "#dc3545", # Red
+        "A": "#fd7e14", # Orange
+        "B": "#ffc107", # Yellow
+        "C": "#28a745", # Green
+        "D": "#007bff", # Blue
+        "E": "#6f42c1"  # Purple
+    }
+    bg_color = colors.get(tier, "#6c757d")
+    text_color = "black" if tier == "B" else "white" # Keeps yellow readable
+    return f'<span style="background-color: {bg_color}; color: {text_color}; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">{tier}</span>'
+
+def get_playstyle_badge(playstyle):
+    colors = {
+        "Rushdown": "#dc3545",  # Red
+        "Zoner": "#007bff",     # Blue
+        "Grappler": "#fd7e14",  # Orange
+        "Balanced": "#28a745"   # Green
+    }
+    bg_color = colors.get(playstyle, "#6c757d")
+    return f'<span style="background-color: {bg_color}; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">{playstyle}</span>'
+
+def get_result_badge(score):
+    if score >= 0.6:
+        bg_color, text_color, text = "#28a745", "white", "Advantage"
+    elif score <= 0.4:
+        bg_color, text_color, text = "#dc3545", "white", "Disadvantage"
+    else:
+        bg_color, text_color, text = "#ffc107", "black", "Even"
+    return f'<span style="background-color: {bg_color}; color: {text_color}; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">{text}</span>'
 
 t_col1, t_col2 = st.columns([1, 14])
 with t_col1:
@@ -124,11 +166,14 @@ with tab1:
             info = char_data.get(selected, {})
             st.markdown(f"### {selected}")
             if info.get("difficulty"):
-                st.markdown(f"**Difficulty:** `{info['difficulty']}`")
+                badge = get_difficulty_badge(info['difficulty'])
+                st.markdown(f"**Difficulty:** {badge}", unsafe_allow_html=True)
             if info.get("tier"):
-                st.markdown(f"**Tier:** `{info['tier']}`")
+                t_badge = get_tier_badge(info['tier'])
+                st.markdown(f"**Tier:** {t_badge}", unsafe_allow_html=True)
             if info.get("playstyle"):
-                st.markdown(f"**Playstyle:** `{info['playstyle']}`")
+                p_badge = get_playstyle_badge(info['playstyle'])
+                st.markdown(f"**Playstyle:** {p_badge}", unsafe_allow_html=True)
             if info.get("overview"):
                 st.caption(info["overview"])
 
@@ -140,11 +185,11 @@ with tab1:
 
         def label(score):
             if score >= 0.6:
-                return "✅ Advantage"
+                return "Advantage"
             elif score <= 0.4:
-                return "❌ Disadvantage"
+                return "Disadvantage"
             else:
-                return "➖ Even"
+                return "Even"
 
         def color_score(val):
             if val >= 0.6:
@@ -197,17 +242,26 @@ with tab1:
         st.divider()
 
         st.subheader(f"{selected}'s Full Matchup Chart")
-        # Map scores to hex colors (Green for >=0.6, Red for <=0.4, Yellow for even)
-        df["Color"] = df["Score"].apply(lambda x: "#28a745" if x >= 0.6 else ("#dc3545" if x <= 0.4 else "#ffc107"))
-        st.bar_chart(df, x="Opponent", y="Score", color="Color")
+        
+        color_scale = alt.Scale(
+            domain=["Advantage", "Even", "Disadvantage"],
+            range=["#28a745", "#ffc107", "#dc3545"]
+        )
+        chart = alt.Chart(df).mark_bar().encode(
+            x=alt.X("Opponent:N", sort="ascending"),
+            y=alt.Y("Score:Q"),
+            color=alt.Color("Result:N", scale=color_scale),
+            tooltip=["Opponent", "Score", "Result"]
+        )
+        st.altair_chart(chart, use_container_width=True)
 
         st.divider()
         st.subheader("🔍 Head-to-Head")
         opponent = st.selectbox("Pick an opponent to check:", [c for c in characters if c != selected], key="h2h")
         if opponent and opponent in data:
             score = data[opponent]
-            result = label(score)
-            st.markdown(f"**{selected}** vs **{opponent}**: Score `{score}` → {result}")
+            badge = get_result_badge(score)
+            st.markdown(f"**{selected}** vs **{opponent}**: Score `{score}` → {badge}", unsafe_allow_html=True)
         else:
             st.info("Matchup data for this pairing not available yet.")
 
@@ -225,7 +279,8 @@ with tab2:
     if char_pick and char_pick in char_data:
         info = char_data[char_pick]
 
-        st.markdown(f"**Difficulty:** `{info['difficulty']}`")
+        badge = get_difficulty_badge(info['difficulty'])
+        st.markdown(f"**Difficulty:** {badge}", unsafe_allow_html=True)
         st.markdown(f"**Overview:** {info['overview']}")
         st.divider()
 
