@@ -4,6 +4,7 @@ import json
 import pandas as pd
 import altair as alt
 from PIL import Image
+import plotly.graph_objects as go
 
 # ── Page config ────────────────────────────────────────────────────────────────
 icon_path = os.path.join(os.path.dirname(__file__), "media", "ssbu-icon.png")
@@ -308,23 +309,47 @@ elif page == "📚 Learning Path":
     st.header("Character Learning Path")
     st.markdown("Structured skill progression from zero to competitive. Complete stages in order.")
 
-    with st.container(border=True):
-        char_list = ["-"] + sorted(char_data.keys())
-        char_pick = st.selectbox("Choose a character:", char_list, key="learn_char")
+    char_list = ["-"] + sorted(char_data.keys())
+    
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        with st.container(border=True):
+            char_pick = st.selectbox("Choose a character:", char_list, key="learn_char")
 
     if char_pick == "-":
         st.info("Select a character above to view their learning path.")
     elif char_pick in char_data:
         info = char_data[char_pick]
+        
+        all_skills = [skill for stage in info["path"] for skill in stage["skills"]]
+        total = len(all_skills)
+        completed_count = sum(1 for stage in info["path"] for skill in stage["skills"] if f"{char_pick}_{stage['stage']}_{skill}" in st.session_state.progress)
+        pct = completed_count / total if total > 0 else 0
+
+        with col2:
+            completed_color = "#28a745" if pct == 1.0 else "#2d9dff"
+            fig = go.Figure(go.Pie(
+                values=[completed_count, total - completed_count],
+                labels=["Completed", "Remaining"],
+                hole=0.7,
+                textinfo="none",
+                marker=dict(colors=[completed_color, "rgba(128, 128, 128, 0.2)"])
+            ))
+            fig.update_layout(
+                showlegend=False,
+                margin=dict(l=10, r=10, t=10, b=10),
+                annotations=[dict(text=f"{int(pct * 100)}%", x=0.5, y=0.5, font_size=32, showarrow=False)],
+                height=220
+            )
+            st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
+
+        with col1:
+            with st.container(border=True):
+                badge = get_difficulty_badge(info['difficulty'])
+                st.markdown(f"**Difficulty:** {badge}", unsafe_allow_html=True)
+                st.markdown(f"**Overview:** {info['overview']}")
 
         with st.container(border=True):
-            badge = get_difficulty_badge(info['difficulty'])
-            st.markdown(f"**Difficulty:** {badge}", unsafe_allow_html=True)
-            st.markdown(f"**Overview:** {info['overview']}")
-
-        with st.container(border=True):
-            all_skills = [skill for stage in info["path"] for skill in stage["skills"]]
-            total = len(all_skills)
             completed = []
 
             for i, stage in enumerate(info["path"]):
@@ -340,7 +365,15 @@ elif page == "📚 Learning Path":
 
             st.divider()
             st.subheader("Your Progress")
-            pct = len(completed) / total if total > 0 else 0
+            if pct == 1.0:
+                st.markdown(
+                    """<style>
+                        .stProgress > div > div > div > div {
+                            background-color: #28a745 !important;
+                        }
+                    </style>""",
+                    unsafe_allow_html=True,
+                )
             st.progress(pct)
             st.caption(f"{len(completed)} / {total} skills completed ({int(pct * 100)}%)")
 
@@ -518,6 +551,17 @@ elif page == "👤 My Roster":
             
             if total_skills > 0:
                 overall_pct = completed_skills / total_skills
+                
+                if overall_pct == 1.0:
+                    st.markdown(
+                        """<style>
+                            .stProgress > div > div > div > div {
+                                background-color: #28a745 !important;
+                            }
+                        </style>""",
+                        unsafe_allow_html=True,
+                    )
+                    
                 st.progress(overall_pct)
                 st.caption(f"Overall Progress: **{completed_skills} / {total_skills}** skills completed (**{int(overall_pct * 100)}%**)")
                 
@@ -526,18 +570,18 @@ elif page == "👤 My Roster":
                 df_prog = df_prog.sort_values(by=["Status", "Character"])
                 
                 st.divider()
-                st.dataframe(
-                    df_prog[["Character", "Status", "Skills Completed", "Progress"]].set_index("Character"),
-                    column_config={
-                        "Progress": st.column_config.ProgressColumn(
-                            "Progress",
-                            help="Percentage of skills completed",
-                            format="%d%%",
-                            min_value=0,
-                            max_value=100,
-                        )
-                    },
-                    use_container_width=True
-                )
+                for _, row in df_prog.iterrows():
+                    color = "#28a745" if row["Progress"] == 100 else "var(--primary-color, #ff4b4b)"
+                    st.markdown(f"""
+                        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                            <div style="width: 160px; font-weight: 600;">{row['Character']}</div>
+                            <div style="width: 100px; color: gray; font-size: 0.85em;">{row['Status']}</div>
+                            <div style="width: 60px; text-align: right; margin-right: 15px; font-size: 0.85em; color: gray;">{row['Skills Completed']}</div>
+                            <div style="flex-grow: 1; background-color: rgba(128, 128, 128, 0.2); border-radius: 4px; height: 14px; overflow: hidden;">
+                                <div style="background-color: {color}; width: {row['Progress']}%; height: 100%;"></div>
+                            </div>
+                            <div style="width: 45px; text-align: right; font-size: 0.85em; margin-left: 10px; font-weight: 600;">{row['Progress']}%</div>
+                        </div>
+                    """, unsafe_allow_html=True)
             else:
                 st.info("No learning paths found for characters in your roster.")
