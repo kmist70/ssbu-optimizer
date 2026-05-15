@@ -512,7 +512,8 @@ elif page == "👤 My Roster":
                     progress_data.append({
                         "Character": char,
                         "Status": status,
-                        "Progress": f"{int(pct * 100)}% ({char_completed}/{char_total})"
+                        "Skills Completed": f"{char_completed} / {char_total}",
+                        "Progress": int(pct * 100)
                     })
             
             if total_skills > 0:
@@ -523,6 +524,20 @@ elif page == "👤 My Roster":
                 df_prog = pd.DataFrame(progress_data)
                 df_prog["Status"] = pd.Categorical(df_prog["Status"], categories=["Maining", "Learning", "Want to Try"], ordered=True)
                 df_prog = df_prog.sort_values(by=["Status", "Character"])
-                st.table(df_prog.set_index("Character"))
+                
+                st.divider()
+                st.dataframe(
+                    df_prog[["Character", "Status", "Skills Completed", "Progress"]].set_index("Character"),
+                    column_config={
+                        "Progress": st.column_config.ProgressColumn(
+                            "Progress",
+                            help="Percentage of skills completed",
+                            format="%d%%",
+                            min_value=0,
+                            max_value=100,
+                        )
+                    },
+                    use_container_width=True
+                )
             else:
                 st.info("No learning paths found for characters in your roster.")
