@@ -46,6 +46,21 @@ st.markdown(
             [data-testid="stSidebar"] [data-testid="stRadio"] label[data-baseweb="radio"]:hover {
                 background-color: rgba(128, 128, 128, 0.2);
             }
+            
+            /* Mobile Optimization */
+            @media (max-width: 767px) {
+                .app-title {
+                    font-size: 1.5rem !important;
+                    line-height: 1.2 !important;
+                }
+                .app-icon {
+                    width: 80px !important;
+                    font-size: 2.5rem !important; /* For the fallback emoji */
+                }
+                .title-container {
+                    gap: 10px !important;
+                }
+            }
     </style>
     """,
     unsafe_allow_html=True,
@@ -149,9 +164,9 @@ if os.path.exists(icon_path):
         icon_b64 = base64.b64encode(f.read()).decode()
     st.markdown(
         f"""
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <img src="data:image/png;base64,{icon_b64}" style="width: 160px; flex-shrink: 0;" />
-            <h1 style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
+        <div class="title-container" style="display: flex; align-items: center; gap: 15px;">
+            <img class="app-icon" src="data:image/png;base64,{icon_b64}" style="width: 160px; flex-shrink: 0;" />
+            <h1 class="app-title" style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
         </div>
         """,
         unsafe_allow_html=True
@@ -159,9 +174,9 @@ if os.path.exists(icon_path):
 else:
     st.markdown(
         """
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <h1 style="margin: 0;">🎮</h1>
-            <h1 style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
+        <div class="title-container" style="display: flex; align-items: center; gap: 15px;">
+            <h1 class="app-icon" style="margin: 0;">🎮</h1>
+            <h1 class="app-title" style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
         </div>
         """,
         unsafe_allow_html=True
