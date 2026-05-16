@@ -470,6 +470,67 @@ elif page == "🛡️ Counterpicker":
                             st.image(fallback_path, use_container_width=True)
                         elif cp['Character'] == "Pyra/Mythra" and os.path.exists(pyra_path):
                             st.image(pyra_path, use_container_width=True)
+                            
+                        opp_info = char_data.get(opponent_char, {})
+                        cp_info = char_data.get(cp['Character'], {})
+                        
+                        if "stats" in opp_info and "stats" in cp_info:
+                            opp_stats = opp_info["stats"]
+                            cp_stats = cp_info["stats"]
+                            categories = ['Speed', 'Kill Power', 'Range', 'Recovery', 'Difficulty']
+                            
+                            opp_values = [
+                                opp_stats.get('speed', 0),
+                                opp_stats.get('kill_power', 0),
+                                opp_stats.get('range', 0),
+                                opp_stats.get('recovery', 0),
+                                opp_stats.get('difficulty', 0)
+                            ]
+                            
+                            cp_values = [
+                                cp_stats.get('speed', 0),
+                                cp_stats.get('kill_power', 0),
+                                cp_stats.get('range', 0),
+                                cp_stats.get('recovery', 0),
+                                cp_stats.get('difficulty', 0)
+                            ]
+                            
+                            fig = go.Figure()
+                            
+                            fig.add_trace(go.Scatterpolar(
+                                r=opp_values,
+                                theta=categories,
+                                fill='toself',
+                                name=opponent_char,
+                                marker=dict(color="#dc3545"),
+                                line=dict(color="#dc3545")
+                            ))
+                            
+                            fig.add_trace(go.Scatterpolar(
+                                r=cp_values,
+                                theta=categories,
+                                fill='toself',
+                                name=cp['Character'],
+                                marker=dict(color="#28a745"),
+                                line=dict(color="#28a745")
+                            ))
+
+                            fig.update_layout(
+                                polar=dict(
+                                    radialaxis=dict(
+                                        visible=True,
+                                        range=[0, 10],
+                                        showticklabels=False
+                                    ),
+                                    bgcolor='rgba(0,0,0,0)'
+                                ),
+                                showlegend=True,
+                                legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="center", x=0.5),
+                                margin=dict(l=20, r=20, t=20, b=20),
+                                height=280,
+                                paper_bgcolor='rgba(0,0,0,0)'
+                            )
+                            st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
 
 
 # ══════════════════════════════════════════════════════════════════════════════
