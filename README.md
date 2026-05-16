@@ -7,7 +7,11 @@ The project features a Streamlit-based web dashboard.
 ## Features
 
 * **⚔️ Matchup Analyzer:** View detailed advantage, even, and disadvantage spreads for every character, utilizing a scoring system based on competitive matchup charts.
+* **🛡️ Counterpicker:** Find the best characters to counter an opponent you are struggling against.
 * **📚 Learning Path:** Track your progress through character-specific skills separated by difficulty (Basics, Intermediate, Advanced, Pro).
+* **📊 Overall Stats:** A full roster overview showing every character's tier, difficulty, playstyle, and average matchup score.
+* **🎖️ Tier List:** Official SSBU Tier List reference.
+* **👤 My Roster & 📈 My Progress:** Manage the characters you play and track your learning progress across the roster.
 
 ## Prerequisites
 
@@ -18,7 +22,7 @@ The project features a Streamlit-based web dashboard.
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/kmist70/ssbu-optimizer
    cd ssbu-optimizer
    ```
 
@@ -44,8 +48,7 @@ streamlit run app.py
 ## Project Structure
 
 * `app.py`: The main Streamlit web application.
-* `data/`: Contains the compiled JSON datasets (`characters.json`, `matchups.json`).
+* `data/`: Contains the compiled JSON datasets (`characters.json`, `matchups.json`) and user tracking data (`progress.json`, `roster.json`).
+* `media/`: Contains the app icon and character portraits.
 * `scripts/`: Utility scripts for data gathering and management.
-  * `scrape_data.py`: Playwright scraper for pulling game data.
-  * `reorder_matchups.py`: Script to maintain consistent character sorting across JSON files.
 * `requirements.txt`: Python package dependencies.
