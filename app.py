@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import json
+import base64
 import pandas as pd
 import altair as alt
 from PIL import Image
@@ -141,14 +142,28 @@ def get_result_badge(score):
         bg_color, text_color, text = "#ffc107", "black", "Even"
     return f'<span style="background-color: {bg_color}; color: {text_color}; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600;">{text}</span>'
 
-t_col1, t_col2 = st.columns([1, 14])
-with t_col1:
-    if isinstance(favicon, str):
-        st.title(favicon)
-    else:
-        st.image(favicon, width=160)
-with t_col2:
-    st.title("Super Smash Bros. Ultimate Optimizer")
+if os.path.exists(icon_path):
+    with open(icon_path, "rb") as f:
+        icon_b64 = base64.b64encode(f.read()).decode()
+    st.markdown(
+        f"""
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <img src="data:image/png;base64,{icon_b64}" style="width: 160px; flex-shrink: 0;" />
+            <h1 style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+else:
+    st.markdown(
+        """
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <h1 style="margin: 0;">🎮</h1>
+            <h1 style="margin: 0;">Super Smash Bros. Ultimate Optimizer</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 st.caption("Matchup data sourced from pro player matchup charts. Learning paths based on competitive guides.")
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
@@ -581,7 +596,7 @@ elif page == "🎖️ Tier List":
     st.header("Official SSBU Tier List (4th Edition)")
     with st.container(border=True):
         img = Image.open("media/ssbu-tier-list.png")
-        st.image(img, caption="Source: Ultrank (https://medium.com/@ultrankssb/the-fourth-ultrank-tier-list-2026-9c5f6964f7e3)", width=1210)
+        st.image(img, caption="Source: Ultrank (https://medium.com/@ultrankssb/the-fourth-ultrank-tier-list-2026-9c5f6964f7e3)", use_container_width=True)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
