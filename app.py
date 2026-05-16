@@ -623,7 +623,26 @@ elif page == "📊 Overall Stats":
     df_stats = df_stats.sort_values(by=sort_by, ascending=(sort_order == "Ascending"))
 
     with st.container(border=True):
-        st.table(df_stats.set_index("Character"))
+        st.markdown(
+            """
+            <style>
+                table {
+                    width: 100%;
+                }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+        md_table = "| Character | Tier | Difficulty | Playstyle | Avg Matchup Score |\n"
+        md_table += "|---|---|---|---|---:|\n"
+        for _, row in df_stats.iterrows():
+            tier_str = get_tier_badge(row["Tier"]) if row["Tier"] != "-" else "-"
+            diff_str = get_difficulty_badge(row["Difficulty"]) if row["Difficulty"] != "-" else "-"
+            style_str = get_playstyle_badge(row["Playstyle"]) if row["Playstyle"] != "-" else "-"
+            
+            md_table += f"| **{row['Character']}** | {tier_str} | {diff_str} | {style_str} | {row['Avg Matchup Score']:.3f} |\n"
+            
+        st.markdown(md_table, unsafe_allow_html=True)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
