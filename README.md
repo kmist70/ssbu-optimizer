@@ -56,8 +56,11 @@ streamlit run app.py
 
 ## Project Structure
 
-* `app.py`: The main Streamlit web application.
-* `data/`: Contains the compiled JSON datasets (`characters.json`, `matchups.json`) and user tracking data (`progress.json`, `roster.json`).
-* `media/`: Contains the app icon and character portraits.
-* `scripts/`: Utility scripts for data gathering and management.
-* `requirements.txt`: Python package dependencies.
+```text
+ssbu-optimizer/
+├── app.py                # The main Streamlit web application.
+├── data/                 # Contains compiled JSON datasets and user tracking data.
+├── media/                # Contains the app icon and character portraits.
+├── scripts/              # Utility scripts for data gathering and management.
+└── requirements.txt      # Python package dependencies.
+```
