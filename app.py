@@ -413,11 +413,17 @@ elif page == "📚 Learning Path":
     st.header("Character Learning Path")
     st.markdown("Structured skill progression from zero to competitive. Complete stages in order.")
 
-    char_list = ["-"] + sorted(char_data.keys())
-    
     col1, col2 = st.columns([3, 1])
     with col1:
         with st.container(border=True):
+            only_roster = st.checkbox("Only show characters in My Roster", key="learn_filter_roster")
+            if only_roster:
+                roster_chars = [c for c in char_data.keys() if c in st.session_state.roster]
+                char_list = ["-"] + sorted(roster_chars)
+                if not roster_chars:
+                    st.warning("Your roster is empty. Go to 'My Roster' to add characters.")
+            else:
+                char_list = ["-"] + sorted(char_data.keys())
             char_pick = st.selectbox("Choose a character:", char_list, key="learn_char")
 
     if char_pick == "-":
@@ -456,9 +462,23 @@ elif page == "📚 Learning Path":
         with st.container(border=True):
             completed = []
 
+            st.markdown(
+                """
+                <style>
+                [data-testid="stExpander"] details summary {
+                    pointer-events: none;
+                }
+                [data-testid="stExpander"] details summary svg {
+                    display: none;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True,
+            )
+
             for i, stage in enumerate(info["path"]):
                 stage_label = f"Stage {i + 1}: {stage['stage']}"
-                with st.expander(stage_label, expanded=(i == 0)):
+                with st.expander(stage_label, expanded=True):
                     for skill in stage["skills"]:
                         key = f"{char_pick}_{stage['stage']}_{skill}"
                         if key not in st.session_state:

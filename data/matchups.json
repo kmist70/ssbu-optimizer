@@ -77,7 +77,10 @@
     "Piranha Plant": 0.65,
     "Ridley": 0.65,
     "Ganondorf": 0.8,
-    "Little Mac": 0.8
+    "Little Mac": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Sonic": {
     "Fox": 0.35,
@@ -154,94 +157,10 @@
     "Ganondorf": 0.8,
     "Incineroar": 0.8,
     "Jigglypuff": 0.8,
-    "King Dedede": 0.8
-  },
-  "Pyra/Mythra": {
-    "Steve": 0.5,
-    "Sonic": 0.5,
-    "R.O.B.": 0.5,
-    "Joker": 0.5,
-    "Mr. Game & Watch": 0.5,
-    "Cloud": 0.5,
-    "Kazuya": 0.5,
-    "Fox": 0.5,
-    "Snake": 0.5,
-    "Peach": 0.5,
-    "Daisy": 0.5,
-    "Min Min": 0.5,
-    "Pikachu": 0.5,
-    "Pokemon Trainer": 0.5,
-    "Palutena": 0.5,
-    "Wolf": 0.5,
-    "Roy": 0.5,
-    "Wario": 0.5,
-    "Lucina": 0.5,
-    "Diddy Kong": 0.5,
-    "Pac-Man": 0.5,
-    "Mario": 0.5,
-    "Yoshi": 0.5,
-    "Dark Samus": 0.5,
-    "Samus": 0.5,
-    "Shulk": 0.5,
-    "Young Link": 0.5,
-    "Terry": 0.5,
-    "Olimar": 0.5,
-    "Zero Suit Samus": 0.5,
-    "Mega Man": 0.5,
-    "Sora": 0.5,
-    "Sephiroth": 0.5,
-    "Ryu": 0.5,
-    "Ken": 0.5,
-    "Sheik": 0.5,
-    "Captain Falcon": 0.5,
-    "Greninja": 0.5,
-    "Falco": 0.5,
-    "Rosalina & Luma": 0.5,
-    "Chrom": 0.5,
-    "Bayonetta": 0.5,
-    "Corrin": 0.5,
-    "Link": 0.5,
-    "Byleth": 0.5,
-    "Inkling": 0.5,
-    "Mii Brawler": 0.5,
-    "Toon Link": 0.5,
-    "Ness": 0.5,
-    "Meta Knight": 0.5,
-    "Hero": 0.5,
-    "Luigi": 0.5,
-    "Bowser": 0.5,
-    "Wii Fit Trainer": 0.5,
-    "Mii Gunner": 0.5,
-    "Pichu": 0.5,
-    "Ice Climbers": 0.5,
-    "Incineroar": 0.5,
-    "Dark Pit": 0.5,
-    "Pit": 0.5,
-    "Marth": 0.5,
-    "Duck Hunt": 0.5,
-    "Ike": 0.5,
-    "Lucas": 0.5,
-    "Lucario": 0.5,
-    "Richter": 0.5,
-    "Simon": 0.5,
-    "Robin": 0.5,
-    "Mewtwo": 0.5,
-    "Donkey Kong": 0.5,
-    "Banjo & Kazooie": 0.5,
-    "Jigglypuff": 0.5,
-    "Ridley": 0.5,
-    "Bowser Jr.": 0.5,
-    "Villager": 0.5,
-    "Zelda": 0.5,
-    "Kirby": 0.5,
-    "Dr. Mario": 0.5,
-    "Piranha Plant": 0.5,
-    "King K. Rool": 0.5,
-    "Mii Swordfighter": 0.5,
-    "Isabelle": 0.5,
-    "Little Mac": 0.5,
-    "King Dedede": 0.5,
-    "Ganondorf": 0.5
+    "King Dedede": 0.8,
+    "Pyra/Mythra": 0.6,
+    "Kazuya": 0.6,
+    "Sora": 0.6
   },
   "R.O.B.": {
     "Bayonetta": 0.2,
@@ -318,7 +237,10 @@
     "Zelda": 0.65,
     "Ganondorf": 0.8,
     "King K. Rool": 0.8,
-    "Little Mac": 0.8
+    "Little Mac": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Joker": {
     "Inkling": 0.35,
@@ -393,7 +315,10 @@
     "King Dedede": 0.8,
     "King K. Rool": 0.8,
     "Mii Swordfighter": 0.8,
-    "Simon/Richter": 0.8
+    "Simon/Richter": 0.8,
+    "Pyra/Mythra": 0.6,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Mr. Game & Watch": {
     "Shulk": 0.2,
@@ -552,94 +477,10 @@
     "Zelda": 0.65,
     "Dr. Mario": 0.8,
     "Incineroar": 0.8,
-    "Young Link": 0.8
-  },
-  "Kazuya": {
-    "Steve": 0.5,
-    "Sonic": 0.5,
+    "Young Link": 0.8,
     "Pyra/Mythra": 0.5,
-    "R.O.B.": 0.5,
-    "Joker": 0.5,
-    "Mr. Game & Watch": 0.5,
-    "Cloud": 0.5,
-    "Fox": 0.5,
-    "Snake": 0.5,
-    "Peach": 0.5,
-    "Daisy": 0.5,
-    "Min Min": 0.5,
-    "Pikachu": 0.5,
-    "Pokemon Trainer": 0.5,
-    "Palutena": 0.5,
-    "Wolf": 0.5,
-    "Roy": 0.5,
-    "Wario": 0.5,
-    "Lucina": 0.5,
-    "Diddy Kong": 0.5,
-    "Pac-Man": 0.5,
-    "Mario": 0.5,
-    "Yoshi": 0.5,
-    "Dark Samus": 0.5,
-    "Samus": 0.5,
-    "Shulk": 0.5,
-    "Young Link": 0.5,
-    "Terry": 0.5,
-    "Olimar": 0.5,
-    "Zero Suit Samus": 0.5,
-    "Mega Man": 0.5,
-    "Sora": 0.5,
-    "Sephiroth": 0.5,
-    "Ryu": 0.5,
-    "Ken": 0.5,
-    "Sheik": 0.5,
-    "Captain Falcon": 0.5,
-    "Greninja": 0.5,
-    "Falco": 0.5,
-    "Rosalina & Luma": 0.5,
-    "Chrom": 0.5,
-    "Bayonetta": 0.5,
-    "Corrin": 0.5,
-    "Link": 0.5,
-    "Byleth": 0.5,
-    "Inkling": 0.5,
-    "Mii Brawler": 0.5,
-    "Toon Link": 0.5,
-    "Ness": 0.5,
-    "Meta Knight": 0.5,
-    "Hero": 0.5,
-    "Luigi": 0.5,
-    "Bowser": 0.5,
-    "Wii Fit Trainer": 0.5,
-    "Mii Gunner": 0.5,
-    "Pichu": 0.5,
-    "Ice Climbers": 0.5,
-    "Incineroar": 0.5,
-    "Dark Pit": 0.5,
-    "Pit": 0.5,
-    "Marth": 0.5,
-    "Duck Hunt": 0.5,
-    "Ike": 0.5,
-    "Lucas": 0.5,
-    "Lucario": 0.5,
-    "Richter": 0.5,
-    "Simon": 0.5,
-    "Robin": 0.5,
-    "Mewtwo": 0.5,
-    "Donkey Kong": 0.5,
-    "Banjo & Kazooie": 0.5,
-    "Jigglypuff": 0.5,
-    "Ridley": 0.5,
-    "Bowser Jr.": 0.5,
-    "Villager": 0.5,
-    "Zelda": 0.5,
-    "Kirby": 0.5,
-    "Dr. Mario": 0.5,
-    "Piranha Plant": 0.5,
-    "King K. Rool": 0.5,
-    "Mii Swordfighter": 0.5,
-    "Isabelle": 0.5,
-    "Little Mac": 0.5,
-    "King Dedede": 0.5,
-    "Ganondorf": 0.5
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Fox": {
     "Bowser": 0.35,
@@ -717,7 +558,10 @@
     "Robin": 0.8,
     "Samus/Dark Samus": 0.8,
     "Simon/Richter": 0.8,
-    "Toon Link": 0.8
+    "Toon Link": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Snake": {
     "Mega Man": 0.2,
@@ -796,7 +640,10 @@
     "Ice Climbers": 0.8,
     "Kirby": 0.8,
     "Little Mac": 0.8,
-    "Piranha Plant": 0.8
+    "Piranha Plant": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Peach": {
     "Shulk": 0.2,
@@ -1034,7 +881,10 @@
     "Villager": 0.65,
     "Zelda": 0.65,
     "Ganondorf": 0.8,
-    "Ice Climbers": 0.8
+    "Ice Climbers": 0.8,
+    "Pyra/Mythra": 0.6,
+    "Kazuya": 0.7,
+    "Sora": 0.55
   },
   "Pikachu": {
     "Mario": 0.35,
@@ -1114,7 +964,10 @@
     "Sheik": 0.8,
     "Simon/Richter": 0.8,
     "Wario": 0.8,
-    "Wii Fit Trainer": 0.8
+    "Wii Fit Trainer": 0.8,
+    "Pyra/Mythra": 0.6,
+    "Kazuya": 0.55,
+    "Sora": 0.6
   },
   "Pokemon Trainer": {
     "Diddy Kong": 0.35,
@@ -1194,7 +1047,10 @@
     "Ganondorf": 0.8,
     "Incineroar": 0.8,
     "Kirby": 0.8,
-    "Sheik": 0.8
+    "Sheik": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Palutena": {
     "Pikachu": 0.2,
@@ -1274,7 +1130,10 @@
     "Ridley": 0.8,
     "Villager": 0.8,
     "Young Link": 0.8,
-    "Zelda": 0.8
+    "Zelda": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Wolf": {
     "Chrom": 0.35,
@@ -1350,7 +1209,10 @@
     "Zero Suit Samus": 0.65,
     "Mii Gunner": 0.8,
     "Samus/Dark Samus": 0.8,
-    "Zelda": 0.8
+    "Zelda": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Roy": {
     "Pikachu": 0.2,
@@ -1430,7 +1292,10 @@
     "Zero Suit Samus": 0.65,
     "Lucario": 0.8,
     "Mewtwo": 0.8,
-    "Mii Swordfighter": 0.8
+    "Mii Swordfighter": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Wario": {
     "Pikachu": 0.2,
@@ -1510,7 +1375,10 @@
     "Steve": 0.65,
     "King Dedede": 0.8,
     "King K. Rool": 0.8,
-    "Lucario": 0.8
+    "Lucario": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Lucina": {
     "Greninja": 0.35,
@@ -1590,7 +1458,10 @@
     "Jigglypuff": 0.8,
     "Kirby": 0.8,
     "Mii Swordfighter": 0.8,
-    "Ness": 0.8
+    "Ness": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Diddy Kong": {
     "Pikachu": 0.2,
@@ -1670,7 +1541,10 @@
     "Terry": 0.65,
     "Zelda": 0.65,
     "Zero Suit Samus": 0.65,
-    "Ganondorf": 0.8
+    "Ganondorf": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Pac-Man": {
     "Falco": 0.35,
@@ -1749,7 +1623,10 @@
     "Ice Climbers": 0.8,
     "Ken": 0.8,
     "Little Mac": 0.8,
-    "Pichu": 0.8
+    "Pichu": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Mario": {
     "Shulk": 0.2,
@@ -1828,7 +1705,10 @@
     "Wii Fit Trainer": 0.65,
     "Ganondorf": 0.8,
     "King K. Rool": 0.8,
-    "R.O.B.": 0.8
+    "R.O.B.": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Yoshi": {
     "Chrom": 0.35,
@@ -1907,7 +1787,10 @@
     "Jigglypuff": 0.8,
     "King Dedede": 0.8,
     "Kirby": 0.8,
-    "Sheik": 0.8
+    "Sheik": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Dark Samus": {
     "Duck Hunt": 0.2,
@@ -2145,7 +2028,10 @@
     "Peach/Daisy": 0.8,
     "Villager": 0.8,
     "Young Link": 0.8,
-    "Zero Suit Samus": 0.8
+    "Zero Suit Samus": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Young Link": {
     "Cloud": 0.2,
@@ -2224,7 +2110,10 @@
     "King Dedede": 0.8,
     "King K. Rool": 0.8,
     "Little Mac": 0.8,
-    "Ridley": 0.8
+    "Ridley": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Terry": {
     "Diddy Kong": 0.35,
@@ -2304,7 +2193,10 @@
     "Mewtwo": 0.65,
     "Mii Swordfighter": 0.65,
     "Olimar": 0.65,
-    "Pit/Dark Pit": 0.65
+    "Pit/Dark Pit": 0.65,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Olimar": {
     "Chrom": 0.35,
@@ -2382,7 +2274,10 @@
     "Wii Fit Trainer": 0.65,
     "Zero Suit Samus": 0.65,
     "Ganondorf": 0.8,
-    "Samus/Dark Samus": 0.8
+    "Samus/Dark Samus": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.55,
+    "Sora": 0.45
   },
   "Zero Suit Samus": {
     "Shulk": 0.2,
@@ -2461,7 +2356,10 @@
     "Ridley": 0.8,
     "Samus/Dark Samus": 0.8,
     "Simon/Richter": 0.8,
-    "Zelda": 0.8
+    "Zelda": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Mega Man": {
     "Pikachu": 0.2,
@@ -2541,94 +2439,10 @@
     "King Dedede": 0.8,
     "King K. Rool": 0.8,
     "Ridley": 0.8,
-    "Snake": 0.8
-  },
-  "Sora": {
-    "Steve": 0.5,
-    "Sonic": 0.5,
-    "Pyra/Mythra": 0.5,
-    "R.O.B.": 0.5,
-    "Joker": 0.5,
-    "Mr. Game & Watch": 0.5,
-    "Cloud": 0.5,
-    "Kazuya": 0.5,
-    "Fox": 0.5,
-    "Snake": 0.5,
-    "Peach": 0.5,
-    "Daisy": 0.5,
-    "Min Min": 0.5,
-    "Pikachu": 0.5,
-    "Pokemon Trainer": 0.5,
-    "Palutena": 0.5,
-    "Wolf": 0.5,
-    "Roy": 0.5,
-    "Wario": 0.5,
-    "Lucina": 0.5,
-    "Diddy Kong": 0.5,
-    "Pac-Man": 0.5,
-    "Mario": 0.5,
-    "Yoshi": 0.5,
-    "Dark Samus": 0.5,
-    "Samus": 0.5,
-    "Shulk": 0.5,
-    "Young Link": 0.5,
-    "Terry": 0.5,
-    "Olimar": 0.5,
-    "Zero Suit Samus": 0.5,
-    "Mega Man": 0.5,
-    "Sephiroth": 0.5,
-    "Ryu": 0.5,
-    "Ken": 0.5,
-    "Sheik": 0.5,
-    "Captain Falcon": 0.5,
-    "Greninja": 0.5,
-    "Falco": 0.5,
-    "Rosalina & Luma": 0.5,
-    "Chrom": 0.5,
-    "Bayonetta": 0.5,
-    "Corrin": 0.5,
-    "Link": 0.5,
-    "Byleth": 0.5,
-    "Inkling": 0.5,
-    "Mii Brawler": 0.5,
-    "Toon Link": 0.5,
-    "Ness": 0.5,
-    "Meta Knight": 0.5,
-    "Hero": 0.5,
-    "Luigi": 0.5,
-    "Bowser": 0.5,
-    "Wii Fit Trainer": 0.5,
-    "Mii Gunner": 0.5,
-    "Pichu": 0.5,
-    "Ice Climbers": 0.5,
-    "Incineroar": 0.5,
-    "Dark Pit": 0.5,
-    "Pit": 0.5,
-    "Marth": 0.5,
-    "Duck Hunt": 0.5,
-    "Ike": 0.5,
-    "Lucas": 0.5,
-    "Lucario": 0.5,
-    "Richter": 0.5,
-    "Simon": 0.5,
-    "Robin": 0.5,
-    "Mewtwo": 0.5,
-    "Donkey Kong": 0.5,
-    "Banjo & Kazooie": 0.5,
-    "Jigglypuff": 0.5,
-    "Ridley": 0.5,
-    "Bowser Jr.": 0.5,
-    "Villager": 0.5,
-    "Zelda": 0.5,
-    "Kirby": 0.5,
-    "Dr. Mario": 0.5,
-    "Piranha Plant": 0.5,
-    "King K. Rool": 0.5,
-    "Mii Swordfighter": 0.5,
-    "Isabelle": 0.5,
-    "Little Mac": 0.5,
-    "King Dedede": 0.5,
-    "Ganondorf": 0.5
+    "Snake": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.65,
+    "Sora": 0.5
   },
   "Sephiroth": {
     "Greninja": 0.2,
@@ -2708,7 +2522,10 @@
     "Young Link": 0.65,
     "Ganondorf": 0.8,
     "Ice Climbers": 0.8,
-    "Incineroar": 0.8
+    "Incineroar": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Ryu": {
     "Bowser": 0.35,
@@ -2788,7 +2605,10 @@
     "Incineroar": 0.65,
     "Kirby": 0.65,
     "Little Mac": 0.65,
-    "Mii Brawler": 0.65
+    "Mii Brawler": 0.65,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Ken": {
     "Mr. Game \uff06 Watch": 0.2,
@@ -2868,7 +2688,10 @@
     "Mii Swordfighter": 0.65,
     "Pit/Dark Pit": 0.65,
     "Terry": 0.65,
-    "Wolf": 0.65
+    "Wolf": 0.65,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Sheik": {
     "Pichu": 0.2,
@@ -2948,7 +2771,10 @@
     "Donkey Kong": 0.8,
     "Ganondorf": 0.8,
     "King K. Rool": 0.8,
-    "Ridley": 0.8
+    "Ridley": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Captain Falcon": {
     "Mr. Game \uff06 Watch": 0.2,
@@ -3028,7 +2854,10 @@
     "Mii Swordfighter": 0.65,
     "Ridley": 0.65,
     "Simon/Richter": 0.65,
-    "King K. Rool": 0.8
+    "King K. Rool": 0.8,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Greninja": {
     "Fox": 0.35,
@@ -3108,7 +2937,10 @@
     "Pit/Dark Pit": 0.8,
     "Sephiroth": 0.8,
     "Simon/Richter": 0.8,
-    "Zelda": 0.8
+    "Zelda": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.55
   },
   "Falco": {
     "Pikachu": 0.2,
@@ -3188,7 +3020,10 @@
     "Donkey Kong": 0.8,
     "Ganondorf": 0.8,
     "King K. Rool": 0.8,
-    "Mewtwo": 0.8
+    "Mewtwo": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Rosalina & Luma": {
     "Chrom": 0.35,
@@ -3348,7 +3183,10 @@
     "Zelda": 0.65,
     "Zero Suit Samus": 0.65,
     "Mewtwo": 0.8,
-    "Mii Swordfighter": 0.8
+    "Mii Swordfighter": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Bayonetta": {
     "Pikachu": 0.2,
@@ -3428,7 +3266,10 @@
     "Simon/Richter": 0.65,
     "Steve": 0.65,
     "Villager": 0.65,
-    "R.O.B.": 0.8
+    "R.O.B.": 0.8,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Corrin": {
     "Bowser": 0.35,
@@ -3508,7 +3349,10 @@
     "Ness": 0.65,
     "Olimar": 0.65,
     "Rosalina \uff06 Luma": 0.65,
-    "Young Link": 0.65
+    "Young Link": 0.65,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Link": {
     "Chrom": 0.35,
@@ -3588,7 +3432,10 @@
     "Young Link": 0.65,
     "Ganondorf": 0.8,
     "Little Mac": 0.8,
-    "Toon Link": 0.8
+    "Toon Link": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Byleth": {
     "Greninja": 0.2,
@@ -3667,7 +3514,10 @@
     "Ganondorf": 0.65,
     "Ice Climbers": 0.65,
     "Jigglypuff": 0.65,
-    "Lucario": 0.65
+    "Lucario": 0.65,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Inkling": {
     "Fox": 0.35,
@@ -3747,7 +3597,10 @@
     "Ganondorf": 0.8,
     "Incineroar": 0.8,
     "Ridley": 0.8,
-    "Sephiroth": 0.8
+    "Sephiroth": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Mii Brawler": {
     "Shulk": 0.2,
@@ -3827,7 +3680,10 @@
     "Mii Swordfighter": 0.65,
     "Piranha Plant": 0.65,
     "Pit/Dark Pit": 0.65,
-    "Ridley": 0.65
+    "Ridley": 0.65,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Toon Link": {
     "Fox": 0.2,
@@ -3907,7 +3763,10 @@
     "R.O.B.": 0.65,
     "Ridley": 0.65,
     "Steve": 0.65,
-    "Little Mac": 0.8
+    "Little Mac": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Ness": {
     "Lucina": 0.2,
@@ -3987,7 +3846,10 @@
     "Wii Fit Trainer": 0.65,
     "Ganondorf": 0.8,
     "Incineroar": 0.8,
-    "Lucario": 0.8
+    "Lucario": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Meta Knight": {
     "Diddy Kong": 0.35,
@@ -4065,7 +3927,10 @@
     "Robin": 0.65,
     "Simon/Richter": 0.65,
     "Villager": 0.65,
-    "Ganondorf": 0.8
+    "Ganondorf": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Hero": {
     "Greninja": 0.2,
@@ -4145,7 +4010,10 @@
     "Toon Link": 0.65,
     "Villager": 0.65,
     "Zelda": 0.65,
-    "Ice Climbers": 0.8
+    "Ice Climbers": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Luigi": {
     "Samus/Dark Samus": 0.2,
@@ -4225,7 +4093,10 @@
     "Lucario": 0.65,
     "Mii Brawler": 0.65,
     "Ridley": 0.65,
-    "Ganondorf": 0.8
+    "Ganondorf": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Bowser": {
     "Peach/Daisy": 0.2,
@@ -4305,7 +4176,10 @@
     "Mewtwo": 0.65,
     "Mii Swordfighter": 0.65,
     "Pit/Dark Pit": 0.65,
-    "Ryu": 0.65
+    "Ryu": 0.65,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.5,
+    "Sora": 0.4
   },
   "Wii Fit Trainer": {
     "Mr. Game \uff06 Watch": 0.2,
@@ -4385,7 +4259,10 @@
     "Lucario": 0.65,
     "Piranha Plant": 0.65,
     "Ridley": 0.65,
-    "Terry": 0.65
+    "Terry": 0.65,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Mii Gunner": {
     "Fox": 0.2,
@@ -4465,7 +4342,10 @@
     "Ryu": 0.65,
     "Snake": 0.65,
     "Ganondorf": 0.8,
-    "Ice Climbers": 0.8
+    "Ice Climbers": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Pichu": {
     "Pac-Man": 0.2,
@@ -4545,7 +4425,10 @@
     "Zero Suit Samus": 0.65,
     "Ganondorf": 0.8,
     "Mii Swordfighter": 0.8,
-    "Ryu": 0.8
+    "Ryu": 0.8,
+    "Pyra/Mythra": 0.55,
+    "Kazuya": 0.5,
+    "Sora": 0.55
   },
   "Ice Climbers": {
     "Greninja": 0.2,
@@ -4625,7 +4508,10 @@
     "Luigi": 0.65,
     "Pichu": 0.65,
     "Sheik": 0.65,
-    "Wario": 0.65
+    "Wario": 0.65,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.45,
+    "Sora": 0.5
   },
   "Incineroar": {
     "Cloud": 0.2,
@@ -4705,7 +4591,10 @@
     "Kirby": 0.5,
     "Little Mac": 0.5,
     "Lucario": 0.5,
-    "Piranha Plant": 0.5
+    "Piranha Plant": 0.5,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Dark Pit": {
     "Bowser": 0.35,
@@ -4941,7 +4830,10 @@
     "Terry": 0.65,
     "Toon Link": 0.65,
     "Wario": 0.65,
-    "Ness": 0.8
+    "Ness": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Duck Hunt": {
     "Palutena": 0.2,
@@ -5021,7 +4913,10 @@
     "Ganondorf": 0.8,
     "Incineroar": 0.8,
     "Ridley": 0.8,
-    "Samus/Dark Samus": 0.8
+    "Samus/Dark Samus": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.6,
+    "Sora": 0.5
   },
   "Ike": {
     "Chrom": 0.35,
@@ -5099,7 +4994,10 @@
     "Ness": 0.65,
     "Olimar": 0.65,
     "Zelda": 0.65,
-    "Jigglypuff": 0.8
+    "Jigglypuff": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Lucas": {
     "Chrom": 0.35,
@@ -5179,7 +5077,10 @@
     "Kirby": 0.65,
     "Little Mac": 0.65,
     "Mii Gunner": 0.65,
-    "Ridley": 0.65
+    "Ridley": 0.65,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Lucario": {
     "Ness": 0.2,
@@ -5258,7 +5159,10 @@
     "Bayonetta": 0.65,
     "Mega Man": 0.65,
     "Sheik": 0.65,
-    "Simon/Richter": 0.65
+    "Simon/Richter": 0.65,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5,
+    "Sora": 0.5
   },
   "Richter": {
     "Fox": 0.2,
@@ -5495,7 +5399,10 @@
     "Pac-Man": 0.65,
     "Ridley": 0.65,
     "Terry": 0.65,
-    "Incineroar": 0.8
+    "Incineroar": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Mewtwo": {
     "Chrom": 0.2,
@@ -5575,7 +5482,10 @@
     "Mii Swordfighter": 0.65,
     "Piranha Plant": 0.65,
     "Toon Link": 0.65,
-    "Ganondorf": 0.8
+    "Ganondorf": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.5,
+    "Sora": 0.45
   },
   "Donkey Kong": {
     "Duck Hunt": 0.2,
@@ -5655,7 +5565,10 @@
     "Zelda": 0.5,
     "Ganondorf": 0.65,
     "Mewtwo": 0.65,
-    "Little Mac": 0.8
+    "Little Mac": 0.8,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Banjo & Kazooie": {
     "Palutena": 0.2,
@@ -5807,7 +5720,10 @@
     "Incineroar": 0.65,
     "King K. Rool": 0.65,
     "Little Mac": 0.65,
-    "Mii Brawler": 0.65
+    "Mii Brawler": 0.65,
+    "Pyra/Mythra": 0.35,
+    "Kazuya": 0.4,
+    "Sora": 0.4
   },
   "Ridley": {
     "Duck Hunt": 0.2,
@@ -5887,7 +5803,10 @@
     "Ganondorf": 0.65,
     "Incineroar": 0.65,
     "Kirby": 0.65,
-    "Little Mac": 0.65
+    "Little Mac": 0.65,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Bowser Jr.": {
     "Joker": 0.2,
@@ -5967,7 +5886,10 @@
     "King K. Rool": 0.65,
     "Little Mac": 0.65,
     "Ridley": 0.65,
-    "Ganondorf": 0.8
+    "Ganondorf": 0.8,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Villager": {
     "Mr. Game \uff06 Watch": 0.2,
@@ -6046,7 +5968,10 @@
     "Ice Climbers": 0.8,
     "King K. Rool": 0.8,
     "Piranha Plant": 0.8,
-    "Wii Fit Trainer": 0.8
+    "Wii Fit Trainer": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.65,
+    "Sora": 0.5
   },
   "Zelda": {
     "Greninja": 0.2,
@@ -6126,7 +6051,10 @@
     "Ness": 0.65,
     "Olimar": 0.65,
     "Piranha Plant": 0.65,
-    "Ridley": 0.65
+    "Ridley": 0.65,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Kirby": {
     "Greninja": 0.2,
@@ -6206,7 +6134,10 @@
     "Falco": 0.65,
     "King K. Rool": 0.65,
     "Little Mac": 0.65,
-    "Wii Fit Trainer": 0.65
+    "Wii Fit Trainer": 0.65,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.4
   },
   "Dr. Mario": {
     "Cloud": 0.2,
@@ -6286,7 +6217,10 @@
     "Terry": 0.5,
     "Toon Link": 0.5,
     "Villager": 0.5,
-    "Wii Fit Trainer": 0.5
+    "Wii Fit Trainer": 0.5,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.45,
+    "Sora": 0.45
   },
   "Piranha Plant": {
     "Isabelle": 0.2,
@@ -6366,7 +6300,10 @@
     "Kirby": 0.65,
     "Olimar": 0.65,
     "Ridley": 0.65,
-    "Ice Climbers": 0.8
+    "Ice Climbers": 0.8,
+    "Pyra/Mythra": 0.4,
+    "Kazuya": 0.5,
+    "Sora": 0.4
   },
   "King K. Rool": {
     "Captain Falcon": 0.2,
@@ -6446,7 +6383,10 @@
     "Piranha Plant": 0.5,
     "Ridley": 0.5,
     "Ryu": 0.5,
-    "Ganondorf": 0.65
+    "Ganondorf": 0.65,
+    "Pyra/Mythra": 0.35,
+    "Kazuya": 0.4,
+    "Sora": 0.35
   },
   "Mii Swordfighter": {
     "Chrom": 0.2,
@@ -6525,7 +6465,10 @@
     "Kirby": 0.65,
     "Rosalina \uff06 Luma": 0.65,
     "Villager": 0.65,
-    "Ice Climbers": 0.8
+    "Ice Climbers": 0.8,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
   },
   "Isabelle": {
     "Palutena": 0.2,
@@ -6598,7 +6541,10 @@
     "King K. Rool": 0.65,
     "Steve": 0.65,
     "Wii Fit Trainer": 0.65,
-    "Piranha Plant": 0.8
+    "Piranha Plant": 0.8,
+    "Pyra/Mythra": 0.45,
+    "Kazuya": 0.6,
+    "Sora": 0.45
   },
   "Little Mac": {
     "Donkey Kong": 0.2,
@@ -6678,7 +6624,10 @@
     "Mii Swordfighter": 0.5,
     "Robin": 0.5,
     "Simon/Richter": 0.5,
-    "Piranha Plant": 0.65
+    "Piranha Plant": 0.65,
+    "Pyra/Mythra": 0.35,
+    "Kazuya": 0.4,
+    "Sora": 0.35
   },
   "King Dedede": {
     "Fox": 0.2,
@@ -6758,7 +6707,10 @@
     "Kirby": 0.65,
     "Little Mac": 0.65,
     "Piranha Plant": 0.65,
-    "Ridley": 0.65
+    "Ridley": 0.65,
+    "Pyra/Mythra": 0.35,
+    "Kazuya": 0.4,
+    "Sora": 0.35
   },
   "Ganondorf": {
     "Bowser Jr.": 0.2,
@@ -6837,6 +6789,258 @@
     "Kirby": 0.5,
     "Little Mac": 0.5,
     "Lucario": 0.5,
-    "Terry": 0.5
+    "Terry": 0.5,
+    "Pyra/Mythra": 0.35,
+    "Kazuya": 0.35,
+    "Sora": 0.35
+  },
+  "Pyra/Mythra": {
+    "Mario": 0.55,
+    "Luigi": 0.55,
+    "Donkey Kong": 0.6,
+    "Link": 0.5,
+    "Samus/Dark Samus": 0.5,
+    "Yoshi": 0.55,
+    "Kirby": 0.6,
+    "Fox": 0.45,
+    "Pikachu": 0.4,
+    "Ness": 0.55,
+    "Captain Falcon": 0.6,
+    "Jigglypuff": 0.65,
+    "Peach/Daisy": 0.45,
+    "Bowser": 0.6,
+    "Ice Climbers": 0.5,
+    "Sheik": 0.45,
+    "Zelda": 0.55,
+    "Dr. Mario": 0.6,
+    "Pichu": 0.45,
+    "Falco": 0.5,
+    "Marth": 0.5,
+    "Lucina": 0.5,
+    "Young Link": 0.5,
+    "Ganondorf": 0.65,
+    "Mewtwo": 0.55,
+    "Roy": 0.5,
+    "Chrom": 0.5,
+    "Mr. Game \uff06 Watch": 0.5,
+    "Meta Knight": 0.45,
+    "Pit/Dark Pit": 0.55,
+    "Zero Suit Samus": 0.45,
+    "Wario": 0.55,
+    "Snake": 0.45,
+    "Ike": 0.55,
+    "Pokemon Trainer": 0.55,
+    "Diddy Kong": 0.45,
+    "Lucas": 0.55,
+    "Sonic": 0.4,
+    "King Dedede": 0.65,
+    "Olimar": 0.55,
+    "Lucario": 0.5,
+    "R.O.B.": 0.5,
+    "Toon Link": 0.5,
+    "Wolf": 0.5,
+    "Villager": 0.5,
+    "Mega Man": 0.45,
+    "Wii Fit Trainer": 0.6,
+    "Rosalina \uff06 Luma": 0.55,
+    "Little Mac": 0.65,
+    "Greninja": 0.45,
+    "Mii Brawler": 0.55,
+    "Mii Swordfighter": 0.5,
+    "Mii Gunner": 0.5,
+    "Palutena": 0.45,
+    "Pac-Man": 0.5,
+    "Robin": 0.55,
+    "Shulk": 0.5,
+    "Bowser Jr.": 0.6,
+    "Duck Hunt": 0.5,
+    "Ryu": 0.55,
+    "Ken": 0.55,
+    "Cloud": 0.5,
+    "Corrin": 0.5,
+    "Bayonetta": 0.6,
+    "Inkling": 0.5,
+    "Ridley": 0.6,
+    "Simon/Richter": 0.5,
+    "King K. Rool": 0.65,
+    "Isabelle": 0.55,
+    "Incineroar": 0.6,
+    "Piranha Plant": 0.6,
+    "Joker": 0.4,
+    "Hero": 0.5,
+    "Banjo \uff06 Kazooie": 0.55,
+    "Terry": 0.5,
+    "Byleth": 0.5,
+    "Min Min": 0.4,
+    "Steve": 0.45,
+    "Sephiroth": 0.5,
+    "Kazuya": 0.55,
+    "Sora": 0.5
+  },
+  "Kazuya": {
+    "Mario": 0.5,
+    "Luigi": 0.5,
+    "Donkey Kong": 0.55,
+    "Link": 0.4,
+    "Samus/Dark Samus": 0.35,
+    "Yoshi": 0.5,
+    "Kirby": 0.55,
+    "Fox": 0.45,
+    "Pikachu": 0.45,
+    "Ness": 0.5,
+    "Captain Falcon": 0.55,
+    "Jigglypuff": 0.6,
+    "Peach/Daisy": 0.4,
+    "Bowser": 0.5,
+    "Ice Climbers": 0.55,
+    "Sheik": 0.45,
+    "Zelda": 0.55,
+    "Dr. Mario": 0.55,
+    "Pichu": 0.5,
+    "Falco": 0.5,
+    "Marth": 0.4,
+    "Lucina": 0.4,
+    "Young Link": 0.4,
+    "Ganondorf": 0.65,
+    "Mewtwo": 0.5,
+    "Roy": 0.5,
+    "Chrom": 0.45,
+    "Mr. Game \uff06 Watch": 0.5,
+    "Meta Knight": 0.45,
+    "Pit/Dark Pit": 0.5,
+    "Zero Suit Samus": 0.45,
+    "Wario": 0.5,
+    "Snake": 0.4,
+    "Ike": 0.55,
+    "Pokemon Trainer": 0.5,
+    "Diddy Kong": 0.45,
+    "Lucas": 0.5,
+    "Sonic": 0.4,
+    "King Dedede": 0.6,
+    "Olimar": 0.45,
+    "Lucario": 0.5,
+    "R.O.B.": 0.4,
+    "Toon Link": 0.4,
+    "Wolf": 0.5,
+    "Villager": 0.35,
+    "Mega Man": 0.35,
+    "Wii Fit Trainer": 0.55,
+    "Rosalina \uff06 Luma": 0.45,
+    "Little Mac": 0.6,
+    "Greninja": 0.45,
+    "Mii Brawler": 0.55,
+    "Mii Swordfighter": 0.45,
+    "Mii Gunner": 0.4,
+    "Palutena": 0.45,
+    "Pac-Man": 0.45,
+    "Robin": 0.5,
+    "Shulk": 0.4,
+    "Bowser Jr.": 0.55,
+    "Duck Hunt": 0.4,
+    "Ryu": 0.5,
+    "Ken": 0.5,
+    "Cloud": 0.45,
+    "Corrin": 0.45,
+    "Bayonetta": 0.55,
+    "Inkling": 0.5,
+    "Ridley": 0.55,
+    "Simon/Richter": 0.35,
+    "King K. Rool": 0.6,
+    "Isabelle": 0.4,
+    "Incineroar": 0.55,
+    "Piranha Plant": 0.5,
+    "Joker": 0.45,
+    "Hero": 0.5,
+    "Banjo \uff06 Kazooie": 0.5,
+    "Terry": 0.5,
+    "Byleth": 0.45,
+    "Min Min": 0.3,
+    "Steve": 0.45,
+    "Sephiroth": 0.4,
+    "Pyra/Mythra": 0.45,
+    "Sora": 0.5
+  },
+  "Sora": {
+    "Mario": 0.5,
+    "Luigi": 0.5,
+    "Donkey Kong": 0.6,
+    "Link": 0.5,
+    "Samus/Dark Samus": 0.5,
+    "Yoshi": 0.55,
+    "Kirby": 0.6,
+    "Fox": 0.45,
+    "Pikachu": 0.4,
+    "Ness": 0.55,
+    "Captain Falcon": 0.55,
+    "Jigglypuff": 0.6,
+    "Peach/Daisy": 0.5,
+    "Bowser": 0.6,
+    "Ice Climbers": 0.5,
+    "Sheik": 0.45,
+    "Zelda": 0.55,
+    "Dr. Mario": 0.55,
+    "Pichu": 0.45,
+    "Falco": 0.5,
+    "Marth": 0.5,
+    "Lucina": 0.5,
+    "Young Link": 0.5,
+    "Ganondorf": 0.65,
+    "Mewtwo": 0.55,
+    "Roy": 0.5,
+    "Chrom": 0.5,
+    "Mr. Game \uff06 Watch": 0.5,
+    "Meta Knight": 0.5,
+    "Pit/Dark Pit": 0.55,
+    "Zero Suit Samus": 0.45,
+    "Wario": 0.55,
+    "Snake": 0.5,
+    "Ike": 0.55,
+    "Pokemon Trainer": 0.55,
+    "Diddy Kong": 0.45,
+    "Lucas": 0.55,
+    "Sonic": 0.4,
+    "King Dedede": 0.65,
+    "Olimar": 0.55,
+    "Lucario": 0.5,
+    "R.O.B.": 0.5,
+    "Toon Link": 0.5,
+    "Wolf": 0.5,
+    "Villager": 0.5,
+    "Mega Man": 0.5,
+    "Wii Fit Trainer": 0.6,
+    "Rosalina \uff06 Luma": 0.5,
+    "Little Mac": 0.65,
+    "Greninja": 0.45,
+    "Mii Brawler": 0.55,
+    "Mii Swordfighter": 0.5,
+    "Mii Gunner": 0.5,
+    "Palutena": 0.5,
+    "Pac-Man": 0.5,
+    "Robin": 0.55,
+    "Shulk": 0.5,
+    "Bowser Jr.": 0.6,
+    "Duck Hunt": 0.5,
+    "Ryu": 0.5,
+    "Ken": 0.5,
+    "Cloud": 0.5,
+    "Corrin": 0.5,
+    "Bayonetta": 0.55,
+    "Inkling": 0.5,
+    "Ridley": 0.6,
+    "Simon/Richter": 0.5,
+    "King K. Rool": 0.65,
+    "Isabelle": 0.55,
+    "Incineroar": 0.6,
+    "Piranha Plant": 0.6,
+    "Joker": 0.45,
+    "Hero": 0.5,
+    "Banjo \uff06 Kazooie": 0.55,
+    "Terry": 0.5,
+    "Byleth": 0.5,
+    "Min Min": 0.45,
+    "Steve": 0.5,
+    "Sephiroth": 0.5,
+    "Pyra/Mythra": 0.5,
+    "Kazuya": 0.5
   }
 }
