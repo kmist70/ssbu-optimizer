@@ -6,8 +6,8 @@ The project features a Streamlit-based web dashboard.
 
 ## Features
 
-* **⚔️ Matchup Analyzer:** View detailed advantage, even, and disadvantage spreads for every character, utilizing a scoring system based on competitive matchup charts.
-* **🛡️ Counterpicker:** Find the best characters to counter an opponent you are struggling against.
+* **⚔️ Matchup Analyzer:** View detailed advantage, even, and disadvantage spreads for every character, utilizing a scoring system based on competitive matchup charts. Includes a stat radar chart for a quick overview.
+* **🛡️ Counterpicker:** Find the best characters to counter an opponent you are struggling against, featuring overlapping radar charts to directly compare stats.
 * **📚 Learning Path:** Track your progress through character-specific skills separated by difficulty (Basics, Intermediate, Advanced, Pro).
 * **📊 Overall Stats:** A full roster overview showing every character's tier, difficulty, playstyle, and average matchup score.
 * **🎖️ Tier List:** Official SSBU Tier List reference.
