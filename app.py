@@ -12,12 +12,14 @@ icon_path = os.path.join(os.path.dirname(__file__), "media", "ssbu-icon.png")
 favicon = Image.open(icon_path) if os.path.exists(icon_path) else "🎮"
 st.set_page_config(page_title="SSBU Optimizer", page_icon=favicon, layout="wide", initial_sidebar_state="expanded")
 
-# Hide the sidebar collapse/expand buttons so the navigation is always visible
+# Hide the sidebar collapse/expand buttons so the navigation is always visible on laptops, but allow it on phones
 st.markdown(
     """
     <style>
-        [data-testid="collapsedControl"] {display: none;}
-        [data-testid="stSidebarCollapseButton"] {display: none;}
+        @media (min-width: 768px) {
+            [data-testid="collapsedControl"] {display: none;}
+            [data-testid="stSidebarCollapseButton"] {display: none;}
+        }
             
             /* Move sidebar content closer to the top and centered */
             [data-testid="stSidebarUserContent"] {
