@@ -342,11 +342,19 @@ elif page == "🛡️ Counterpicker":
     char_list = ["-"] + sorted(char_data.keys())
 
     with st.container(border=True):
-        col1, col2 = st.columns(2)
+        col1, col2, col3, col4 = st.columns(4)
+        
+        difficulty_options = ["-", "Beginner", "Intermediate", "Advanced"]
+        playstyle_options  = ["-", "Zoner", "Rushdown", "Grappler", "Balanced"]
+        
         with col1:
             main_char = st.selectbox("Your Main (Optional):", char_list, key="cp_main")
         with col2:
             opponent_char = st.selectbox("Character Beating You:", char_list, key="cp_opponent")
+        with col3:
+            diff_filter = st.selectbox("Filter by Difficulty:", difficulty_options, key="cp_diff")
+        with col4:
+            style_filter = st.selectbox("Filter by Playstyle:", playstyle_options, key="cp_style")
 
     if opponent_char == "-":
         st.info("Select the character beating you to see counterpick suggestions.")
@@ -356,13 +364,19 @@ elif page == "🛡️ Counterpicker":
             if char == opponent_char or char == main_char:
                 continue
             
+            info = char_data.get(char, {})
+            if diff_filter != "-" and info.get("difficulty", "").lower() != diff_filter.lower():
+                continue
+            if style_filter != "-" and info.get("playstyle", "").lower() != style_filter.lower():
+                continue
+
             if opponent_char in matchups[char]:
                 score = matchups[char][opponent_char]
                 suggestions.append({
                     "Character": char,
                     "Score": score,
-                    "Tier": char_data.get(char, {}).get("tier", "-"),
-                    "Playstyle": char_data.get(char, {}).get("playstyle", "-")
+                    "Tier": info.get("tier", "-"),
+                    "Playstyle": info.get("playstyle", "-")
                 })
         
         suggestions.sort(key=lambda x: x["Score"], reverse=True)
