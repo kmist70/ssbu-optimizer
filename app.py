@@ -732,8 +732,14 @@ elif page == "📈 My Progress":
     st.header("My Progress")
     st.markdown("Track your learning path progress across all characters.")
 
+    f1, f2, _ = st.columns([1, 1, 2])
+    with f1:
+        show_started_only = st.checkbox("Only show started characters")
+    with f2:
+        show_roster_only = st.checkbox("Only show roster characters")
+
     with st.container(border=True):
-        st.subheader("All Characters Progress")
+        st.subheader("Character Progress")
         
         total_skills = 0
         completed_skills = 0
@@ -752,11 +758,17 @@ elif page == "📈 My Progress":
                         if key in st.session_state.progress:
                             char_completed += 1
                 
+                pct = char_completed / char_total if char_total > 0 else 0
+                status = st.session_state.roster.get(char, "-")
+                
+                if show_started_only and char_completed == 0:
+                    continue
+                if show_roster_only and status == "-":
+                    continue
+                
                 total_skills += char_total
                 completed_skills += char_completed
                 
-                pct = char_completed / char_total if char_total > 0 else 0
-                status = st.session_state.roster.get(char, "-")
                 progress_data.append({
                     "Character": char,
                     "Status": status,
@@ -799,4 +811,4 @@ elif page == "📈 My Progress":
                     </div>
                 """, unsafe_allow_html=True)
         else:
-            st.info("No learning paths found.")
+            st.info("No characters match the selected filters.")
