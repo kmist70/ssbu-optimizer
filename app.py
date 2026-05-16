@@ -24,12 +24,12 @@ st.markdown(
                 padding-top: 0rem !important;
                 padding-left: 1rem !important;
                 padding-right: 1rem !important;
-                overflow-y: hidden !important;
+                overflow-y: auto !important;
             }
             
-            /* Remove scrolling capability from the sidebar container */
+            /* Allow scrolling in the sidebar container when the window size is small */
             [data-testid="stSidebar"] > div:first-child {
-                overflow-y: hidden !important;
+                overflow-y: auto !important;
             }
             
             /* Make sidebar navigation tabs larger and full-width */
