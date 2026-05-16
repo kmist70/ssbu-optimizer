@@ -4,6 +4,14 @@ A comprehensive tool for Super Smash Bros. Ultimate players to analyze character
 
 The project features a Streamlit-based web dashboard.
 
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+
 ## Features
 
 * **⚔️ Matchup Analyzer:** View detailed advantage, even, and disadvantage spreads for every character, utilizing a scoring system based on competitive matchup charts. Includes a stat radar chart for a quick overview.
@@ -12,6 +20,7 @@ The project features a Streamlit-based web dashboard.
 * **📊 Overall Stats:** A full roster overview showing every character's tier, difficulty, playstyle, and average matchup score.
 * **🎖️ Tier List:** Official SSBU Tier List reference.
 * **👤 My Roster & 📈 My Progress:** Manage the characters you play and track your learning progress across the roster.
+* **📱 Mobile Optimized:** Includes UI and navigation optimizations for proper functionality and a seamless experience on mobile devices.
 
 ## Prerequisites
 
