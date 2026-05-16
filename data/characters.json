@@ -3982,5 +3982,149 @@
     ],
     "playstyle": "Rushdown",
     "tier": "E"
+  },
+  "Dark Samus": {
+    "difficulty": "Intermediate",
+    "overview": "Functionally identical to Samus with minor visual differences. Same Charge Shot zoner gameplan \u2014 choose based on preference. Slightly different animations can throw off opponents used to Samus.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Charge Shot (neutral-B) \u2014 always be charging when safe, it's your primary win condition",
+          "Missile (side-B) \u2014 Homing Missile by tilting, Super Missile by smashing the stick",
+          "Z-air (aerial grab) is your main approach tool \u2014 fast, long range, combos into grab",
+          "Up-B (Screw Attack) out of shield as a punish",
+          "D-tilt for poking and starting combos \u2014 fast and safe"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "Z-air into grab at mid range \u2014 the bread and butter approach",
+          "D-throw into Up-air at low percent",
+          "Charge Shot to punish rolls, landings, and predictable approaches",
+          "Homing Missile to pressure shields and force approaches",
+          "Up-tilt as an anti-air and juggle starter"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Z-air \u2192 grab \u2192 D-throw \u2192 Up-air combo at 0-40%",
+          "Charge Shot as a ledge trap \u2014 fire when opponent commits to a ledge option",
+          "Super Missile to punish rolls at long range",
+          "Bomb (down-B in air) to stall recovery and mix up landing",
+          "Up-smash out of shield for punishing aerial approaches"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full charge management: always know your charge level and when to spend it",
+          "Layered zoning: Homing Missile + Charge Shot threat simultaneously",
+          "Z-air spacing to always be at grab range \u2014 never approach without it",
+          "Ledge trap with Charge Shot covering jump and Missile covering roll",
+          "Edgeguard with Charge Shot at ledge height to intercept recoveries"
+        ]
+      }
+    ],
+    "playstyle": "Zoner",
+    "tier": "A"
+  },
+  "Young Link": {
+    "difficulty": "Intermediate",
+    "overview": "Faster and more combo-focused than Link with a smaller frame. Fire arrows add a burning hitbox that links into combos. Better aerial game than adult Link but shorter range.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Fire Arrow (neutral-B): arrows that burn on contact \u2014 faster than Link's and links into combos",
+          "Bomb (down-B): throw and detonate \u2014 same mechanic as Link, core neutral tool",
+          "Boomerang (side-B): lower arc and faster return than Link's \u2014 practice the angle",
+          "Z-air tether for approach and landing coverage",
+          "F-air for approach \u2014 faster than Link's with a tighter arc"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "Fire Arrow into dash-in grab \u2014 burn hitbox gives extra frame advantage",
+          "Bomb \u2192 detonate into dash-in grab as a combo starter",
+          "D-throw into Up-air juggle at low percent",
+          "Z-air into grab at mid range for consistent approach",
+          "Up-B (Spin Attack) OOS to punish aerial approaches"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "Fire Arrow \u2192 dash-in D-throw \u2192 Up-air chain as full punish sequence",
+          "Bomb catch \u2014 throw bomb, catch mid-air, immediate rethrow for constant pressure",
+          "D-throw \u2192 Up-air \u2192 Up-air \u2192 F-air kill chain",
+          "Boomerang to cover landing while bomb threat is active simultaneously",
+          "Edgeguard with bomb placed at ledge height detonated on recovery"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full projectile schedule: Fire Arrow, Bomb, and Boomerang all active simultaneously",
+          "Fire Arrow conditioning: always fire before dashing in to guarantee frame advantage",
+          "Bomb detonation timing to catch every airdodge and landing option",
+          "Ledge trap with bomb detonation, Fire Arrow, and grab covering all options",
+          "Z-air approach timing so it always lands at grab range on every landing"
+        ]
+      }
+    ],
+    "playstyle": "Zoner",
+    "tier": "B"
+  },
+  "Sonic": {
+    "difficulty": "Advanced",
+    "overview": "Fastest character in the game by a wide margin. Entire gameplan revolves around speed \u2014 run in, bait a response, punish, run away. Requires extreme patience and precise timing to play correctly.",
+    "path": [
+      {
+        "stage": "Basics",
+        "skills": [
+          "Sonic is a bait-and-punish character \u2014 never approach recklessly, use speed to bait whiffs",
+          "Spin Dash (down-B): charge and release for a fast burst \u2014 use to approach and reset neutral",
+          "Spring (up-B): recovery \u2014 don't jump off the spring predictably or you'll get juggled",
+          "N-air for landing and quick punishes \u2014 fastest aerial option",
+          "F-air for aerial approach and edgeguarding \u2014 good range and speed"
+        ]
+      },
+      {
+        "stage": "Intermediate",
+        "skills": [
+          "D-throw into Up-air juggle at low percent",
+          "Spin Dash into shield to bait a response then punish out of shield",
+          "Spin Shot (jump cancel Spin Dash): launch into the air from Spin Dash for aerial mix-ups",
+          "Back throw near the ledge as a kill confirm at high percent",
+          "Use run speed to dash dance relentlessly and bait approaches"
+        ]
+      },
+      {
+        "stage": "Advanced",
+        "skills": [
+          "D-throw \u2192 Up-air \u2192 Up-air chain to kill percent",
+          "Spin Dash \u2192 Spin Shot into aerial combo for extended punishes",
+          "Spring trap: place spring under opponent during juggle then Up-air the bounce",
+          "Back throw kill confirm: know exact percent per character weight class",
+          "Homing Attack (neutral-B) as a mix-up on landing and recovering opponents"
+        ]
+      },
+      {
+        "stage": "Pro",
+        "skills": [
+          "Full bait-and-punish flowchart: run in \u2192 stop \u2192 react to opponent's option \u2192 punish",
+          "Spin Dash mix-ups: shield cancel vs Spin Shot vs roll-through on three different timings",
+          "Spring juggle trap setup: position spring precisely under opponent's landing trajectory",
+          "Back throw kill percent chart memorized for every character in the roster",
+          "Ledge trap with Spin Dash, grab, and Up-smash covering all ledge options"
+        ]
+      }
+    ],
+    "playstyle": "Rushdown",
+    "tier": "S"
   }
 }

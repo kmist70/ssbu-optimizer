@@ -20,7 +20,7 @@ st.markdown(
             
             /* Move sidebar content closer to the top and centered */
             [data-testid="stSidebarUserContent"] {
-                padding-top: 1rem !important;
+                padding-top: 0rem !important;
                 padding-left: 1rem !important;
                 padding-right: 1rem !important;
                 overflow-y: hidden !important;
@@ -153,10 +153,10 @@ st.caption("Matchup data sourced from pro player matchup charts. Learning paths 
 
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"], label_visibility="collapsed")
+page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "🛡️ Counterpicker", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"], label_visibility="collapsed")
 
 # Add a spacer to push the "About this app" section to the bottom
-st.sidebar.markdown("<div style='min-height: 22vh;'></div>", unsafe_allow_html=True)
+st.sidebar.markdown("<div style='min-height: 12vh;'></div>", unsafe_allow_html=True)
 st.sidebar.divider()
 st.sidebar.markdown(
     "**About this app:**\n\n"
@@ -333,7 +333,81 @@ if page == "⚔️ Matchup Analyzer":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 2 — LEARNING PATH
+# PAGE 2 — COUNTERPICK SUGGESTER
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "🛡️ Counterpicker":
+    st.header("Counterpick Suggester")
+    st.markdown("Find the best characters to counter an opponent you are struggling against.")
+
+    char_list = ["-"] + sorted(char_data.keys())
+
+    with st.container(border=True):
+        col1, col2 = st.columns(2)
+        with col1:
+            main_char = st.selectbox("Your Main (Optional):", char_list, key="cp_main")
+        with col2:
+            opponent_char = st.selectbox("Character Beating You:", char_list, key="cp_opponent")
+
+    if opponent_char == "-":
+        st.info("Select the character beating you to see counterpick suggestions.")
+    else:
+        suggestions = []
+        for char in matchups:
+            if char == opponent_char or char == main_char:
+                continue
+            
+            if opponent_char in matchups[char]:
+                score = matchups[char][opponent_char]
+                suggestions.append({
+                    "Character": char,
+                    "Score": score,
+                    "Tier": char_data.get(char, {}).get("tier", "-"),
+                    "Playstyle": char_data.get(char, {}).get("playstyle", "-")
+                })
+        
+        suggestions.sort(key=lambda x: x["Score"], reverse=True)
+        top_3 = suggestions[:3]
+
+        if not top_3:
+            st.warning("No matchup data available against this character.")
+        else:
+            if main_char != "-" and main_char in matchups and opponent_char in matchups[main_char]:
+                main_score = matchups[main_char][opponent_char]
+                badge = get_result_badge(main_score)
+                st.markdown(f"**Your Main ({main_char}) vs {opponent_char}**: Score `{main_score}` → {badge}", unsafe_allow_html=True)
+                st.divider()
+
+            st.subheader(f"Top 3 Counterpicks against {opponent_char}")
+            
+            cols = st.columns(3)
+            for i, cp in enumerate(top_3):
+                with cols[i]:
+                    with st.container(border=True):
+                        st.markdown(f"### #{i+1} {cp['Character']}")
+                        
+                        score_badge = get_result_badge(cp['Score'])
+                        st.markdown(f"**Matchup Score:** `{cp['Score']}` {score_badge}", unsafe_allow_html=True)
+                        
+                        tier_badge = get_tier_badge(cp['Tier'])
+                        st.markdown(f"**Tier:** {tier_badge}", unsafe_allow_html=True)
+                        
+                        style_badge = get_playstyle_badge(cp['Playstyle'])
+                        st.markdown(f"**Playstyle:** {style_badge}", unsafe_allow_html=True)
+                        
+                        portrait_path = f"media/character-portraits/{cp['Character']}.png"
+                        fallback_path = f"media/character-portraits/{cp['Character']}.jpg"
+                        pyra_path = f"media/character-portraits/Pyra.png"
+                        
+                        if os.path.exists(portrait_path):
+                            st.image(portrait_path, use_container_width=True)
+                        elif os.path.exists(fallback_path):
+                            st.image(fallback_path, use_container_width=True)
+                        elif cp['Character'] == "Pyra/Mythra" and os.path.exists(pyra_path):
+                            st.image(pyra_path, use_container_width=True)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE 3 — LEARNING PATH
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "📚 Learning Path":
     st.header("Character Learning Path")
@@ -423,7 +497,7 @@ elif page == "📚 Learning Path":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 3 — OVERALL STATS
+# PAGE 4 — OVERALL STATS
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "📊 Overall Stats":
     st.header("Overall Character Stats")
@@ -467,7 +541,7 @@ elif page == "📊 Overall Stats":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 4 — TIER LIST
+# PAGE 5 — TIER LIST
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "🎖️ Tier List":
     st.header("Official SSBU Tier List (4th Edition)")
@@ -477,7 +551,7 @@ elif page == "🎖️ Tier List":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 5 — MY ROSTER
+# PAGE 6 — MY ROSTER
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "👤 My Roster":
     st.header("My Roster")
@@ -618,7 +692,7 @@ elif page == "👤 My Roster":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 6 — MY PROGRESS
+# PAGE 7 — MY PROGRESS
 # ══════════════════════════════════════════════════════════════════════════════
 elif page == "📈 My Progress":
     st.header("My Progress")
