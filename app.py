@@ -232,7 +232,9 @@ if page == "⚔️ Matchup Analyzer":
             fallback_path = f"media/character-portraits/{selected}.jpg"
             pyra_path = f"media/character-portraits/Pyra.png"
 
-            port_col, info_col = st.columns([1, 4])
+            info = char_data.get(selected, {})
+
+            port_col, info_col, radar_col = st.columns([1, 2, 2])
             with port_col:
                 if os.path.exists(portrait_path):
                     st.image(portrait_path, width=250)
@@ -244,7 +246,6 @@ if page == "⚔️ Matchup Analyzer":
                     st.markdown("🎮")
 
             with info_col:
-                info = char_data.get(selected, {})
                 st.markdown(f"### {selected}")
                 if info.get("difficulty"):
                     badge = get_difficulty_badge(info['difficulty'])
@@ -257,6 +258,42 @@ if page == "⚔️ Matchup Analyzer":
                     st.markdown(f"**Playstyle:** {p_badge}", unsafe_allow_html=True)
                 if info.get("overview"):
                     st.caption(info["overview"])
+
+            with radar_col:
+                if "stats" in info:
+                    stats = info["stats"]
+                    categories = ['Speed', 'Kill Power', 'Range', 'Recovery', 'Difficulty']
+                    values = [
+                        stats.get('speed', 0),
+                        stats.get('kill_power', 0),
+                        stats.get('range', 0),
+                        stats.get('recovery', 0),
+                        stats.get('difficulty', 0)
+                    ]
+                    
+                    fig = go.Figure(data=go.Scatterpolar(
+                        r=values,
+                        theta=categories,
+                        fill='toself',
+                        marker=dict(color="#5507ff"),
+                        line=dict(color='#5507ff')
+                    ))
+
+                    fig.update_layout(
+                        polar=dict(
+                            radialaxis=dict(
+                                visible=True,
+                                range=[0, 10],
+                                showticklabels=False
+                            ),
+                            bgcolor='rgba(0,0,0,0)'
+                        ),
+                        showlegend=False,
+                        margin=dict(l=20, r=20, t=20, b=20),
+                        height=250,
+                        paper_bgcolor='rgba(0,0,0,0)'
+                    )
+                    st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
 
         with st.container(border=True):
             # ── Matchup data ───────────────────────────────────────────────────────

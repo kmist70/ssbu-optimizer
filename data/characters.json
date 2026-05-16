@@ -45,7 +45,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 4,
+      "recovery": 5,
+      "difficulty": 4
+    }
   },
   "Luigi": {
     "difficulty": "Beginner",
@@ -93,7 +100,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 5,
+      "kill_power": 9,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 6
+    }
   },
   "Kirby": {
     "difficulty": "Beginner",
@@ -141,7 +155,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 3,
+      "recovery": 8,
+      "difficulty": 2
+    }
   },
   "Jigglypuff": {
     "difficulty": "Intermediate",
@@ -189,7 +210,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 4,
+      "kill_power": 9,
+      "range": 3,
+      "recovery": 7,
+      "difficulty": 7
+    }
   },
   "Yoshi": {
     "difficulty": "Beginner",
@@ -237,7 +265,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 7,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 4
+    }
   },
   "Ness": {
     "difficulty": "Intermediate",
@@ -285,7 +320,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 4,
+      "difficulty": 5
+    }
   },
   "Captain Falcon": {
     "difficulty": "Beginner",
@@ -333,7 +375,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 10,
+      "kill_power": 8,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 5
+    }
   },
   "Donkey Kong": {
     "difficulty": "Beginner",
@@ -381,7 +430,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 7,
+      "kill_power": 8,
+      "range": 5,
+      "recovery": 4,
+      "difficulty": 3
+    }
   },
   "Link": {
     "difficulty": "Beginner",
@@ -429,7 +485,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 8,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Samus": {
     "difficulty": "Intermediate",
@@ -477,7 +540,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 8,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Fox": {
     "difficulty": "Intermediate",
@@ -525,7 +595,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 9,
+      "kill_power": 7,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 7
+    }
   },
   "Falco": {
     "difficulty": "Intermediate",
@@ -573,7 +650,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 5,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 3,
+      "difficulty": 6
+    }
   },
   "Pikachu": {
     "difficulty": "Intermediate",
@@ -621,7 +705,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 7,
+      "kill_power": 5,
+      "range": 5,
+      "recovery": 8,
+      "difficulty": 6
+    }
   },
   "Pichu": {
     "difficulty": "Intermediate",
@@ -669,7 +760,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 7,
+      "kill_power": 5,
+      "range": 3,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Marth": {
     "difficulty": "Intermediate",
@@ -717,7 +815,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 7,
+      "kill_power": 7,
+      "range": 7,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "Lucina": {
     "difficulty": "Beginner",
@@ -765,7 +870,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 7,
+      "kill_power": 7,
+      "range": 7,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Roy": {
     "difficulty": "Intermediate",
@@ -813,7 +925,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 8,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 4,
+      "difficulty": 5
+    }
   },
   "Chrom": {
     "difficulty": "Beginner",
@@ -861,7 +980,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 8,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 3,
+      "difficulty": 4
+    }
   },
   "Ike": {
     "difficulty": "Intermediate",
@@ -909,7 +1035,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 3,
+      "kill_power": 9,
+      "range": 6,
+      "recovery": 4,
+      "difficulty": 4
+    }
   },
   "Shulk": {
     "difficulty": "Advanced",
@@ -957,7 +1090,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 5,
+      "kill_power": 8,
+      "range": 7,
+      "recovery": 6,
+      "difficulty": 8
+    }
   },
   "Steve": {
     "difficulty": "Advanced",
@@ -1005,7 +1145,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 3,
+      "kill_power": 7,
+      "range": 5,
+      "recovery": 5,
+      "difficulty": 8
+    }
   },
   "Snake": {
     "difficulty": "Advanced",
@@ -1053,7 +1200,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 8,
+      "recovery": 5,
+      "difficulty": 8
+    }
   },
   "Joker": {
     "difficulty": "Advanced",
@@ -1101,7 +1255,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 7,
+      "kill_power": 7,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 7
+    }
   },
   "Cloud": {
     "difficulty": "Intermediate",
@@ -1149,7 +1310,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 7,
+      "kill_power": 8,
+      "range": 7,
+      "recovery": 4,
+      "difficulty": 5
+    }
   },
   "R.O.B.": {
     "difficulty": "Intermediate",
@@ -1197,7 +1365,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 6,
+      "kill_power": 7,
+      "range": 7,
+      "recovery": 8,
+      "difficulty": 6
+    }
   },
   "Wolf": {
     "difficulty": "Intermediate",
@@ -1245,7 +1420,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Diddy Kong": {
     "difficulty": "Intermediate",
@@ -1293,7 +1475,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 7,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 6,
+      "difficulty": 7
+    }
   },
   "Palutena": {
     "difficulty": "Intermediate",
@@ -1341,7 +1530,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 7,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 6
+    }
   },
   "Peach": {
     "difficulty": "Advanced",
@@ -1389,7 +1585,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 7,
+      "difficulty": 8
+    }
   },
   "Daisy": {
     "difficulty": "Advanced",
@@ -1437,7 +1640,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 7,
+      "difficulty": 8
+    }
   },
   "Zero Suit Samus": {
     "difficulty": "Advanced",
@@ -1485,7 +1695,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 9,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 7
+    }
   },
   "Kazuya": {
     "difficulty": "Advanced",
@@ -1533,7 +1750,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 4,
+      "kill_power": 10,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 10
+    }
   },
   "Sephiroth": {
     "difficulty": "Advanced",
@@ -1581,7 +1805,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 8,
+      "range": 9,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Pyra/Mythra": {
     "difficulty": "Advanced",
@@ -1629,7 +1860,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 7,
+      "kill_power": 7,
+      "range": 7,
+      "recovery": 6,
+      "difficulty": 7
+    }
   },
   "Byleth": {
     "difficulty": "Intermediate",
@@ -1677,7 +1915,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 3,
+      "kill_power": 8,
+      "range": 9,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "Min Min": {
     "difficulty": "Advanced",
@@ -1725,7 +1970,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 10,
+      "recovery": 5,
+      "difficulty": 7
+    }
   },
   "Inkling": {
     "difficulty": "Intermediate",
@@ -1773,7 +2025,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 6,
+      "range": 6,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "Ridley": {
     "difficulty": "Intermediate",
@@ -1821,7 +2080,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 8,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "King K. Rool": {
     "difficulty": "Intermediate",
@@ -1869,7 +2135,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 3,
+      "kill_power": 9,
+      "range": 6,
+      "recovery": 5,
+      "difficulty": 4
+    }
   },
   "Banjo & Kazooie": {
     "difficulty": "Intermediate",
@@ -1917,7 +2190,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 8,
+      "kill_power": 6,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Terry": {
     "difficulty": "Advanced",
@@ -1965,7 +2245,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 5,
+      "kill_power": 8,
+      "range": 5,
+      "recovery": 4,
+      "difficulty": 7
+    }
   },
   "Bowser": {
     "difficulty": "Beginner",
@@ -2013,7 +2300,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 7,
+      "kill_power": 9,
+      "range": 5,
+      "recovery": 5,
+      "difficulty": 2
+    }
   },
   "Ice Climbers": {
     "difficulty": "Advanced",
@@ -2061,7 +2355,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 4,
+      "kill_power": 10,
+      "range": 5,
+      "recovery": 3,
+      "difficulty": 9
+    }
   },
   "Sheik": {
     "difficulty": "Advanced",
@@ -2109,7 +2410,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 9,
+      "kill_power": 6,
+      "range": 4,
+      "recovery": 6,
+      "difficulty": 8
+    }
   },
   "Zelda": {
     "difficulty": "Intermediate",
@@ -2157,7 +2465,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 3,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Dr. Mario": {
     "difficulty": "Beginner",
@@ -2205,7 +2520,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 6,
+      "kill_power": 7,
+      "range": 4,
+      "recovery": 3,
+      "difficulty": 4
+    }
   },
   "Mewtwo": {
     "difficulty": "Intermediate",
@@ -2253,7 +2575,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 8,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Mr. Game & Watch": {
     "difficulty": "Intermediate",
@@ -2301,7 +2630,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 5,
+      "kill_power": 7,
+      "range": 5,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Meta Knight": {
     "difficulty": "Intermediate",
@@ -2349,7 +2685,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 8,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 9,
+      "difficulty": 7
+    }
   },
   "Pit": {
     "difficulty": "Beginner",
@@ -2397,7 +2740,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 5,
+      "recovery": 9,
+      "difficulty": 4
+    }
   },
   "Dark Pit": {
     "difficulty": "Beginner",
@@ -2445,7 +2795,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 5,
+      "recovery": 9,
+      "difficulty": 4
+    }
   },
   "Wario": {
     "difficulty": "Intermediate",
@@ -2493,7 +2850,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 5,
+      "kill_power": 9,
+      "range": 4,
+      "recovery": 7,
+      "difficulty": 5
+    }
   },
   "Pokemon Trainer": {
     "difficulty": "Advanced",
@@ -2541,7 +2905,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 6,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 7
+    }
   },
   "Lucas": {
     "difficulty": "Intermediate",
@@ -2589,7 +2960,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 5,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "King Dedede": {
     "difficulty": "Beginner",
@@ -2637,7 +3015,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 3,
+      "kill_power": 7,
+      "range": 5,
+      "recovery": 8,
+      "difficulty": 3
+    }
   },
   "Olimar": {
     "difficulty": "Advanced",
@@ -2685,7 +3070,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 5,
+      "difficulty": 9
+    }
   },
   "Lucario": {
     "difficulty": "Intermediate",
@@ -2733,7 +3125,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 5,
+      "kill_power": 8,
+      "range": 5,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Toon Link": {
     "difficulty": "Beginner",
@@ -2781,7 +3180,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 7,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Villager": {
     "difficulty": "Intermediate",
@@ -2829,7 +3235,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 3,
+      "kill_power": 6,
+      "range": 7,
+      "recovery": 7,
+      "difficulty": 6
+    }
   },
   "Mega Man": {
     "difficulty": "Intermediate",
@@ -2877,7 +3290,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 5,
+      "range": 8,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "Wii Fit Trainer": {
     "difficulty": "Intermediate",
@@ -2925,7 +3345,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 6,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 6,
+      "difficulty": 6
+    }
   },
   "Rosalina & Luma": {
     "difficulty": "Advanced",
@@ -2973,7 +3400,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 7
+    }
   },
   "Little Mac": {
     "difficulty": "Beginner",
@@ -3021,7 +3455,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "E"
+    "tier": "E",
+    "stats": {
+      "speed": 9,
+      "kill_power": 9,
+      "range": 3,
+      "recovery": 1,
+      "difficulty": 5
+    }
   },
   "Greninja": {
     "difficulty": "Advanced",
@@ -3069,7 +3510,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 8,
+      "kill_power": 7,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 7
+    }
   },
   "Mii Brawler": {
     "difficulty": "Intermediate",
@@ -3117,7 +3565,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 7,
+      "kill_power": 7,
+      "range": 3,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Mii Swordfighter": {
     "difficulty": "Intermediate",
@@ -3165,7 +3620,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "D"
+    "tier": "D",
+    "stats": {
+      "speed": 5,
+      "kill_power": 6,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Mii Gunner": {
     "difficulty": "Intermediate",
@@ -3213,7 +3675,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 3,
+      "kill_power": 5,
+      "range": 8,
+      "recovery": 5,
+      "difficulty": 5
+    }
   },
   "Pac-Man": {
     "difficulty": "Intermediate",
@@ -3261,7 +3730,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 5,
+      "kill_power": 5,
+      "range": 7,
+      "recovery": 7,
+      "difficulty": 7
+    }
   },
   "Robin": {
     "difficulty": "Intermediate",
@@ -3309,7 +3785,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 2,
+      "kill_power": 7,
+      "range": 7,
+      "recovery": 4,
+      "difficulty": 7
+    }
   },
   "Duck Hunt": {
     "difficulty": "Intermediate",
@@ -3357,7 +3840,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 5,
+      "kill_power": 4,
+      "range": 7,
+      "recovery": 5,
+      "difficulty": 7
+    }
   },
   "Ryu": {
     "difficulty": "Advanced",
@@ -3405,7 +3895,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 8,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 8
+    }
   },
   "Ken": {
     "difficulty": "Advanced",
@@ -3453,7 +3950,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 10,
+      "range": 4,
+      "recovery": 4,
+      "difficulty": 8
+    }
   },
   "Corrin": {
     "difficulty": "Intermediate",
@@ -3501,7 +4005,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 7,
+      "range": 8,
+      "recovery": 5,
+      "difficulty": 6
+    }
   },
   "Bayonetta": {
     "difficulty": "Advanced",
@@ -3549,7 +4060,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 5,
+      "recovery": 7,
+      "difficulty": 9
+    }
   },
   "Incineroar": {
     "difficulty": "Beginner",
@@ -3597,7 +4115,14 @@
       }
     ],
     "playstyle": "Grappler",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 2,
+      "kill_power": 9,
+      "range": 5,
+      "recovery": 3,
+      "difficulty": 5
+    }
   },
   "Piranha Plant": {
     "difficulty": "Beginner",
@@ -3645,7 +4170,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 5,
+      "kill_power": 7,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 4
+    }
   },
   "Simon": {
     "difficulty": "Intermediate",
@@ -3693,7 +4225,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "E"
+    "tier": "E",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 9,
+      "recovery": 3,
+      "difficulty": 5
+    }
   },
   "Richter": {
     "difficulty": "Intermediate",
@@ -3741,7 +4280,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "E"
+    "tier": "E",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 9,
+      "recovery": 3,
+      "difficulty": 5
+    }
   },
   "Bowser Jr.": {
     "difficulty": "Intermediate",
@@ -3789,7 +4335,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 5,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Isabelle": {
     "difficulty": "Intermediate",
@@ -3837,7 +4390,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "C"
+    "tier": "C",
+    "stats": {
+      "speed": 3,
+      "kill_power": 5,
+      "range": 7,
+      "recovery": 7,
+      "difficulty": 6
+    }
   },
   "Hero": {
     "difficulty": "Advanced",
@@ -3885,7 +4445,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 6,
+      "kill_power": 8,
+      "range": 6,
+      "recovery": 6,
+      "difficulty": 8
+    }
   },
   "Sora": {
     "difficulty": "Intermediate",
@@ -3933,7 +4500,14 @@
       }
     ],
     "playstyle": "Balanced",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 5,
+      "kill_power": 6,
+      "range": 6,
+      "recovery": 8,
+      "difficulty": 6
+    }
   },
   "Ganondorf": {
     "difficulty": "Beginner",
@@ -3981,7 +4555,14 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "E"
+    "tier": "E",
+    "stats": {
+      "speed": 2,
+      "kill_power": 10,
+      "range": 5,
+      "recovery": 3,
+      "difficulty": 3
+    }
   },
   "Dark Samus": {
     "difficulty": "Intermediate",
@@ -4029,7 +4610,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "A"
+    "tier": "A",
+    "stats": {
+      "speed": 4,
+      "kill_power": 6,
+      "range": 8,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Young Link": {
     "difficulty": "Intermediate",
@@ -4077,7 +4665,14 @@
       }
     ],
     "playstyle": "Zoner",
-    "tier": "B"
+    "tier": "B",
+    "stats": {
+      "speed": 6,
+      "kill_power": 5,
+      "range": 7,
+      "recovery": 6,
+      "difficulty": 5
+    }
   },
   "Sonic": {
     "difficulty": "Advanced",
@@ -4125,6 +4720,13 @@
       }
     ],
     "playstyle": "Rushdown",
-    "tier": "S"
+    "tier": "S",
+    "stats": {
+      "speed": 10,
+      "kill_power": 5,
+      "range": 3,
+      "recovery": 7,
+      "difficulty": 8
+    }
   }
 }
