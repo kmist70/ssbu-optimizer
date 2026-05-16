@@ -171,11 +171,16 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["⚔️ Matchup Analyzer", "🛡️ Counterpicker", "📚 Learning Path", "📊 Overall Stats", "🎖️ Tier List", "👤 My Roster", "📈 My Progress"], label_visibility="collapsed")
 
 # Add a spacer to push the "About this app" section to the bottom
-st.sidebar.markdown("<div style='min-height: 12vh;'></div>", unsafe_allow_html=True)
-st.sidebar.divider()
+st.sidebar.markdown("<div style='min-height: 1vh;'></div>", unsafe_allow_html=True)
 st.sidebar.markdown(
-    "**About this app:**\n\n"
-    "A comprehensive tool for Super Smash Bros. Ultimate players to analyze character matchups and follow structured learning paths from beginner to pro."
+    """
+    <hr style="margin: 1em 0px;">
+    <p style="margin-bottom: 1.2em;"><b>About this app:</b></p>
+    <p style="margin-bottom: 1.2em;">A comprehensive tool for Super Smash Bros. Ultimate players to analyze character matchups and follow structured learning paths from beginner to pro. Matchup data pulled from game8.co.</p>
+    <hr style="margin: 1em 0px;">
+    <p style="margin-bottom: 0px;">Built by kmist70.</p>
+    """,
+    unsafe_allow_html=True
 )
 
 
